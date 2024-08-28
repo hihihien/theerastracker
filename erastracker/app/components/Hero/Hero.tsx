@@ -16,39 +16,39 @@ import styles from './Hero.module.css'
 const Hero = () => {
   return (
     <div className="">
-      <div className={styles.heroContainer}>
-        <div className="flex flex-row">
-          <button className={styles.Hero_imageButton}>
+      <div className="">
+        <div className={styles.heroContainer}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={taylorswift} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={fearless} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={speaknow} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={red} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={nine} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={reputation} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={lover} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={folklore} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={evermore} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
             <Image src={midnights} alt='hero'/>
           </button>
-          <button className={styles.Hero_imageButton}>
+          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '35%'}}>
             <Image src={ttpd} alt='hero'/>
           </button>
         </div>

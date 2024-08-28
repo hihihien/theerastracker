@@ -1,10 +1,10 @@
-.Tour_container {
+/* .Tour_container {
     --font: "Neue Haas Grotesk Display Pro", sans-serif;
     --transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, fill 0.5s ease-in-out, scale 0.2s ease-in-out, border 0.5s ease-in-out;
     font-family: var(--font);
-}  
+}   */
 
-.heroContainer {
+.heroContainer,.Hero_loadingContainer {
     height: calc(100vh - 5em + 1px);
     width: 100%;
     display: flex;
@@ -12,7 +12,7 @@
 }
 
 @media(max-width: 768px) {
-    .heroContainer {
+    .heroContainer,.Hero_loadingContainer {
         height:calc(40vh - 5em);
     }
 }
