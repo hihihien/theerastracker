@@ -1,3 +1,9 @@
+.Tour_container {
+    --font: "Neue Haas Grotesk Display Pro", sans-serif;
+    --transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, fill 0.5s ease-in-out, scale 0.2s ease-in-out, border 0.5s ease-in-out;
+    font-family: var(--font);
+}  
+
 .heroContainer {
     height: calc(100vh - 5em + 1px);
     width: 100%;
@@ -9,4 +15,46 @@
     .heroContainer {
         height:calc(40vh - 5em);
     }
+}
+
+.Hero_loadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--theme-color-2);
+    text-transform: uppercase
+}
+
+.Hero_loadingBar {
+    height: .25em;
+    background-color: var(--theme-color-2)
+}
+
+.Hero_imageButton {
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1em;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative
+}
+
+.Hero_imageButton,.Hero_imageButton img {
+    padding: 0;
+    margin: 0;
+    display: block;
+    height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.Hero_imageButton img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    pointer-events: none
 }

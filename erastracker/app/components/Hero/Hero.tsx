@@ -15,41 +15,40 @@ import styles from './Hero.module.css'
 
 const Hero = () => {
   return (
-    <div className="hero min-h-screen">
-      <div className="hero-overlay bg-opacity-60"></div>
+    <div className="">
       <div className={styles.heroContainer}>
-        <div className="max-w-md flex flex-row">
-          <button>
+        <div className="flex flex-row">
+          <button className={styles.Hero_imageButton}>
             <Image src={taylorswift} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={fearless} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={speaknow} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={red} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={nine} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={reputation} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={lover} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={folklore} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={evermore} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={midnights} alt='hero'/>
           </button>
-          <button>
+          <button className={styles.Hero_imageButton}>
             <Image src={ttpd} alt='hero'/>
           </button>
         </div>
