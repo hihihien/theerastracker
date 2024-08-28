@@ -1,0 +1,12 @@
+.heroContainer {
+    height: calc(100vh - 5em + 1px);
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+@media(max-width: 768px) {
+    .heroContainer {
+        height:calc(40vh - 5em);
+    }
+}

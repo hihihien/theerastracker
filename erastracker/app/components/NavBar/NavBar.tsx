@@ -31,8 +31,6 @@ const NavBar = () => {
                 </ul>
             </div>
             </div>
-            {/* Page content here */}
-            Content
         </div>
         <div className="drawer-side">
             <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>

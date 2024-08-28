@@ -11,13 +11,14 @@ import evermore from '../../../public/img/evermore.jpg'
 import midnights from '../../../public/img/midnights.jpg'
 import ttpd from '../../../public/img/ttpd.jpg'
 import Image from 'next/image'
+import styles from './Hero.module.css'
 
 const Hero = () => {
   return (
     <div className="hero min-h-screen">
       <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content">
-        <div className="max-w-md flex flex-row flex-nowrap">
+      <div className={styles.heroContainer}>
+        <div className="max-w-md flex flex-row">
           <button>
             <Image src={taylorswift} alt='hero'/>
           </button>
