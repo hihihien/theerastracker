@@ -31,9 +31,6 @@ const themes: string[] = [
 ];
 
 const Hero: React.FC = () => {
-  const [expandedImage, setExpandedImage] = useState<number | null>(null);
-  const [theme, setTheme] = useState<string>('light');
-
   const images: StaticImageData[] = [
     taylorswift,
     fearless,
@@ -47,10 +44,12 @@ const Hero: React.FC = () => {
     midnights,
     ttpd
   ];
+  const [expandedImage, setExpandedImage] = useState<number>(images.length - 1);
+  const [theme, setTheme] = useState<string>(themes[images.length -1]);
 
   const handleClick = (index:number) => {
-    setExpandedImage(index === expandedImage ? null : index);
-    setTheme(theme[index]);
+    setExpandedImage(index);
+    setTheme(themes[index]);
     document.documentElement.setAttribute('data-theme', themes[index]);
   };
 
