@@ -1,4 +1,7 @@
-import React from 'react'
+
+'use client';
+
+import React, { useState } from 'react'
 import taylorswift from '../../../public/img/taylorswift.jpg'
 import fearless from '../../../public/img/fearless.jpg'
 import speaknow from '../../../public/img/speaknow.jpg'
@@ -10,51 +13,65 @@ import folklore from '../../../public/img/folklore.jpg'
 import evermore from '../../../public/img/evermore.jpg'
 import midnights from '../../../public/img/midnights.jpg'
 import ttpd from '../../../public/img/ttpd.jpg'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import styles from './Hero.module.css'
 
-const Hero = () => {
+const themes: string[] = [
+  'lemonade',
+  'cyberpunk',
+  'synthwave',
+  'red',
+  'pastel',
+  'black',
+  'valentine',
+  'luxury',
+  'retro',
+  'aqua',
+  'wireframe',
+];
+
+const Hero: React.FC = () => {
+  const [expandedImage, setExpandedImage] = useState<number | null>(null);
+  const [theme, setTheme] = useState<string>('light');
+
+  const images: StaticImageData[] = [
+    taylorswift,
+    fearless,
+    speaknow,
+    red,
+    nine,
+    reputation,
+    lover,
+    folklore,
+    evermore,
+    midnights,
+    ttpd
+  ];
+
+  const handleClick = (index:number) => {
+    setExpandedImage(index === expandedImage ? null : index);
+    setTheme(theme[index]);
+    document.documentElement.setAttribute('data-theme', themes[index]);
+  };
+
   return (
     <div className="">
       <div className="">
         <div className={styles.heroContainer}>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={taylorswift} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={fearless} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={speaknow} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={red} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={nine} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={reputation} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={lover} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={folklore} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={evermore} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '6,5%'}}>
-            <Image src={midnights} alt='hero'/>
-          </button>
-          <button className={styles.Hero_imageButton} style={{opacity: '1', width: '35%'}}>
-            <Image src={ttpd} alt='hero'/>
-          </button>
+          {images.map((image, index) => (
+            <button
+              key={index}
+              className={styles.Hero_imageButton}
+              style={{ width: expandedImage === index ? '35%' : '6.5%', opacity: '1 '}}
+              onClick={() => handleClick(index)}
+            >
+              <Image src={image} alt={'hero ${index}'} />
+            </button>
+          ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
