@@ -12,7 +12,7 @@
             "costumes": {
                 "loverSet": "Pink Dress",
                 "theManSuit": "Tailored Suit",
-                "1989Set": "Sequin Jumpsuit",
+                "nineSet": "Sequin Jumpsuit",
                 "folkloreDress": "Floral Gown"
             }
         },
@@ -28,10 +28,9 @@
             "costumes": {
                 "loverSet": "Blue Dress",
                 "theManSuit": "Black Suit",
-                "1989Set": "Sparkling Dress",
+                "nineSet": "Sparkling Dress",
                 "folkloreDress": "Bohemian Gown"
             }
         }
-        // Add more shows as needed
     ]
 }

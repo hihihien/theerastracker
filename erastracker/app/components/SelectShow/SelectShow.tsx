@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from 'react';
 
 interface SurpriseSongs {
@@ -8,7 +9,7 @@ interface SurpriseSongs {
 interface Costumes {
     loverSet: string;
     theManSuit: string;
-    1989Set: string;
+    nineSet: string;
     folkloreDress: string;
 }
 
@@ -26,9 +27,8 @@ const SelectShow: React.FC = () => {
     const [selectedShow, setSelectedShow] = useState<string>('');
 
     useEffect(() => {
-        // Fetch data from metadata.json
         const fetchData = async () => {
-            const response = await fetch('/metadata.json');
+            const response = await fetch("../../../public/metadata.json");
             const data = await response.json();
             setShows(data.shows);
         };
