@@ -27,40 +27,54 @@ const SelectShow: React.FC = () => {
     const [selectedShow, setSelectedShow] = useState<string>('');
 
     useEffect(() => {
-        const fetchData = async () => {
-            const response = await fetch("../../../public/metadata.json");
+    const fetchData = async () => {
+        try {
+            const response = await fetch("/metadata.json");
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
             const data = await response.json();
+            console.log("Fetched Data:", data); // Log the fetched data
             setShows(data.shows);
-        };
+        } catch (error) {
+            console.error("Fetch error:", error); // Log any fetch errors
+        }
+    };
 
-        fetchData();
-    }, []);
+    fetchData();
+}, []);
+
 
     const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         setSelectedShow(event.target.value);
     };
 
     return (
-        <div className='artboard artboard-horizontal phone-6'>
-            <div className="flex w-full flex-col">
-                <div className="divider">Select Your Show</div>
-                <select
-                    className="select select-primary w-full max-w-xs"
-                    onChange={handleSelectChange}
-                    value={selectedShow}
-                >
-                    <option disabled value="">
-                        Choose your show
-                    </option>
-                    {shows.map((show, index) => (
+    <div className='artboard artboard-horizontal phone-6'>
+        <div className="flex w-full flex-col">
+            <div className="divider">Select Your Show</div>
+            <select
+                className="select select-primary w-full max-w-xs"
+                onChange={handleSelectChange}
+                value={selectedShow}
+            >
+                <option disabled value="">
+                    Choose your show
+                </option>
+                {shows.length === 0 ? (
+                    <option disabled>Loading shows...</option>
+                ) : (
+                    shows.map((show, index) => (
                         <option key={index} value={show.date}>
                             {`${show.date} - ${show.city}, ${show.country}`}
                         </option>
-                    ))}
-                </select>
-            </div>
+                    ))
+                )}
+            </select>
         </div>
-    );
+    </div>
+);
+
 };
 
 export default SelectShow;
