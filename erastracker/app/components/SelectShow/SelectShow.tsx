@@ -71,6 +71,15 @@ const SelectShow: React.FC = () => {
                     ))
                 )}
             </select>
+            {selectedShow && (
+                    <div className="mt-4 p-4 border border-gray-300 rounded-lg">
+                        <h2 className="text-lg font-bold mb-2">Show Details</h2>
+                        <p><strong>Surprise Songs:</strong></p>
+                        <p>Acoustic: {selectedShow.surpriseSongs.acoustic}</p>
+                        <p>Piano: {selectedShow.surpriseSongs.piano}</p>
+                        <p><strong>Guest:</strong> {selectedShow.guest}</p>
+                    </div>
+                )}
         </div>
     </div>
 );
