@@ -24,7 +24,7 @@ interface Show {
 
 const SelectShow: React.FC = () => {
     const [shows, setShows] = useState<Show[]>([]);
-    const [selectedShow, setSelectedShow] = useState<string>('');
+    const [selectedShow, setSelectedShow] = useState<Show | null>(null);
 
     useEffect(() => {
     const fetchData = async () => {
@@ -46,7 +46,9 @@ const SelectShow: React.FC = () => {
 
 
     const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        setSelectedShow(event.target.value);
+        const selectedDate = event.target.value;
+        const show = shows.find(s => s.date === selectedDate) || null;
+        setSelectedShow(show);
     };
 
     return (
@@ -56,7 +58,7 @@ const SelectShow: React.FC = () => {
             <select
                 className="select select-primary w-full max-w-xs"
                 onChange={handleSelectChange}
-                value={selectedShow}
+                value={selectedShow ? selectedShow.date : ""}
             >
                 <option disabled value="">
                     Choose your show
@@ -74,7 +76,7 @@ const SelectShow: React.FC = () => {
             {selectedShow && (
                     <div className="mt-4 p-4 border border-gray-300 rounded-lg">
                         <h2 className="text-lg font-bold mb-2">Show Details</h2>
-                        <p><strong>Surprise Songs:</strong></p>
+                        <p>Surprise Songs:</p>
                         <p>Acoustic: {selectedShow.surpriseSongs.acoustic}</p>
                         <p>Piano: {selectedShow.surpriseSongs.piano}</p>
                         <p><strong>Guest:</strong> {selectedShow.guest}</p>
