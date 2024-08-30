@@ -1,21 +1,66 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 
-const SelectShow = () => {
-  return (
-    <div className='artboard artboard-horizontal phone-6'>
-      <div className="flex w-full flex-col">
-      <div className="divider">Default</div>
-        <select className="select select-primary w-full max-w-xs">
-              <option disabled selected>Choose your show</option>
-              <option></option>
-              <option></option>
-              <option></option>
-              <option></option>
-        </select>
-        </div>
-        
-    </div>
-  )
+interface SurpriseSongs {
+    acoustic: string;
+    piano: string;
 }
 
-export default SelectShow
+interface Costumes {
+    loverSet: string;
+    theManSuit: string;
+    1989Set: string;
+    folkloreDress: string;
+}
+
+interface Show {
+    date: string;
+    city: string;
+    country: string;
+    surpriseSongs: SurpriseSongs;
+    guest: string;
+    costumes: Costumes;
+}
+
+const SelectShow: React.FC = () => {
+    const [shows, setShows] = useState<Show[]>([]);
+    const [selectedShow, setSelectedShow] = useState<string>('');
+
+    useEffect(() => {
+        // Fetch data from metadata.json
+        const fetchData = async () => {
+            const response = await fetch('/metadata.json');
+            const data = await response.json();
+            setShows(data.shows);
+        };
+
+        fetchData();
+    }, []);
+
+    const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        setSelectedShow(event.target.value);
+    };
+
+    return (
+        <div className='artboard artboard-horizontal phone-6'>
+            <div className="flex w-full flex-col">
+                <div className="divider">Select Your Show</div>
+                <select
+                    className="select select-primary w-full max-w-xs"
+                    onChange={handleSelectChange}
+                    value={selectedShow}
+                >
+                    <option disabled value="">
+                        Choose your show
+                    </option>
+                    {shows.map((show, index) => (
+                        <option key={index} value={show.date}>
+                            {`${show.date} - ${show.city}, ${show.country}`}
+                        </option>
+                    ))}
+                </select>
+            </div>
+        </div>
+    );
+};
+
+export default SelectShow;
