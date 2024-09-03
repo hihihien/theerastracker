@@ -1,5 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
+import speaknow from '../../../public/img/speaknow.jpg'
 
 interface SurpriseSongs {
     acoustic: string;
@@ -52,9 +54,10 @@ const SelectShow: React.FC = () => {
     };
 
     return (
-    <div className='artboard artboard-horizontal phone-6'>
-        <div className="flex w-full flex-col">
-            <div className="divider">Select Your Show</div>
+    <div className='artboard artboard-horizontal'>
+        <div className="flex w-full flex-col items-center justify-center gap-4 place-items-stretch">
+            <div className="prose p-6"><h2>Select Your Show</h2></div>
+            
             <select
                 className="select select-primary w-full max-w-xs"
                 onChange={handleSelectChange}
@@ -74,13 +77,24 @@ const SelectShow: React.FC = () => {
                 )}
             </select>
             {selectedShow && (
-                    <div className="mt-4 p-4 border border-gray-300 rounded-lg">
-                        <h2 className="text-lg font-bold mb-2">Show Details</h2>
-                        <p>Surprise Songs:</p>
-                        <p>Acoustic: {selectedShow.surpriseSongs.acoustic}</p>
-                        <p>Piano: {selectedShow.surpriseSongs.piano}</p>
-                        <p><strong>Guest:</strong> {selectedShow.guest}</p>
+                    <div className="card card-side size-140 border-2 border-inherit shadow-xl mt-4 prose-img:rounded-l-lg">
+                        <figure>
+                            <Image
+                            src={speaknow}
+                            alt="surprise song img" />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="text-lg font-bold mb-2">⭐ Show Details ⭐</h2>
+                            <p><strong>Surprise Songs:</strong></p>
+                            <p>🎸 Acoustic: {selectedShow.surpriseSongs.acoustic}</p>
+                            <p>🎹 Piano: {selectedShow.surpriseSongs.piano}</p>
+                            <p className='mt-2'><strong>Guest:</strong> {selectedShow.guest}</p>
+                            <p className='mt-2'><strong>Watch:</strong></p>
+                        </div>
+                        
                     </div>
+                    
+                    
                 )}
         </div>
     </div>
