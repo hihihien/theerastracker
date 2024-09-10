@@ -1,0 +1,1902 @@
+{
+    "shows": [
+        {
+            "date": "March 17th, 2023",
+            "city": "Glendale",
+            "state": "Arizona",
+            "country": "United States",
+            "opening": "Paramore, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 18th, 2023",
+            "city": "Glendale",
+            "state": "Arizona",
+            "country": "United States",
+            "opening": "Paramore, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 24th, 2023",
+            "city": "Las Vegas",
+            "state": "Nevada",
+            "country": "United States",
+            "opening": "Beabadoobee, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 25th, 2023",
+            "city": "Las Vegas",
+            "state": "Nevada",
+            "country": "United States",
+            "opening": "Beabadoobee, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 31st, 2023",
+            "city": "Arlington",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "MUNA, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 1st, 2023",
+            "city": "Arlington",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 2nd, 2023",
+            "city": "Arlington",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 13th, 2023",
+            "city": "Tampa",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Beabadoobee, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 14th, 2023",
+            "city": "Tampa",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 15th, 2023",
+            "city": "Tampa",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 21st, 2023",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 22nd, 2023",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 23rd, 2023",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 28th, 2023",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 29th, 2023",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 30th, 2023",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "country": "United States",
+            "opening": "MUNA, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 5th, 2023",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 6th, 2023",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 7th, 2023",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 12th, 2023",
+            "city": "Philadelphia",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 13th, 2023",
+            "city": "Philadelphia",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 14th, 2023",
+            "city": "Philadelphia",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 19th, 2023",
+            "city": "Foxborough",
+            "state": "Massachusetts",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 20th, 2023",
+            "city": "Foxborough",
+            "state": "Massachusetts",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 21st, 2023",
+            "city": "Foxborough",
+            "state": "Massachusetts",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 26th, 2023",
+            "city": "East Rutherford",
+            "state": "New Jersey",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 27th, 2023",
+            "city": "East Rutherford",
+            "state": "New Jersey",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 28th, 2023",
+            "city": "East Rutherford",
+            "state": "New Jersey",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Owenn",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 2nd, 2023",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 3rd, 2023",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 4th, 2023",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 9th, 2023",
+            "city": "Detroit",
+            "state": "Michigan",
+            "country": "United States",
+            "opening": "Girl in Red, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 10th, 2023",
+            "city": "Detroit",
+            "state": "Michigan",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 16th, 2023",
+            "city": "Pittsburgh",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Girl in Red, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 17th, 2023",
+            "city": "Pittsburgh",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 23rd, 2023",
+            "city": "Minneapolis",
+            "state": "Minnesota",
+            "country": "United States",
+            "opening": "Girl in Red, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 24th, 2023",
+            "city": "Minneapolis",
+            "state": "Minnesota",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 30th, 2023",
+            "city": "Cincinnati",
+            "state": "Ohio",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 1st, 2023",
+            "city": "Cincinnati",
+            "state": "Ohio",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 7th, 2023",
+            "city": "Kansas City",
+            "state": "Missouri",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 8th, 2023",
+            "city": "Kansas City",
+            "state": "Missouri",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 14th, 2023",
+            "city": "Denver",
+            "state": "Colorado",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 15th, 2023",
+            "city": "Denver",
+            "state": "Colorado",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 22th, 2023",
+            "city": "Seattle",
+            "state": "Washington",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 23rd, 2023",
+            "city": "Seattle",
+            "state": "Washington",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 28th, 2023",
+            "city": "Santa Clara",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 29th, 2023",
+            "city": "Santa Clara",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 3rd, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 4th, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Owenn",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 5th, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 8th, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 9th, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 24th, 2023",
+            "city": "Mexico City",
+            "state": "",
+            "country": "Mexico",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 25th, 2023",
+            "city": "Mexico City",
+            "state": "",
+            "country": "Mexico",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 26th, 2023",
+            "city": "Mexico City",
+            "state": "",
+            "country": "Mexico",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 27th, 2023",
+            "city": "Mexico City",
+            "state": "",
+            "country": "Argentina",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 9th, 2023",
+            "city": "Buenos Aires",
+            "state": "",
+            "country": "Argentina",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 10th, 2023",
+            "city": "Buenos Aires",
+            "state": "",
+            "country": "Argentina",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 12th, 2023",
+            "city": "Buenos Aires",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 17th, 2023",
+            "city": "Rio de Janeiro",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 18th, 2023",
+            "city": "Rio de Janeiro",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 20th, 2023",
+            "city": "Rio de Janeiro",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 24th, 2023",
+            "city": "S\u00e3o Paulo",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 25th, 2023",
+            "city": "S\u00e3o Paulo",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 26th, 2023",
+            "city": "S\u00e3o Paulo",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 7th, 2024",
+            "city": "Tokyo",
+            "state": "",
+            "country": "Japan",
+            "opening": "",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 8th, 2024",
+            "city": "Tokyo",
+            "state": "",
+            "country": "Japan",
+            "opening": "",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 9th, 2024",
+            "city": "Tokyo",
+            "state": "",
+            "country": "Japan",
+            "opening": "",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 10th, 2024",
+            "city": "Tokyo",
+            "state": "",
+            "country": "Japan",
+            "opening": "",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 16th, 2024",
+            "city": "Melbourne",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 17th, 2024",
+            "city": "Melbourne",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 23rd, 2024",
+            "city": "Sydney",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 24th, 2024",
+            "city": "Sydney",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 25th, 2024",
+            "city": "Sydney",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 2nd, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 3rd, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 4th, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 7th, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 8th, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 9th, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 9th, 2024",
+            "city": "Paris",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 10th, 2024",
+            "city": "Paris",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 11th, 2024",
+            "city": "Paris",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 12th, 2024",
+            "city": "Paris",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 17th, 2024",
+            "city": "Stockholm",
+            "state": "",
+            "country": "Sweden",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 18th, 2024",
+            "city": "Stockholm",
+            "state": "",
+            "country": "Sweden",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 19th, 2024",
+            "city": "Stockholm",
+            "state": "",
+            "country": "Sweden",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 24th, 2024",
+            "city": "Lisbon",
+            "state": "",
+            "country": "Portugal",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 25th, 2024",
+            "city": "Lisbon",
+            "state": "",
+            "country": "Portugal",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 29th, 2024",
+            "city": "Madrid",
+            "state": "",
+            "country": "Spain",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 30th, 2024",
+            "city": "Madrid",
+            "state": "",
+            "country": "Spain",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 2nd, 2024",
+            "city": "Lyon",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 3rd, 2024",
+            "city": "Lyon",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 7th, 2024",
+            "city": "Edinburgh",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 8th, 2024",
+            "city": "Edinburgh",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 9th, 2024",
+            "city": "Edinburgh",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 13th, 2024",
+            "city": "Liverpool",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 14th, 2024",
+            "city": "Liverpool",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 15th, 2024",
+            "city": "Liverpool",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 18th, 2024",
+            "city": "Cardiff",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 21st, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 22nd, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 23rd, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 28th, 2024",
+            "city": "Dublin",
+            "state": "",
+            "country": "Ireland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 29th, 2024",
+            "city": "Dublin",
+            "state": "",
+            "country": "Ireland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 30th, 2024",
+            "city": "Dublin",
+            "state": "",
+            "country": "Ireland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 4th, 2024",
+            "city": "Amsterdam",
+            "state": "",
+            "country": "Netherlands",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 5th, 2024",
+            "city": "Amsterdam",
+            "state": "",
+            "country": "Netherlands",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 6th, 2024",
+            "city": "Amsterdam",
+            "state": "",
+            "country": "Netherlands",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 9th, 2024",
+            "city": "Zurich",
+            "state": "",
+            "country": "Switzerland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 10th, 2024",
+            "city": "Zurich",
+            "state": "",
+            "country": "Switzerland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 13th, 2024",
+            "city": "Milan",
+            "state": "",
+            "country": "Italy",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 14th, 2024",
+            "city": "Milan",
+            "state": "",
+            "country": "Italy",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 17th, 2024",
+            "city": "Gelsenkirchen",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 18th, 2024",
+            "city": "Gelsenkirchen",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 19th, 2024",
+            "city": "Gelsenkirchen",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 23rd, 2024",
+            "city": "Hamburg",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 24rd, 2024",
+            "city": "Hamburg",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 27th, 2024",
+            "city": "Munich",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 28th, 2024",
+            "city": "Munich",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 1st, 2024",
+            "city": "Warsaw",
+            "state": "",
+            "country": "Poland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 2nd, 2024",
+            "city": "Warsaw",
+            "state": "",
+            "country": "Poland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 3rd, 2024",
+            "city": "Warsaw",
+            "state": "",
+            "country": "Poland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 15th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, Sofia Isella",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 16th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, Holly Humbrstone",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 17th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, Suki Waterhouse",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 19th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, Maisie Peters",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 20th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, RAYE",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 18th, 2024",
+            "city": "Miami",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 19th, 2024",
+            "city": "Miami",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 20th, 2024",
+            "city": "Miami",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 25th, 2024",
+            "city": "New Orleans",
+            "state": "Louisiana",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 26th, 2024",
+            "city": "New Orleans",
+            "state": "Louisiana",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 27th, 2024",
+            "city": "New Orleans",
+            "state": "Louisiana",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 1st, 2024",
+            "city": "Indianapolis",
+            "state": "Indiana",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 2nd, 2024",
+            "city": "Indianapolis",
+            "state": "Indiana",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 3rd, 2024",
+            "city": "Indianapolis",
+            "state": "Indiana",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 14th, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 15th, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 16th, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 21st, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 22nd, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 23rd, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "December 6th, 2024",
+            "city": "Vancouver",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "December 7th, 2024",
+            "city": "Vancouver",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "December 8th, 2024",
+            "city": "Vancouver",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        }
+    ]
+}
