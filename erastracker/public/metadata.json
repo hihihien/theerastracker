@@ -1,36 +1,325 @@
 {
     "shows": [
         {
-            "date": "2024-07-09",
-            "city": "Zurich",
-            "country": "Switzerland",
+            "date": "2024-08-20",
+            "city": "London",
+            "country": "UK",
             "surpriseSongs": {
-                "acoustic": "Right Where You Left Me",
-                "piano": "All You Had to Do Was Stay"
+                "acoustic": [
+                    "Death By a Thousand Cuts",
+                    "Getaway Car"
+                ],
+                "piano": [
+                    "So Long, London"
+                ]
             },
-            "guest": "Artist X",
-            "costumes": {
-                "loverSet": "Pink Dress",
-                "theManSuit": "Tailored Suit",
-                "nineSet": "Sequin Jumpsuit",
-                "folkloreDress": "Floral Gown"
-            }
+            "guest": "Jack Antonoff",
+            "costumes": {}
+        },
+        {
+            "date": "2024-08-19",
+            "city": "London",
+            "country": "UK",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Long Live",
+                    "Change"
+                ],
+                "piano": [
+                    "The Archer",
+                    "You're On Your Own, Kid"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-08-17",
+            "city": "London",
+            "country": "UK",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Did Something Bad"
+                ],
+                "piano": [
+                    "My Boy Only Breaks His Favorite Toys",
+                    "coney island"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-08-16",
+            "city": "London",
+            "country": "UK",
+            "surpriseSongs": {
+                "acoustic": [
+                    "London Boy"
+                ],
+                "piano": [
+                    "Dear John",
+                    "Sad Beautiful Tragic"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-08-15",
+            "city": "London",
+            "country": "UK",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Everything Has Changed",
+                    "End Game",
+                    "Thinking Out Loud"
+                ],
+                "piano": [
+                    "King of My Heart",
+                    "The Alchemy"
+                ]
+            },
+            "guest": "Ed Sheeran",
+            "costumes": {}
+        },
+        {
+            "date": "2024-08-03",
+            "city": "Warsaw",
+            "country": "Poland",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Today Was a Fairytale",
+                    "I Think He Knows"
+                ],
+                "piano": [
+                    "The Black Dog",
+                    "exile"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-08-02",
+            "city": "Warsaw",
+            "country": "Poland",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Can Fix Him (No Really I Can)",
+                    "I Can See You"
+                ],
+                "piano": [
+                    "Red",
+                    "Maroon"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-08-01",
+            "city": "Warsaw",
+            "country": "Poland",
+            "surpriseSongs": {
+                "acoustic": [
+                    "mirrorball",
+                    "Clara Bow"
+                ],
+                "piano": [
+                    "Suburban Legends",
+                    "New Year's Day"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-28",
+            "city": "Munich",
+            "country": "Germany",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Don't Wanna Live Forever",
+                    "imgonnagetyouback"
+                ],
+                "piano": [
+                    "loml",
+                    "Don't You"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-27",
+            "city": "Munich",
+            "country": "Germany",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Fresh Out of the Slammer",
+                    "You Are In Love"
+                ],
+                "piano": [
+                    "ivy",
+                    "Call It What You Want"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-24",
+            "city": "Hamburg",
+            "country": "Germany",
+            "surpriseSongs": {
+                "acoustic": [
+                    "the last great american dynasty",
+                    "Run"
+                ],
+                "piano": [
+                    "Nothing New",
+                    "Dear Reader"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-23",
+            "city": "Hamburg",
+            "country": "Germany",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Teardrops On My Guitar",
+                    "The Last Time"
+                ],
+                "piano": [
+                    "We Were Happy",
+                    "happiness"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-19",
+            "city": "Gelsenkirchen",
+            "country": "Germany",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Paper Rings",
+                    "Stay Stay Stay"
+                ],
+                "piano": [
+                    "it's time to go",
+                    "Better Man"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-18",
+            "city": "Gelsenkirchen",
+            "country": "Germany",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Speak Now",
+                    "Hey Stephen"
+                ],
+                "piano": [
+                    "this is me trying",
+                    "Labyrinth"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-17",
+            "city": "Gelsenkirchen",
+            "country": "Germany",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Superstar",
+                    "invisible string"
+                ],
+                "piano": [
+                    "S**t!",
+                    "False God"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-14",
+            "city": "Milan",
+            "country": "Italy",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Mr Perfectly Fine",
+                    "Red"
+                ],
+                "piano": [
+                    "Getaway Car",
+                    "Out of the Woods"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-13",
+            "city": "Milan",
+            "country": "Italy",
+            "surpriseSongs": {
+                "acoustic": [
+                    "the 1",
+                    "Wonderland"
+                ],
+                "piano": [
+                    "I Almost Do",
+                    "The Moment I Knew"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
         },
         {
             "date": "2024-07-10",
             "city": "Zurich",
             "country": "Switzerland",
             "surpriseSongs": {
-                "acoustic": "Closure",
-                "piano": "A Perfectly Good Heart"
+                "acoustic": [
+                    "closure",
+                    "A Perfectly Good Heart"
+                ],
+                "piano": [
+                    "Robin",
+                    "Never Grow Up"
+                ]
             },
-            "guest": "Artist Y",
-            "costumes": {
-                "loverSet": "Blue Dress",
-                "theManSuit": "Black Suit",
-                "nineSet": "Sparkling Dress",
-                "folkloreDress": "Bohemian Gown"
-            }
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "2024-07-09",
+            "city": "Zurich",
+            "country": "Switzerland",
+            "surpriseSongs": {
+                "acoustic": [
+                    "right where you left me",
+                    "All You Had To Do Was Stay"
+                ],
+                "piano": [
+                    "Last Kiss",
+                    "Sad Beautiful Tragic"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
         }
     ]
 }
