@@ -22,8 +22,9 @@ interface Show {
     opening: string;
     country: string;
     surpriseSongs: SurpriseSongs;
-    guest?: string;  // Optional
-    costumes?: Costumes;  // Optional
+    guest?: string; 
+    costumes?: Costumes;  
+    instagramUrl?: string;
 }
 
 const SelectShow: React.FC = () => {
@@ -80,22 +81,29 @@ const SelectShow: React.FC = () => {
                 {selectedShow && (
                     <div className="flex w-full flex-col lg:flex-row">
                         <div className="card card-side size-400 rounded-box border-2 border-inherit shadow-xl m-4">
-                            <figure>
-                                <Image
-                                src={speaknow}
-                                alt="surprise song img" />
-                            </figure>
-                            <div className="card-body antialiased md:subpixel-antialiased">
+                            <div>
+                                <div className="m-4">
+                                        {selectedShow.instagramUrl && (
+                                            <div className="instagram-post">
+                                                <blockquote className="instagram-media" data-instgrm-permalink={selectedShow.instagramUrl} data-instgrm-version="14" style={{ margin: "1px auto", width: "100%" }}></blockquote>
+                                                <script async src="//www.instagram.com/embed.js"></script>
+                                            </div>
+                                        )}
+                                    </div>
+                            </div>
+                            <div className="card-body antialiased md:subpixel-antialiased font-serif">
                                 <div>
                                     <h2 className="text-lg font-bold mb-3">⭐ Show Details ⭐</h2>
                                     <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{selectedShow.date}</p>
                                     <p className='mt-2'>📍&nbsp;&nbsp;{selectedShow.city}{selectedShow.state ? `, ${selectedShow.state}` : ""}, {selectedShow.country}</p>
                                     <p className='mt-2'><strong>Surprise Songs:</strong></p>
-                                    <p className='mt-1 italic'>🎸 {selectedShow.surpriseSongs.acoustic.join(", ")}</p>
-                                    <p className='mt-1 italic'>🎹 {selectedShow.surpriseSongs.piano.join(", ")}</p>
+                                    <p className='mt-1 italic'>🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(", ")}</p>
+                                    <p className='mt-1 italic'>🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(", ")}</p>
                                     <p className='mt-2'><strong>Opening Artist:</strong> {selectedShow.opening || "No guest"}</p>
                                     <p className='mt-2'><strong>Special Guest:</strong> {selectedShow.guest || "No guest"}</p>
                                     <p className='mt-2'><strong>Watch:</strong></p>
+                                        
+                                    
                                 </div>
                             </div>
                         </div>
