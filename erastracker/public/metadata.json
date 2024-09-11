@@ -1,48 +1,238 @@
 {
     "shows": [
         {
-            "date": "2024-08-20",
-            "city": "London",
-            "country": "UK",
+            "date": "March 17th, 2023",
+            "city": "Glendale",
+            "state": "Arizona",
+            "country": "United States",
+            "opening": "Paramore, GAYLE",
             "surpriseSongs": {
                 "acoustic": [
-                    "Death By a Thousand Cuts",
-                    "Getaway Car"
+                    "mirrorball"
                 ],
                 "piano": [
-                    "So Long, London"
-                ]
-            },
-            "guest": "Jack Antonoff",
-            "costumes": {}
-        },
-        {
-            "date": "2024-08-19",
-            "city": "London",
-            "country": "UK",
-            "surpriseSongs": {
-                "acoustic": [
-                    "Long Live",
-                    "Change"
-                ],
-                "piano": [
-                    "The Archer",
-                    "You're On Your Own, Kid"
+                    "Tim McGraw"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-08-17",
-            "city": "London",
-            "country": "UK",
+            "date": "March 18th, 2023",
+            "city": "Glendale",
+            "state": "Arizona",
+            "country": "United States",
+            "opening": "Paramore, GAYLE",
             "surpriseSongs": {
                 "acoustic": [
-                    "I Did Something Bad"
+                    "this is me trying"
                 ],
                 "piano": [
-                    "My Boy Only Breaks His Favorite Toys",
+                    "State of Grace"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 24th, 2023",
+            "city": "Las Vegas",
+            "state": "Nevada",
+            "country": "United States",
+            "opening": "Beabadoobee, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Our Song"
+                ],
+                "piano": [
+                    "Snow on the Beach"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 25th, 2023",
+            "city": "Las Vegas",
+            "state": "Nevada",
+            "country": "United States",
+            "opening": "Beabadoobee, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "cowboy like me (with Marcus Mumford)"
+                ],
+                "piano": [
+                    "White Horse"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 31st, 2023",
+            "city": "Arlington",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "MUNA, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Sad Beautiful Tragic"
+                ],
+                "piano": [
+                    "Ours"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 1st, 2023",
+            "city": "Arlington",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Death By A Thousand Cuts"
+                ],
+                "piano": [
+                    "Clean"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 2nd, 2023",
+            "city": "Arlington",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Jump Then Fall"
+                ],
+                "piano": [
+                    "The Lucky One"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 13th, 2023",
+            "city": "Tampa",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Beabadoobee, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Speak Now"
+                ],
+                "piano": [
+                    "Treacherous"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 14th, 2023",
+            "city": "Tampa",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "The Great War (feat. Aaron Dessner)"
+                ],
+                "piano": [
+                    "You're On Your Own",
+                    "Kid"
+                ]
+            },
+            "guest": "Aaron Dessner",
+            "costumes": {}
+        },
+        {
+            "date": "April 15th, 2023",
+            "city": "Tampa",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Mean"
+                ],
+                "piano": [
+                    "mad woman (feat. Aaron Dessner)"
+                ]
+            },
+            "guest": "Aaron Dessner",
+            "costumes": {}
+        },
+        {
+            "date": "April 21st, 2023",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Wonderland"
+                ],
+                "piano": [
+                    "You're Not Sorry"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 22nd, 2023",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "A Place in This World "
+                ],
+                "piano": [
+                    "Today Was a Fairytale TV"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 23rd, 2023",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Begin Again"
+                ],
+                "piano": [
+                    "Cold As You"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "April 28th, 2023",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "The Other Side of the Door"
+                ],
+                "piano": [
                     "coney island"
                 ]
             },
@@ -50,169 +240,152 @@
             "costumes": {}
         },
         {
-            "date": "2024-08-16",
-            "city": "London",
-            "country": "UK",
+            "date": "April 29th, 2023",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": [
-                    "London Boy"
+                    "High Infidelity"
                 ],
                 "piano": [
-                    "Dear John",
-                    "Sad Beautiful Tragic"
+                    "Gorgeous"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-08-15",
-            "city": "London",
-            "country": "UK",
+            "date": "April 30th, 2023",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "country": "United States",
+            "opening": "MUNA, GAYLE",
             "surpriseSongs": {
                 "acoustic": [
-                    "Everything Has Changed",
-                    "End Game",
-                    "Thinking Out Loud"
+                    "I Bet You Think About Me"
                 ],
                 "piano": [
-                    "King of My Heart",
-                    "The Alchemy"
-                ]
-            },
-            "guest": "Ed Sheeran",
-            "costumes": {}
-        },
-        {
-            "date": "2024-08-03",
-            "city": "Warsaw",
-            "country": "Poland",
-            "surpriseSongs": {
-                "acoustic": [
-                    "Today Was a Fairytale",
-                    "I Think He Knows"
-                ],
-                "piano": [
-                    "The Black Dog",
-                    "exile"
+                    "How You Get The Girl"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-08-02",
-            "city": "Warsaw",
-            "country": "Poland",
+            "date": "May 5th, 2023",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": [
-                    "I Can Fix Him (No Really I Can)",
-                    "I Can See You"
+                    "Sparks Fly"
                 ],
                 "piano": [
-                    "Red",
-                    "Maroon"
+                    "Teardrops On My Guitar"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-08-01",
-            "city": "Warsaw",
-            "country": "Poland",
+            "date": "May 6th, 2023",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
             "surpriseSongs": {
                 "acoustic": [
-                    "mirrorball",
-                    "Clara Bow"
+                    "Out of the Woods"
                 ],
                 "piano": [
-                    "Suburban Legends",
-                    "New Year's Day"
+                    "Fifteen"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-07-28",
-            "city": "Munich",
-            "country": "Germany",
+            "date": "May 7th, 2023",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": [
-                    "I Don't Wanna Live Forever",
-                    "imgonnagetyouback"
+                    "Would've Could've Should've (feat. Aaron Dessner)"
                 ],
                 "piano": [
-                    "loml",
-                    "Don't You"
+                    "Mine"
+                ]
+            },
+            "guest": "Aaron Dessner",
+            "costumes": {}
+        },
+        {
+            "date": "May 12th, 2023",
+            "city": "Philadelphia",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "gold rush"
+                ],
+                "piano": [
+                    "Come Back...Be Here"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-07-27",
-            "city": "Munich",
-            "country": "Germany",
+            "date": "May 13th, 2023",
+            "city": "Philadelphia",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
             "surpriseSongs": {
                 "acoustic": [
-                    "Fresh Out of the Slammer",
-                    "You Are In Love"
+                    "Forever and Always"
                 ],
                 "piano": [
-                    "ivy",
-                    "Call It What You Want"
+                    "This Love"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-07-24",
-            "city": "Hamburg",
-            "country": "Germany",
+            "date": "May 14th, 2023",
+            "city": "Philadelphia",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": [
-                    "the last great american dynasty",
-                    "Run"
+                    "Hey Stephen"
                 ],
                 "piano": [
-                    "Nothing New",
-                    "Dear Reader"
+                    "The Best Day"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-07-23",
-            "city": "Hamburg",
-            "country": "Germany",
+            "date": "May 19th, 2023",
+            "city": "Foxborough",
+            "state": "Massachusetts",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
             "surpriseSongs": {
                 "acoustic": [
-                    "Teardrops On My Guitar",
-                    "The Last Time"
+                    "Should've Said No"
                 ],
                 "piano": [
-                    "We Were Happy",
-                    "happiness"
-                ]
-            },
-            "guest": "",
-            "costumes": {}
-        },
-        {
-            "date": "2024-07-19",
-            "city": "Gelsenkirchen",
-            "country": "Germany",
-            "surpriseSongs": {
-                "acoustic": [
-                    "Paper Rings",
-                    "Stay Stay Stay"
-                ],
-                "piano": [
-                    "it's time to go",
                     "Better Man"
                 ]
             },
@@ -220,33 +393,67 @@
             "costumes": {}
         },
         {
-            "date": "2024-07-18",
-            "city": "Gelsenkirchen",
-            "country": "Germany",
+            "date": "May 20th, 2023",
+            "city": "Foxborough",
+            "state": "Massachusetts",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
             "surpriseSongs": {
                 "acoustic": [
-                    "Speak Now",
-                    "Hey Stephen"
+                    "Question...?"
                 ],
                 "piano": [
-                    "this is me trying",
-                    "Labyrinth"
+                    "Invisible"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-07-17",
-            "city": "Gelsenkirchen",
-            "country": "Germany",
+            "date": "May 21st, 2023",
+            "city": "Foxborough",
+            "state": "Massachusetts",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": [
-                    "Superstar",
-                    "invisible string"
+                    "I Think He Knows"
                 ],
                 "piano": [
-                    "S**t!",
+                    "Red"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 26th, 2023",
+            "city": "East Rutherford",
+            "state": "New Jersey",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Getaway Car (feat. Jack Antonoff)"
+                ],
+                "piano": [
+                    "Maroon"
+                ]
+            },
+            "guest": "Jack Antonoff",
+            "costumes": {}
+        },
+        {
+            "date": "May 27th, 2023",
+            "city": "East Rutherford",
+            "state": "New Jersey",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Holy Ground"
+                ],
+                "piano": [
                     "False God"
                 ]
             },
@@ -254,33 +461,67 @@
             "costumes": {}
         },
         {
-            "date": "2024-07-14",
-            "city": "Milan",
-            "country": "Italy",
+            "date": "May 28th, 2023",
+            "city": "East Rutherford",
+            "state": "New Jersey",
+            "country": "United States",
+            "opening": "Phoebe Bridgers, Owenn",
             "surpriseSongs": {
                 "acoustic": [
-                    "Mr Perfectly Fine",
-                    "Red"
+                    "Welcome to New York"
                 ],
                 "piano": [
-                    "Getaway Car",
-                    "Out of the Woods"
+                    "Clean"
                 ]
             },
             "guest": "",
             "costumes": {}
         },
         {
-            "date": "2024-07-13",
-            "city": "Milan",
-            "country": "Italy",
+            "date": "June 2nd, 2023",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
             "surpriseSongs": {
                 "acoustic": [
-                    "the 1",
-                    "Wonderland"
+                    "I Wish You Would"
                 ],
                 "piano": [
-                    "I Almost Do",
+                    "the lakes"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 3rd, 2023",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
+            "surpriseSongs": {
+                "acoustic": [
+                    "You All Over Me (feat. Maren Morris)"
+                ],
+                "piano": [
+                    "I Don't Wanna Live Forever"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 4th, 2023",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Hits Different"
+                ],
+                "piano": [
                     "The Moment I Knew"
                 ]
             },
@@ -288,9 +529,1490 @@
             "costumes": {}
         },
         {
-            "date": "2024-07-10",
+            "date": "June 9th, 2023",
+            "city": "Detroit",
+            "state": "Michigan",
+            "country": "United States",
+            "opening": "Girl in Red, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Haunted"
+                ],
+                "piano": [
+                    "I Almost Do"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 10th, 2023",
+            "city": "Detroit",
+            "state": "Michigan",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
+            "surpriseSongs": {
+                "acoustic": [
+                    "All You Had To Do Was Stay"
+                ],
+                "piano": [
+                    "Breathe"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 16th, 2023",
+            "city": "Pittsburgh",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Girl in Red, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Mr. Perfectly Fine"
+                ],
+                "piano": [
+                    "The Last Time"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 17th, 2023",
+            "city": "Pittsburgh",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
+            "surpriseSongs": {
+                "acoustic": [
+                    "seven (feat. Aaron Dessner)"
+                ],
+                "piano": [
+                    "The Story of Us"
+                ]
+            },
+            "guest": "Aaron Dessner",
+            "costumes": {}
+        },
+        {
+            "date": "June 23rd, 2023",
+            "city": "Minneapolis",
+            "state": "Minnesota",
+            "country": "United States",
+            "opening": "Girl in Red, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Paper Rings"
+                ],
+                "piano": [
+                    "If This Was A Movie"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 24th, 2023",
+            "city": "Minneapolis",
+            "state": "Minnesota",
+            "country": "United States",
+            "opening": "Girl in Red, Owenn",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Dear John"
+                ],
+                "piano": [
+                    "Daylight"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 30th, 2023",
+            "city": "Cincinnati",
+            "state": "Ohio",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I'm Only Me When I'm with You"
+                ],
+                "piano": [
+                    "evermore"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 1st, 2023",
+            "city": "Cincinnati",
+            "state": "Ohio",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "ivy (feat. Aaron Dessner)"
+                ],
+                "piano": [
+                    "I miss you",
+                    "I\u2019m sorry (with Gracie Abrams)",
+                    "Call It What You Want"
+                ]
+            },
+            "guest": "Aaron , Gracie Abrams",
+            "costumes": {}
+        },
+        {
+            "date": "July 7th, 2023",
+            "city": "Kansas City",
+            "state": "Missouri",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Never Grow Up"
+                ],
+                "piano": [
+                    "When Emma Falls in Love"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 8th, 2023",
+            "city": "Kansas City",
+            "state": "Missouri",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Last Kiss"
+                ],
+                "piano": [
+                    "dorothea"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 14th, 2023",
+            "city": "Denver",
+            "state": "Colorado",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Picture to Burn"
+                ],
+                "piano": [
+                    "Timeless"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 15th, 2023",
+            "city": "Denver",
+            "state": "Colorado",
+            "country": "United States",
+            "opening": "MUNA, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Starlight"
+                ],
+                "piano": [
+                    "Back to December"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 22th, 2023",
+            "city": "Seattle",
+            "state": "Washington",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "This Is Why We Can't Have Nice Things"
+                ],
+                "piano": [
+                    "Everything Has Changed"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 23rd, 2023",
+            "city": "Seattle",
+            "state": "Washington",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Message In A Bottle"
+                ],
+                "piano": [
+                    "Tied Together With a Smile"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 28th, 2023",
+            "city": "Santa Clara",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "right where you left me (feat Aaron Dessner) "
+                ],
+                "piano": [
+                    "Castles Crumbling"
+                ]
+            },
+            "guest": "Aaron Dessner",
+            "costumes": {}
+        },
+        {
+            "date": "July 29th, 2023",
+            "city": "Santa Clara",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Stay Stay Stay"
+                ],
+                "piano": [
+                    "All Of The Girls You Loved Before"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 3rd, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Can See You"
+                ],
+                "piano": [
+                    "Maroon"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 4th, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Owenn",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Our Song"
+                ],
+                "piano": [
+                    "You Are In Love"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 5th, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Death By A Thousand Cuts"
+                ],
+                "piano": [
+                    "You're On Your Own",
+                    "Kid"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 7th, 2024",
+            "city": "Los Angeles",
+            "state": "",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Dress"
+                ],
+                "piano": [
+                    "exile"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 8th, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Know Places"
+                ],
+                "piano": [
+                    "King of My Heart"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 9th, 2023",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "opening": "HAIM, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "New Romantics"
+                ],
+                "piano": [
+                    "New Years Day"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 24th, 2023",
+            "city": "Mexico City",
+            "state": "",
+            "country": "Mexico",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Forgot That You Existed"
+                ],
+                "piano": [
+                    "Sweet Nothing"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 25th, 2023",
+            "city": "Mexico City",
+            "state": "",
+            "country": "Mexico",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Tell Me Why"
+                ],
+                "piano": [
+                    "Snow on the Beach"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 26th, 2023",
+            "city": "Mexico City",
+            "state": "",
+            "country": "Mexico",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Cornelia Street"
+                ],
+                "piano": [
+                    "You're On Your Own",
+                    "Kid"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 27th, 2023",
+            "city": "Mexico City",
+            "state": "",
+            "country": "Mexico",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Afterglow"
+                ],
+                "piano": [
+                    "Maroon"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 9th, 2023",
+            "city": "Buenos Aires",
+            "state": "",
+            "country": "Argentina",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "The Very First Night"
+                ],
+                "piano": [
+                    "Labyrinth"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 10th, 2023",
+            "city": "Buenos Aires",
+            "state": "",
+            "country": "Argentina",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Is It Over Now?",
+                    "Out of the Woods"
+                ],
+                "piano": [
+                    "End Game"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 12th, 2023",
+            "city": "Buenos Aires",
+            "state": "",
+            "country": "Argentina",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Better Than Revenge"
+                ],
+                "piano": [
+                    "\"Slut!\""
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 17th, 2023",
+            "city": "Rio de Janeiro",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Stay Beautiful"
+                ],
+                "piano": [
+                    "Suburban Legends"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 18th, 2023",
+            "city": "Rio de Janeiro",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Dancing With Our Hands Tied"
+                ],
+                "piano": [
+                    "Bigger Than The Whole Sky "
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 20th, 2023",
+            "city": "Rio de Janeiro",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "ME!"
+                ],
+                "piano": [
+                    "So It Goes..."
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 24th, 2023",
+            "city": "S\u00e3o Paulo",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Now That We Don't Talk"
+                ],
+                "piano": [
+                    "Innocent"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 25th, 2023",
+            "city": "S\u00e3o Paulo",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Safe and Sound"
+                ],
+                "piano": [
+                    "Untouchable"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 26th, 2023",
+            "city": "S\u00e3o Paulo",
+            "state": "",
+            "country": "Brazil",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Say Don't Go"
+                ],
+                "piano": [
+                    "it's time to go"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 7th, 2024",
+            "city": "Tokyo",
+            "state": "",
+            "country": "Japan",
+            "opening": "",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Dear Reader"
+                ],
+                "piano": [
+                    "Holy Ground"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 8th, 2024",
+            "city": "Tokyo",
+            "state": "",
+            "country": "Japan",
+            "opening": "",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Eyes Open"
+                ],
+                "piano": [
+                    "Electric Touch"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 9th, 2024",
+            "city": "Tokyo",
+            "state": "",
+            "country": "Japan",
+            "opening": "",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Superman"
+                ],
+                "piano": [
+                    "The Outside"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 10th, 2024",
+            "city": "Tokyo",
+            "state": "",
+            "country": "Japan",
+            "opening": "",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Come in with the Rain"
+                ],
+                "piano": [
+                    "You're On Your Own",
+                    "Kid"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 16th, 2024",
+            "city": "Melbourne",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Red"
+                ],
+                "piano": [
+                    "You're Losing Me"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 17th, 2024",
+            "city": "Melbourne",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Getaway Car",
+                    "august",
+                    "The Other Side Of The Door"
+                ],
+                "piano": [
+                    "this is me trying"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 18th, 2025",
+            "city": "Melbourne",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Come Back...Be Here",
+                    "Daylight"
+                ],
+                "piano": [
+                    "Teardrops On My Guitar"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 23rd, 2024",
+            "city": "Sydney",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "How You Get The Girl"
+                ],
+                "piano": [
+                    "White Horse",
+                    "coney island"
+                ]
+            },
+            "guest": "with Sabrina Carpenter ",
+            "costumes": {}
+        },
+        {
+            "date": "February 24th, 2024",
+            "city": "Sydney",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Should've Said No",
+                    "You're Not Sorry "
+                ],
+                "piano": [
+                    "New Years Day",
+                    "peace"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 25th, 2024",
+            "city": "Sydney",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Is It Over Now?",
+                    "I Wish You Would"
+                ],
+                "piano": [
+                    "Haunted",
+                    "exile"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "February 26th, 2025",
+            "city": "Sydney",
+            "state": "",
+            "country": "Australia",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Would've Could've Should've",
+                    "ivy"
+                ],
+                "piano": [
+                    "Forever and Always",
+                    "Maroon"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 2nd, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Mine",
+                    "Starlight"
+                ],
+                "piano": [
+                    "I Don't Wanna Live Forever",
+                    "Dress"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 3rd, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "long story short",
+                    "The Story Of Us"
+                ],
+                "piano": [
+                    "Clean",
+                    "evermoe"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 4th, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Foolish One",
+                    "Tell Me Why"
+                ],
+                "piano": [
+                    "This Love",
+                    "Call It What You Want"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 7th, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Death By a Thousand Cuts",
+                    "Babe"
+                ],
+                "piano": [
+                    "Fifteen",
+                    "You\u2019re On Your Own Kid"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 8th, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Sparks Fly",
+                    "gold rush"
+                ],
+                "piano": [
+                    "False God",
+                    "\"Slut!\""
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "March 9th, 2024",
+            "city": "Singapore",
+            "state": "",
+            "country": "Singapore",
+            "opening": "Sabrina Carpenter",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Tim McGraw",
+                    "cowboy like me"
+                ],
+                "piano": [
+                    "mirrorball",
+                    "epiphany"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 9th, 2024",
+            "city": "Paris",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Paris"
+                ],
+                "piano": [
+                    "loml"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 10th, 2024",
+            "city": "Paris",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Is It Over Now?",
+                    "Out of the Woods"
+                ],
+                "piano": [
+                    "My Boy Only Breaks His Favorite Toys"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 11th, 2024",
+            "city": "Paris",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Hey Stephen"
+                ],
+                "piano": [
+                    "Maroon"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 12th, 2024",
+            "city": "Paris",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "The Alchemy",
+                    "Treacherous"
+                ],
+                "piano": [
+                    "Begin Again",
+                    "Paris"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 17th, 2024",
+            "city": "Stockholm",
+            "state": "",
+            "country": "Sweden",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Think He Knows",
+                    "Gorgeous"
+                ],
+                "piano": [
+                    "Peter"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 18th, 2024",
+            "city": "Stockholm",
+            "state": "",
+            "country": "Sweden",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Guilty As Sin"
+                ],
+                "piano": [
+                    "Say Don\u2019t Go",
+                    "Welcome to New York",
+                    "Clean"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 19th, 2024",
+            "city": "Stockholm",
+            "state": "",
+            "country": "Sweden",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Message in a Bottle",
+                    "How You Get the Girl",
+                    "New Romantics"
+                ],
+                "piano": [
+                    "How Did It End?"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 24th, 2024",
+            "city": "Lisbon",
+            "state": "",
+            "country": "Portugal",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Come Back\u2026 Be Here",
+                    "The Way I Loved You",
+                    "The Other Side of the Door"
+                ],
+                "piano": [
+                    "Fresh Out of the Slammer",
+                    "High Infidelity"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 25th, 2024",
+            "city": "Lisbon",
+            "state": "",
+            "country": "Portugal",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "The Tortured Poets Department",
+                    "Now That We Don\u2019t Talk"
+                ],
+                "piano": [
+                    "You\u2019re On Your Own",
+                    "Kid",
+                    "Long Live"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 29th, 2024",
+            "city": "Madrid",
+            "state": "",
+            "country": "Spain",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Sparks Fly",
+                    "I Can Fix Him (No Really I Can)"
+                ],
+                "piano": [
+                    "I Look in People\u2019s Windows",
+                    "Snow on the Beach"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "May 30th, 2024",
+            "city": "Madrid",
+            "state": "",
+            "country": "Spain",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Our Song",
+                    "Jump Then Fall"
+                ],
+                "piano": [
+                    "King of My Heart"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 2nd, 2024",
+            "city": "Lyon",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "The Prophecy",
+                    "Long Story Short"
+                ],
+                "piano": [
+                    "Fifteen",
+                    "You\u2019re On Your Own Kid"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 3rd, 2024",
+            "city": "Lyon",
+            "state": "",
+            "country": "France",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Glitch",
+                    "Everything Has Changed"
+                ],
+                "piano": [
+                    "Chloe or Sam or Sophia or Marcus"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 7th, 2024",
+            "city": "Edinburgh",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Would've",
+                    "Could've",
+                    "Should've",
+                    "I Know Places"
+                ],
+                "piano": [
+                    "\u2018Tis the Damn Season",
+                    "Daylight"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 8th, 2024",
+            "city": "Edinburgh",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "The Bolter",
+                    "Getaway Car"
+                ],
+                "piano": [
+                    "All of the Girls You've Loved Before",
+                    "Crazier"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 9th, 2024",
+            "city": "Edinburgh",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "It's Nice to Have a Friend",
+                    "dorothea"
+                ],
+                "piano": [
+                    "Haunted",
+                    "exile"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 13th, 2024",
+            "city": "Liverpool",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Can See You",
+                    "Mine"
+                ],
+                "piano": [
+                    "Cornelia Street",
+                    "Maroon"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 14th, 2024",
+            "city": "Liverpool",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "This is What You Came For",
+                    "gold rush"
+                ],
+                "piano": [
+                    "The Great War",
+                    "You're Losing Me"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 15th, 2024",
+            "city": "Liverpool",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Carolina",
+                    "no body",
+                    "no crime"
+                ],
+                "piano": [
+                    "The Manuscript",
+                    "Red"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 18th, 2024",
+            "city": "Cardiff",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Forgot That You Existed",
+                    "This is Why We Can't Have Nice Things"
+                ],
+                "piano": [
+                    "I Hate It Here",
+                    "The Lakes"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 21st, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Hits Different",
+                    "Death by a Thousand Cuts"
+                ],
+                "piano": [
+                    "The Black Dog",
+                    "Come Back... Be Here",
+                    "Maroon"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 22nd, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "thanK you aIMee",
+                    "Mean"
+                ],
+                "piano": [
+                    "Castles Crumbling with Hayley Williams"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 23rd, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "us. with Gracie Abrams"
+                ],
+                "piano": [
+                    "Out of the Woods",
+                    "Is It Over Now?",
+                    "Clean"
+                ]
+            },
+            "guest": "Gracie Abrams",
+            "costumes": {}
+        },
+        {
+            "date": "June 28th, 2024",
+            "city": "Dublin",
+            "state": "",
+            "country": "Ireland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "State of Grace",
+                    "You\u2019re on Your Own Kid"
+                ],
+                "piano": [
+                    "Sweet Nothing",
+                    "hoax"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 29th, 2024",
+            "city": "Dublin",
+            "state": "",
+            "country": "Ireland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "The Albatross",
+                    "Dancing With Our Hands Tied"
+                ],
+                "piano": [
+                    "This Love",
+                    "Ours"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "June 30th, 2024",
+            "city": "Dublin",
+            "state": "",
+            "country": "Ireland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Clara Bow",
+                    "The Lucky One"
+                ],
+                "piano": [
+                    "You\u2019re on Your Own Kid"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 4th, 2024",
+            "city": "Amsterdam",
+            "state": "",
+            "country": "Netherlands",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Guilty as Sin",
+                    "Untouchable"
+                ],
+                "piano": [
+                    "The Archer",
+                    "Question...?"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 5th, 2024",
+            "city": "Amsterdam",
+            "state": "",
+            "country": "Netherlands",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "imgonnagetyouback",
+                    "Dress"
+                ],
+                "piano": [
+                    "You Are In Love",
+                    "cowboy like me"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 6th, 2024",
+            "city": "Amsterdam",
+            "state": "",
+            "country": "Netherlands",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Sweeter Than Fiction",
+                    "Holy Ground"
+                ],
+                "piano": [
+                    "Mary's Song",
+                    "So High School",
+                    "Everything Has Changed"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 9th, 2024",
             "city": "Zurich",
+            "state": "",
             "country": "Switzerland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "right where you left me",
+                    "All You Had To Do Was Stay"
+                ],
+                "piano": [
+                    "Last Kiss",
+                    "Sad Beautiful Tragic"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 10th, 2024",
+            "city": "Zurich",
+            "state": "",
+            "country": "Switzerland",
+            "opening": "Paramore",
             "surpriseSongs": {
                 "acoustic": [
                     "closure",
@@ -305,18 +2027,558 @@
             "costumes": {}
         },
         {
-            "date": "2024-07-09",
-            "city": "Zurich",
-            "country": "Switzerland",
+            "date": "July 13th, 2024",
+            "city": "Milan",
+            "state": "",
+            "country": "Italy",
+            "opening": "Paramore",
             "surpriseSongs": {
                 "acoustic": [
-                    "right where you left me",
-                    "All You Had To Do Was Stay"
+                    "the 1",
+                    "Wonderland"
                 ],
                 "piano": [
-                    "Last Kiss",
+                    "I Almost Do",
+                    "The Moment I Knew"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 14th, 2024",
+            "city": "Milan",
+            "state": "",
+            "country": "Italy",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Mr Perfectly Fine",
+                    "Red"
+                ],
+                "piano": [
+                    "Getaway Car",
+                    "Out of the Woods"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 17th, 2024",
+            "city": "Gelsenkirchen",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Superstar",
+                    "invisible string"
+                ],
+                "piano": [
+                    "S**t!",
+                    "False God"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 18th, 2024",
+            "city": "Gelsenkirchen",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Speak Now",
+                    "Hey Stephen"
+                ],
+                "piano": [
+                    "this is me trying",
+                    "Labbyrinth"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 19th, 2024",
+            "city": "Gelsenkirchen",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Paper Rings",
+                    "Stay Stay Stay"
+                ],
+                "piano": [
+                    "it's time to go",
+                    "Better Man"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 23rd, 2024",
+            "city": "Hamburg",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Teardrops On My Guitar",
+                    "The Last Time"
+                ],
+                "piano": [
+                    "We Were Happy",
+                    "happiness"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 24rd, 2024",
+            "city": "Hamburg",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "the last great american dynasty",
+                    "Run"
+                ],
+                "piano": [
+                    "Nothing New",
+                    "Dear Reader"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 27th, 2024",
+            "city": "Munich",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Fresh Out of the Slammer",
+                    "You Are In Love"
+                ],
+                "piano": [
+                    "ivy",
+                    "Call It What You Want"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "July 28th, 2024",
+            "city": "Munich",
+            "state": "",
+            "country": "Germany",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Don't Wanna Live Forever",
+                    "imgonnagetyouback"
+                ],
+                "piano": [
+                    "loml",
+                    "Don't You"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 1st, 2024",
+            "city": "Warsaw",
+            "state": "",
+            "country": "Poland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "mirrorball",
+                    "Clara Bow"
+                ],
+                "piano": [
+                    "Surburban Legends",
+                    "New Year's Day"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 2nd, 2024",
+            "city": "Warsaw",
+            "state": "",
+            "country": "Poland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Can Fix Him (No Really I Can)",
+                    "I Can See You"
+                ],
+                "piano": [
+                    "Red",
+                    "Maroon"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 3rd, 2024",
+            "city": "Warsaw",
+            "state": "",
+            "country": "Poland",
+            "opening": "Paramore",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Today Was a Fairytale",
+                    "I Think He Knows"
+                ],
+                "piano": [
+                    "The Black Dog",
+                    "exile"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 15th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, Sofia Isella",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Everything Has Changed",
+                    "End Game",
+                    "Thinking Out Loud with Ed Sheeran"
+                ],
+                "piano": [
+                    "King of My Heart",
+                    "The Alchemy"
+                ]
+            },
+            "guest": "Ed Sheeran",
+            "costumes": {}
+        },
+        {
+            "date": "August 16th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, Holly Humbrstone",
+            "surpriseSongs": {
+                "acoustic": [
+                    "London Boy"
+                ],
+                "piano": [
+                    "Dear John",
                     "Sad Beautiful Tragic"
                 ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 17th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, Suki Waterhouse",
+            "surpriseSongs": {
+                "acoustic": [
+                    "I Did Something Bad"
+                ],
+                "piano": [
+                    "My Boy Only Breaks His Favorite Toys",
+                    "coney island"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 19th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, Maisie Peters",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Long Live",
+                    "Change"
+                ],
+                "piano": [
+                    "The Archer",
+                    "You're On Your Own",
+                    "Kid"
+                ]
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "August 20th, 2024",
+            "city": "London",
+            "state": "",
+            "country": "United Kingdom",
+            "opening": "Paramore, RAYE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Death By a Thousand Cuts",
+                    "Getaway Car with Jack Antonoff"
+                ],
+                "piano": [
+                    "So Long",
+                    "London"
+                ]
+            },
+            "guest": "Jack Antonoff, Florida!!! with Florence",
+            "costumes": {}
+        },
+        {
+            "date": "October 18th, 2024",
+            "city": "Miami",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 19th, 2024",
+            "city": "Miami",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 20th, 2024",
+            "city": "Miami",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 25th, 2024",
+            "city": "New Orleans",
+            "state": "Louisiana",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 26th, 2024",
+            "city": "New Orleans",
+            "state": "Louisiana",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "October 27th, 2024",
+            "city": "New Orleans",
+            "state": "Louisiana",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 1st, 2024",
+            "city": "Indianapolis",
+            "state": "Indiana",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 2nd, 2024",
+            "city": "Indianapolis",
+            "state": "Indiana",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 3rd, 2024",
+            "city": "Indianapolis",
+            "state": "Indiana",
+            "country": "United States",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 14th, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 15th, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 16th, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 21st, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 22nd, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "November 23rd, 2024",
+            "city": "Toronto",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "December 6th, 2024",
+            "city": "Vancouver",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "December 7th, 2024",
+            "city": "Vancouver",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
+            },
+            "guest": "",
+            "costumes": {}
+        },
+        {
+            "date": "December 8th, 2024",
+            "city": "Vancouver",
+            "state": "",
+            "country": "Canada",
+            "opening": "Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [],
+                "piano": []
             },
             "guest": "",
             "costumes": {}
