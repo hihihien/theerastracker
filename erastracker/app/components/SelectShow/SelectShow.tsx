@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
 
 interface SurpriseSongs {
     acoustic: string[];
@@ -15,14 +14,14 @@ interface Costumes {
 }
 
 interface Show {
-    date: string;
+    date: string; // Remains a string here
     city: string;
     state: string;
     opening: string;
     country: string;
     surpriseSongs: SurpriseSongs;
-    guest?: string; 
-    costumes?: Costumes;  
+    guest?: string;
+    costumes?: Costumes;
     instagramUrl?: string;
 }
 
@@ -44,10 +43,10 @@ const SelectShow: React.FC = () => {
                     throw new Error("Network response was not ok");
                 }
                 const data = await response.json();
-                console.log("Fetched Data:", data); // Log the fetched data
+                console.log("Fetched Data:", data);
                 setShows(data.shows);
             } catch (error) {
-                console.error("Fetch error:", error); // Log any fetch errors
+                console.error("Fetch error:", error);
             }
         };
 
@@ -78,11 +77,12 @@ const SelectShow: React.FC = () => {
         const futureShows = shows
             .map(show => ({
                 ...show,
-                date: new Date(show.date) // convert date string to Date object
+                date: new Date(show.date), // Convert date string to Date object
             }))
-            .filter(show => show.date > now); // filter shows that are in the future
+            .filter(show => show.date > now); // Filter shows that are in the future
 
         if (futureShows.length > 0) {
+            // Sort future shows by the soonest date
             return futureShows.sort((a, b) => a.date.getTime() - b.date.getTime())[0];
         }
 
@@ -141,7 +141,9 @@ const SelectShow: React.FC = () => {
                                 sec
                             </div>
                         </div>
-                        <div className="prose p-6 font-mono"><h2>Next Show: {nextShow.city}, {nextShow.country} on {nextShow.date.toDateString()}</h2></div>
+                        <div className="prose p-6 font-mono">
+                            <h2>Next Show: {nextShow.city}, {nextShow.country} on {new Date(nextShow.date).toDateString()}</h2>
+                        </div>
                     </div>
                 ) : (
                     <div>No upcoming shows available</div>
