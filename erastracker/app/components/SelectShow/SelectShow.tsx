@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 interface SurpriseSongs {
     acoustic: string[];
@@ -14,26 +15,31 @@ interface Costumes {
 }
 
 interface Show {
-    date: string; // Remains a string here
+    date: string;
     city: string;
     state: string;
     opening: string;
     country: string;
     surpriseSongs: SurpriseSongs;
-    guest?: string;
-    costumes?: Costumes;
+    guest?: string; 
+    costumes?: Costumes;  
     instagramUrl?: string;
 }
 
 const SelectShow: React.FC = () => {
     const [shows, setShows] = useState<Show[]>([]);
-    const [nextShow, setNextShow] = useState<Show | null>(null);
-    const [timeRemaining, setTimeRemaining] = useState({
-        days: 0,
-        hours: 0,
-        minutes: 0,
-        seconds: 0,
-    });
+    const [selectedShow, setSelectedShow] = useState<Show | null>(null);
+    const [counter, setCounter] = useState<number>(60); // Starting countdown from 60 seconds
+
+    useEffect(() => {
+        if (counter > 0) {
+            const timer = setInterval(() => {
+                setCounter((prevCounter) => prevCounter - 1);
+            }, 1000);
+
+            return () => clearInterval(timer); 
+        }
+    }, [counter]);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -43,110 +49,104 @@ const SelectShow: React.FC = () => {
                     throw new Error("Network response was not ok");
                 }
                 const data = await response.json();
-                console.log("Fetched Data:", data);
+                console.log("Fetched Data:", data); // Log the fetched data
                 setShows(data.shows);
             } catch (error) {
-                console.error("Fetch error:", error);
+                console.error("Fetch error:", error); // Log any fetch errors
             }
         };
 
         fetchData();
     }, []);
 
-    // Function to calculate the time remaining
-    const calculateTimeRemaining = (targetDate: Date) => {
-        const now = new Date().getTime();
-        const target = targetDate.getTime();
-        const difference = target - now;
-
-        if (difference > 0) {
-            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-            return { days, hours, minutes, seconds };
-        } else {
-            return { days: 0, hours: 0, minutes: 0, seconds: 0 };
-        }
+    const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        const selectedDate = event.target.value;
+        const show = shows.find(s => s.date === selectedDate) || null;
+        setSelectedShow(show);
     };
-
-    // Function to find the next show date
-    const findNextShow = (shows: Show[]) => {
-        const now = new Date();
-        const futureShows = shows
-            .map(show => ({
-                ...show,
-                date: new Date(show.date), // Convert date string to Date object
-            }))
-            .filter(show => show.date > now); // Filter shows that are in the future
-
-        if (futureShows.length > 0) {
-            // Sort future shows by the soonest date
-            return futureShows.sort((a, b) => a.date.getTime() - b.date.getTime())[0];
-        }
-
-        return null; // No upcoming shows
-    };
-
-    useEffect(() => {
-        if (shows.length > 0) {
-            const next = findNextShow(shows);
-            setNextShow(next);
-        }
-    }, [shows]);
-
-    useEffect(() => {
-        let intervalId: NodeJS.Timeout;
-
-        if (nextShow) {
-            intervalId = setInterval(() => {
-                const remainingTime = calculateTimeRemaining(new Date(nextShow.date));
-                setTimeRemaining(remainingTime);
-            }, 1000);
-        }
-
-        return () => clearInterval(intervalId);
-    }, [nextShow]);
 
     return (
         <div className='artboard artboard-horizontal antialiased md:subpixel-antialiased'>
             <div className="flex w-full flex-col items-center justify-center gap-4 place-items-stretch">
-                <div className="prose p-6 font-mono"><h2>Next Show In</h2></div>
-                {nextShow ? (
-                    <div>
-                        <div className="flex gap-5">
-                            <div>
+            <div className="prose p-6 font-mono"><h2>Next Show In</h2></div>
+                <div> 
+                    <div className="flex gap-5">
+                        <div>
                                 <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": timeRemaining.days } as React.CSSProperties}></span>
+                                    <span style={{ "--value": 15 } as React.CSSProperties}></span>
                                 </span>
                                 days
                             </div>
                             <div>
                                 <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": timeRemaining.hours } as React.CSSProperties}></span>
+                                    <span style={{ "--value": 10 } as React.CSSProperties}></span>
                                 </span>
                                 hours
                             </div>
                             <div>
                                 <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": timeRemaining.minutes } as React.CSSProperties}></span>
+                                    <span style={{ "--value": 24 } as React.CSSProperties}></span>
                                 </span>
                                 min
                             </div>
                             <div>
                                 <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": timeRemaining.seconds } as React.CSSProperties}></span>
+                                    <span style={{ "--value": counter } as React.CSSProperties}></span>
                                 </span>
                                 sec
+                        </div>  
+                    </div>
+                </div>
+                <div className="prose p-6 font-mono"><h2>Select Your Show</h2></div>
+                
+                <select
+                    className="select select-primary w-full max-w-lg"
+                    onChange={handleSelectChange}
+                    value={selectedShow ? selectedShow.date : ""}
+                >
+                    <option disabled value="">
+                        Choose your show
+                    </option>
+                    {shows.length === 0 ? (
+                        <option disabled>Loading shows...</option>
+                    ) : (
+                        shows.map((show, index) => (
+                            <option key={index} value={show.date}>
+                                {${show.date} - ${show.city}, ${show.country}}
+                            </option>
+                        ))
+                    )}
+                </select>
+                {selectedShow && (
+                    <div className="flex flex-col lg:flex-row">
+                        <div className="card card-side rounded-box border-2 border-inherit shadow-xl m-4">
+                            <div>
+                                <div className="m-4">
+                                        {selectedShow.instagramUrl && (
+                                            <div className="instagram-post">
+                                                <blockquote className="instagram-media" data-instgrm-permalink={selectedShow.instagramUrl} data-instgrm-version="14" style={{ margin: "1px auto", width: "100%" }}></blockquote>
+                                                <script async src="//www.instagram.com/embed.js"></script>
+                                            </div>
+                                        )}
+                                    </div>
+                            </div>
+                            <div className="card-body font-serif">
+                                <div>
+                                    <h2 className="text-lg font-bold mb-3">⭐ Show Details ⭐</h2>
+                                    <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{selectedShow.date}</p>
+                                    <p className='mt-2'>📍&nbsp;&nbsp;{selectedShow.city}{selectedShow.state ? , ${selectedShow.state} : ""}, {selectedShow.country}</p>
+                                    <p className='mt-2'><strong>Surprise Songs:</strong></p>
+                                    <p className='mt-1 italic'>🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(", ")}</p>
+                                    <p className='mt-1 italic'>🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(", ")}</p>
+                                    <p className='mt-2'><strong>Opening Artist:</strong> {selectedShow.opening || "No guest"}</p>
+                                    <p className='mt-2'><strong>Special Guest:</strong> {selectedShow.guest || "No guest"}</p>
+                                    <p className='mt-2'><strong>Watch:</strong></p>
+                                        
+                                    
+                                </div>
                             </div>
                         </div>
-                        <div className="prose p-6 font-mono">
-                            <h2>Next Show: {nextShow.city}, {nextShow.country} on {new Date(nextShow.date).toDateString()}</h2>
-                        </div>
                     </div>
-                ) : (
-                    <div>No upcoming shows available</div>
                 )}
             </div>
         </div>
