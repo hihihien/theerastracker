@@ -10,7 +10,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <SelectShow />
-      <Link href="/users">Users</Link>
+      <Link href="/surpriseSongs">Suprise Songs Countdown</Link>
       <Footer />
     </main>
   )

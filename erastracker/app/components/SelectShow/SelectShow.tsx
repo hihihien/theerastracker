@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
 
 interface SurpriseSongs {
     acoustic: string[];
@@ -30,6 +29,7 @@ const SelectShow: React.FC = () => {
     const [shows, setShows] = useState<Show[]>([]);
     const [selectedShow, setSelectedShow] = useState<Show | null>(null);
     const [embedKey, setEmbedKey] = useState<number>(0); // To force re-render of Instagram embed
+    const [countdown, setCountdown] = useState<{ days: number; hours: number; minutes: number; seconds: number } | null>(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -74,6 +74,35 @@ const SelectShow: React.FC = () => {
             };
         }
     }, [embedKey, selectedShow]);
+
+    useEffect(() => {
+        const calculateCountdown = () => {
+            const now = new Date();
+            const nextShow = shows.find(show => new Date(show.date) > now); // Find the next show after the current date
+
+            if (nextShow) {
+                const showDate = new Date(nextShow.date);
+                const timeDifference = showDate.getTime() - now.getTime();
+
+                if (timeDifference > 0) {
+                    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+                    setCountdown({ days, hours, minutes, seconds });
+                } else {
+                    setCountdown(null); // No upcoming show
+                }
+            }
+        };
+
+        calculateCountdown(); // Initial calculation
+
+        const countdownInterval = setInterval(calculateCountdown, 1000); // Update countdown every second
+
+        return () => clearInterval(countdownInterval); // Cleanup interval on unmount
+    }, [shows]);
 
     return (
         <div className='artboard artboard-horizontal'>
@@ -132,34 +161,38 @@ const SelectShow: React.FC = () => {
                     </div>
                 )}
 
-            <div className="prose p-6 font-mono"><h2>Next Show In</h2></div>
+                <div className="prose p-6 font-mono"><h2>Next Show In</h2></div>
                 <div> 
-                    <div className="flex gap-5">
-                        <div>
+                    {countdown ? (
+                        <div className="flex gap-5">
+                            <div>
                                 <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": 15 } as React.CSSProperties}></span>
+                                    <span style={{ "--value": countdown.days } as React.CSSProperties}></span>
                                 </span>
                                 days
                             </div>
                             <div>
                                 <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": 10 } as React.CSSProperties}></span>
+                                    <span style={{ "--value": countdown.hours } as React.CSSProperties}></span>
                                 </span>
                                 hours
                             </div>
                             <div>
                                 <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": 24 } as React.CSSProperties}></span>
+                                    <span style={{ "--value": countdown.minutes } as React.CSSProperties}></span>
                                 </span>
                                 min
                             </div>
                             <div>
                                 <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": 1 } as React.CSSProperties}></span>
+                                    <span style={{ "--value": countdown.seconds } as React.CSSProperties}></span>
                                 </span>
                                 sec
                             </div>  
                         </div>
+                    ) : (
+                        <p className='prose'>No upcoming shows.</p>
+                    )}
                 </div>
             </div>
         </div>
