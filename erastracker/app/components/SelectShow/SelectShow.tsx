@@ -131,6 +131,36 @@ const SelectShow: React.FC = () => {
                         </div>
                     </div>
                 )}
+
+            <div className="prose p-6 font-mono"><h2>Next Show In</h2></div>
+                <div> 
+                    <div className="flex gap-5">
+                        <div>
+                                <span className="countdown font-mono text-4xl">
+                                    <span style={{ "--value": 15 } as React.CSSProperties}></span>
+                                </span>
+                                days
+                            </div>
+                            <div>
+                                <span className="countdown font-mono text-4xl">
+                                    <span style={{ "--value": 10 } as React.CSSProperties}></span>
+                                </span>
+                                hours
+                            </div>
+                            <div>
+                                <span className="countdown font-mono text-4xl">
+                                    <span style={{ "--value": 24 } as React.CSSProperties}></span>
+                                </span>
+                                min
+                            </div>
+                            <div>
+                                <span className="countdown font-mono text-4xl">
+                                    <span style={{ "--value": 1 } as React.CSSProperties}></span>
+                                </span>
+                                sec
+                            </div>  
+                        </div>
+                </div>
             </div>
         </div>
     );
