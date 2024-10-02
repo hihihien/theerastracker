@@ -29,6 +29,7 @@ interface Show {
 const SelectShow: React.FC = () => {
     const [shows, setShows] = useState<Show[]>([]);
     const [selectedShow, setSelectedShow] = useState<Show | null>(null);
+    const [embedKey, setEmbedKey] = useState<number>(0); // To force re-render of Instagram embed
 
     useEffect(() => {
         const fetchData = async () => {
@@ -38,10 +39,9 @@ const SelectShow: React.FC = () => {
                     throw new Error("Network response was not ok");
                 }
                 const data = await response.json();
-                console.log("Fetched Data:", data); // Log the fetched data
                 setShows(data.shows);
             } catch (error) {
-                console.error("Fetch error:", error); // Log any fetch errors
+                console.error("Fetch error:", error);
             }
         };
 
@@ -52,7 +52,28 @@ const SelectShow: React.FC = () => {
         const selectedDate = event.target.value;
         const show = shows.find(s => s.date === selectedDate) || null;
         setSelectedShow(show);
+        setEmbedKey(prevKey => prevKey + 1); // Change the key to force re-render
     };
+
+    useEffect(() => {
+        // Ensure Instagram embeds are refreshed after changing the selected show
+        if (selectedShow?.instagramUrl) {
+            const script = document.createElement('script');
+            script.async = true;
+            script.src = "//www.instagram.com/embed.js";
+            document.body.appendChild(script);
+            
+            script.onload = () => {
+                if (window.instgrm) {
+                    window.instgrm.Embeds.process();
+                }
+            };
+
+            return () => {
+                document.body.removeChild(script); // Clean up script on unmount
+            };
+        }
+    }, [embedKey, selectedShow]);
 
     return (
         <div className='artboard artboard-horizontal'>
@@ -77,18 +98,23 @@ const SelectShow: React.FC = () => {
                         ))
                     )}
                 </select>
+
                 {selectedShow && (
                     <div className="flex flex-col lg:flex-row">
                         <div className="card card-side rounded-box border-2 border-inherit shadow-xl m-4">
                             <div>
                                 <div className="prose m-4">
-                                        {selectedShow.instagramUrl && (
-                                            <div className="instagram-post">
-                                                <blockquote className="instagram-media" data-instgrm-permalink={selectedShow.instagramUrl} data-instgrm-version="14" style={{ margin: "1px auto", width: "100%" }}></blockquote>
-                                                <script async src="//www.instagram.com/embed.js"></script>
-                                            </div>
-                                        )}
-                                    </div>
+                                    {selectedShow.instagramUrl && (
+                                        <div className="instagram-post" key={embedKey}>
+                                            <blockquote 
+                                                className="instagram-media" 
+                                                data-instgrm-permalink={selectedShow.instagramUrl} 
+                                                data-instgrm-version="14" 
+                                                style={{ margin: "1px auto", width: "100%" }}>
+                                            </blockquote>
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                             <div className="prose card-body font-serif">
                                 <div>
@@ -100,9 +126,6 @@ const SelectShow: React.FC = () => {
                                     <p className='mt-1 italic'>🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(", ")}</p>
                                     <p className='mt-2'><strong>Opening Artist:</strong> {selectedShow.opening || "No guest"}</p>
                                     <p className='mt-2'><strong>Special Guest:</strong> {selectedShow.guest || "No guest"}</p>
-                                    <p className='mt-2'><strong>Watch:</strong></p>
-                                        
-                                    
                                 </div>
                             </div>
                         </div>
