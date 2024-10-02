@@ -6,24 +6,25 @@ import Image from 'next/image';
 const NavBar = () => {
   return (
     <div className="navbar bg-base-300 sticky top-0 z-50">
-        <div className="navbar-start">
+        <div className="prose navbar-start">
             <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
             <TbHomeStar className="size-6 drop-shadow-lg" />
             </div>
-            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-            <TbMusicStar className="size-6 drop-shadow-lg" />
-            </div>
+            <a href='https://open.spotify.com/playlist/37i9dQZF1DX0D996ZXujBy?si=1ec13aaa2d254444' target="_blank" rel="noopener noreferrer">
+                <div role="button" className="btn btn-ghost btn-circle">
+                <TbMusicStar className="size-6 drop-shadow-lg" />
+                </div>
+            </a>
             <ul
                 tabIndex={0}
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                 <li><a>Homepage</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>About</a></li>
+                <li><a>About Me</a></li>
             </ul>
             </div>
         </div>
-        <div className="navbar-center max-w-36">
+        <div className="prose navbar-center max-w-36">
             <Image src={erasLogo} alt='erasLogo'/>
         </div>
         <div className="navbar-end">

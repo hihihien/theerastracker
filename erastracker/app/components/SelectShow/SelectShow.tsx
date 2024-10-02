@@ -60,7 +60,7 @@ const SelectShow: React.FC = () => {
                 <div className="prose p-6 font-mono"><h2>Select Your Show</h2></div>
                 
                 <select
-                    className="select select-primary w-full max-w-lg"
+                    className="prose select select-primary w-full max-w-lg"
                     onChange={handleSelectChange}
                     value={selectedShow ? selectedShow.date : ""}
                 >
@@ -81,7 +81,7 @@ const SelectShow: React.FC = () => {
                     <div className="flex flex-col lg:flex-row">
                         <div className="card card-side rounded-box border-2 border-inherit shadow-xl m-4">
                             <div>
-                                <div className="m-4">
+                                <div className="prose m-4">
                                         {selectedShow.instagramUrl && (
                                             <div className="instagram-post">
                                                 <blockquote className="instagram-media" data-instgrm-permalink={selectedShow.instagramUrl} data-instgrm-version="14" style={{ margin: "1px auto", width: "100%" }}></blockquote>
@@ -90,7 +90,7 @@ const SelectShow: React.FC = () => {
                                         )}
                                     </div>
                             </div>
-                            <div className="card-body font-serif">
+                            <div className="prose card-body font-serif">
                                 <div>
                                     <h2 className="text-lg font-bold mb-3">⭐ Show Details ⭐</h2>
                                     <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{selectedShow.date}</p>
