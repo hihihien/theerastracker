@@ -29,17 +29,6 @@ interface Show {
 const SelectShow: React.FC = () => {
     const [shows, setShows] = useState<Show[]>([]);
     const [selectedShow, setSelectedShow] = useState<Show | null>(null);
-    const [counter, setCounter] = useState<number>(60); // Starting countdown from 60 seconds
-
-    useEffect(() => {
-        if (counter > 0) {
-            const timer = setInterval(() => {
-                setCounter((prevCounter) => prevCounter - 1);
-            }, 1000);
-
-            return () => clearInterval(timer); 
-        }
-    }, [counter]);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -66,37 +55,8 @@ const SelectShow: React.FC = () => {
     };
 
     return (
-        <div className='artboard artboard-horizontal antialiased md:subpixel-antialiased'>
+        <div className='artboard artboard-horizontal'>
             <div className="flex w-full flex-col items-center justify-center gap-4 place-items-stretch">
-            <div className="prose p-6 font-mono"><h2>Next Show In</h2></div>
-                <div> 
-                    <div className="flex gap-5">
-                        <div>
-                                <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": 15 } as React.CSSProperties}></span>
-                                </span>
-                                days
-                            </div>
-                            <div>
-                                <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": 10 } as React.CSSProperties}></span>
-                                </span>
-                                hours
-                            </div>
-                            <div>
-                                <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": 24 } as React.CSSProperties}></span>
-                                </span>
-                                min
-                            </div>
-                            <div>
-                                <span className="countdown font-mono text-4xl">
-                                    <span style={{ "--value": counter } as React.CSSProperties}></span>
-                                </span>
-                                sec
-                        </div>  
-                    </div>
-                </div>
                 <div className="prose p-6 font-mono"><h2>Select Your Show</h2></div>
                 
                 <select
@@ -112,7 +72,7 @@ const SelectShow: React.FC = () => {
                     ) : (
                         shows.map((show, index) => (
                             <option key={index} value={show.date}>
-                                {${show.date} - ${show.city}, ${show.country}}
+                                {`${show.date} - ${show.city}, ${show.country}`}
                             </option>
                         ))
                     )}
@@ -134,7 +94,7 @@ const SelectShow: React.FC = () => {
                                 <div>
                                     <h2 className="text-lg font-bold mb-3">⭐ Show Details ⭐</h2>
                                     <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{selectedShow.date}</p>
-                                    <p className='mt-2'>📍&nbsp;&nbsp;{selectedShow.city}{selectedShow.state ? , ${selectedShow.state} : ""}, {selectedShow.country}</p>
+                                    <p className='mt-2'>📍&nbsp;&nbsp;{selectedShow.city}{selectedShow.state ? `, ${selectedShow.state}` : ""}, {selectedShow.country}</p>
                                     <p className='mt-2'><strong>Surprise Songs:</strong></p>
                                     <p className='mt-1 italic'>🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(", ")}</p>
                                     <p className='mt-1 italic'>🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(", ")}</p>
