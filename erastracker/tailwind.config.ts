@@ -20,11 +20,24 @@ const config: Config = {
     themes: [
       {
         red: {
-          "primary": "#be123c",
-          "secondary": "#be123c",
-          "accent": "#be123c",
-          "neutral": "#be123c",
-          "base-100": "#ffffff",
+          
+            "primary": "#881337",
+                      
+            "secondary": "#be123c",
+                      
+            "accent": "#be123c",
+                      
+            "neutral": "#be123c",
+                      
+            "base-100": "#be123c",
+                      
+            "info": "#be123c",
+                      
+            "success": "#be123c",
+                      
+            "warning": "#be123c",
+                      
+            "error": "#9f1239",
         },
       },
       "light",

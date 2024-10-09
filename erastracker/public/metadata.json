@@ -1,7 +1,7 @@
 {
     "shows": [
         {
-            "date": "2023-03-17T00:00:00Z",
+            "date": "March 17th, 2023",
             "city": "Glendale",
             "state": "Arizona",
             "country": "United States",
@@ -19,7 +19,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cp8-L7jp2-C/?img_index=1"
         },
         {
-            "date": "2023-03-18T00:00:00Z",
+            "date": "March 18th, 2023",
             "city": "Glendale",
             "state": "Arizona",
             "country": "United States",
@@ -37,7 +37,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cp_oNR6uHrh/?img_index=1"
         },
         {
-            "date": "2023-03-24T00:00:00Z",
+            "date": "March 24th, 2023",
             "city": "Las Vegas",
             "state": "Nevada",
             "country": "United States",
@@ -55,7 +55,7 @@
             "instagramUrl": "https://www.instagram.com/p/CqOdT1XuMhY/?img_index=1"
         },
         {
-            "date": "2023-03-25T00:00:00Z",
+            "date": "March 25th, 2023",
             "city": "Las Vegas",
             "state": "Nevada",
             "country": "United States",
@@ -73,91 +73,170 @@
             "instagramUrl": "https://www.instagram.com/p/CqRD1ReOdgR/"
         },
         {
-            "date": "2023-03-31T00:00:00Z",
+            "date": "March 31st, 2023",
             "city": "Arlington",
             "state": "Texas",
             "country": "United States",
             "opening": "MUNA, GAYLE",
             "surpriseSongs": {
-                "acoustic": ["Sad Beautiful Tragic"],
-                "piano": ["Ours"]
+                "acoustic": [
+                    "Sad Beautiful Tragic"
+                ],
+                "piano": [
+                    "Ours"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CqnZlEjuhHb/"
         },
         {
-            "date": "2023-04-01T00:00:00Z",
+            "date": "April 1st, 2023",
             "city": "Arlington",
             "state": "Texas",
             "country": "United States",
             "opening": "Beabadoobee, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["Death By A Thousand Cuts"],
-                "piano": ["Clean"]
+                "acoustic": [
+                    "Death By A Thousand Cuts"
+                ],
+                "piano": [
+                    "Clean"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CqnZlEjuhHb/"
         },
         {
-            "date": "2023-04-02T00:00:00Z",
+            "date": "April 2nd, 2023",
             "city": "Arlington",
             "state": "Texas",
             "country": "United States",
             "opening": "Beabadoobee, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["Jump Then Fall"],
-                "piano": ["The Lucky One"]
+                "acoustic": [
+                    "Jump Then Fall"
+                ],
+                "piano": [
+                    "The Lucky One"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CqnZlEjuhHb/"
         },
         {
-            "date": "2023-04-21T00:00:00Z",
+            "date": "April 13th, 2023",
+            "city": "Tampa",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Beabadoobee, GAYLE",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Speak Now"
+                ],
+                "piano": [
+                    "Treacherous"
+                ]
+            },
+            "guest": "",
+            "costumes": {},
+            "instagramUrl": "https://www.instagram.com/p/CrFcr0lu2Sa/?img_index=1"
+        },
+        {
+            "date": "April 14th, 2023",
+            "city": "Tampa",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "The Great War (feat. Aaron Dessner)"
+                ],
+                "piano": [
+                    "You're On Your Own",
+                    "Kid"
+                ]
+            },
+            "guest": "Aaron Dessner",
+            "costumes": {},
+            "instagramUrl": "https://www.instagram.com/p/CrFcr0lu2Sa/?img_index=1"
+        },
+        {
+            "date": "April 15th, 2023",
+            "city": "Tampa",
+            "state": "Florida",
+            "country": "United States",
+            "opening": "Beabadoobee, Gracie Abrams",
+            "surpriseSongs": {
+                "acoustic": [
+                    "Mean"
+                ],
+                "piano": [
+                    "mad woman (feat. Aaron Dessner)"
+                ]
+            },
+            "guest": "Aaron Dessner",
+            "costumes": {},
+            "instagramUrl": "https://www.instagram.com/p/CrFcr0lu2Sa/?img_index=1"
+        },
+        {
+            "date": "April 21st, 2023",
             "city": "Houston",
             "state": "Texas",
             "country": "United States",
             "opening": "Beabadoobee, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["Wonderland"],
-                "piano": ["You're Not Sorry"]
+                "acoustic": [
+                    "Wonderland"
+                ],
+                "piano": [
+                    "You're Not Sorry"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CrbbMVqO5BM/?img_index=1"
         },
         {
-            "date": "2023-04-22T00:00:00Z",
+            "date": "April 22nd, 2023",
             "city": "Houston",
             "state": "Texas",
             "country": "United States",
             "opening": "Beabadoobee, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["A Place in This World"],
-                "piano": ["Today Was a Fairytale TV"]
+                "acoustic": [
+                    "A Place in This World "
+                ],
+                "piano": [
+                    "Today Was a Fairytale TV"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CrbbMVqO5BM/?img_index=1"
         },
         {
-            "date": "2023-04-23T00:00:00Z",
+            "date": "April 23rd, 2023",
             "city": "Houston",
             "state": "Texas",
             "country": "United States",
             "opening": "Beabadoobee, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["Begin Again"],
-                "piano": ["Cold As You"]
+                "acoustic": [
+                    "Begin Again"
+                ],
+                "piano": [
+                    "Cold As You"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CrbbMVqO5BM/?img_index=1"
-        },        
+        },
         {
-            "date": "2023-04-28T00:00:00Z",
+            "date": "April 28th, 2023",
             "city": "Atlanta",
             "state": "Georgia",
             "country": "United States",
@@ -175,7 +254,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrtCmnAOWgc/?img_index=1"
         },
         {
-            "date": "2023-04-29T00:00:00Z",
+            "date": "April 29th, 2023",
             "city": "Atlanta",
             "state": "Georgia",
             "country": "United States",
@@ -193,7 +272,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrtCmnAOWgc/?img_index=1"
         },
         {
-            "date": "2023-04-30T00:00:00Z",
+            "date": "April 30th, 2023",
             "city": "Atlanta",
             "state": "Georgia",
             "country": "United States",
@@ -211,7 +290,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrtCmnAOWgc/?img_index=1"
         },
         {
-            "date": "2023-05-05T00:00:00Z",
+            "date": "May 5th, 2023",
             "city": "Nashville",
             "state": "Tennessee",
             "country": "United States",
@@ -229,7 +308,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cr9nZ7Bu81H/?img_index=1"
         },
         {
-            "date": "2023-05-06T00:00:00Z",
+            "date": "May 6th, 2023",
             "city": "Nashville",
             "state": "Tennessee",
             "country": "United States",
@@ -247,7 +326,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cr9nZ7Bu81H/?img_index=1"
         },
         {
-            "date": "2023-05-07T00:00:00Z",
+            "date": "May 7th, 2023",
             "city": "Nashville",
             "state": "Tennessee",
             "country": "United States",
@@ -265,7 +344,7 @@
             "instagramUrl": "https://www.instagram.com/p/CsBrLRYuIng/?img_index=1"
         },
         {
-            "date": "2023-05-12T00:00:00Z",
+            "date": "May 12th, 2023",
             "city": "Philadelphia",
             "state": "Pennsylvania",
             "country": "United States",
@@ -283,7 +362,7 @@
             "instagramUrl": "https://www.instagram.com/p/CsTyPTdOHHL/?img_index=1"
         },
         {
-            "date": "2023-05-13T00:00:00Z",
+            "date": "May 13th, 2023",
             "city": "Philadelphia",
             "state": "Pennsylvania",
             "country": "United States",
@@ -301,7 +380,7 @@
             "instagramUrl": "https://www.instagram.com/p/CsTyPTdOHHL/?img_index=1"
         },
         {
-            "date": "2023-05-14T00:00:00Z",
+            "date": "May 14th, 2023",
             "city": "Philadelphia",
             "state": "Pennsylvania",
             "country": "United States",
@@ -319,7 +398,7 @@
             "instagramUrl": "https://www.instagram.com/p/CsTyPTdOHHL/?img_index=1"
         },
         {
-            "date": "2023-05-19T00:00:00Z",
+            "date": "May 19th, 2023",
             "city": "Foxborough",
             "state": "Massachusetts",
             "country": "United States",
@@ -337,7 +416,7 @@
             "instagramUrl": "https://www.instagram.com/p/CshRV4qOOnk/?img_index=1"
         },
         {
-            "date": "2023-05-20T00:00:00Z",
+            "date": "May 20th, 2023",
             "city": "Foxborough",
             "state": "Massachusetts",
             "country": "United States",
@@ -355,91 +434,115 @@
             "instagramUrl": "https://www.instagram.com/p/CshRV4qOOnk/?img_index=1"
         },
         {
-            "date": "2023-05-21T00:00:00Z",
+            "date": "May 21st, 2023",
             "city": "Foxborough",
             "state": "Massachusetts",
             "country": "United States",
             "opening": "Phoebe Bridgers, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["I Think He Knows"],
-                "piano": ["Red"]
+                "acoustic": [
+                    "I Think He Knows"
+                ],
+                "piano": [
+                    "Red"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CshRV4qOOnk/?img_index=1"
         },
         {
-            "date": "2023-05-26T00:00:00Z",
+            "date": "May 26th, 2023",
             "city": "East Rutherford",
             "state": "New Jersey",
             "country": "United States",
             "opening": "Phoebe Bridgers, GAYLE",
             "surpriseSongs": {
-                "acoustic": ["Getaway Car (feat. Jack Antonoff)"],
-                "piano": ["Maroon"]
+                "acoustic": [
+                    "Getaway Car (feat. Jack Antonoff)"
+                ],
+                "piano": [
+                    "Maroon"
+                ]
             },
             "guest": "Jack Antonoff",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/Cs2BuuoOE_m/?img_index=1"
         },
         {
-            "date": "2023-05-27T00:00:00Z",
+            "date": "May 27th, 2023",
             "city": "East Rutherford",
             "state": "New Jersey",
             "country": "United States",
             "opening": "Phoebe Bridgers, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["Holy Ground"],
-                "piano": ["False God"]
+                "acoustic": [
+                    "Holy Ground"
+                ],
+                "piano": [
+                    "False God"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/Cs2BuuoOE_m/?img_index=1"
         },
         {
-            "date": "2023-05-28T00:00:00Z",
+            "date": "May 28th, 2023",
             "city": "East Rutherford",
             "state": "New Jersey",
             "country": "United States",
             "opening": "Phoebe Bridgers, Owenn",
             "surpriseSongs": {
-                "acoustic": ["Welcome to New York"],
-                "piano": ["Clean"]
+                "acoustic": [
+                    "Welcome to New York"
+                ],
+                "piano": [
+                    "Clean"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/Cs2BuuoOE_m/?img_index=1"
         },
         {
-            "date": "2023-06-02T00:00:00Z",
+            "date": "June 2nd, 2023",
             "city": "Chicago",
             "state": "Illinois",
             "country": "United States",
             "opening": "Girl in Red, Owenn",
             "surpriseSongs": {
-                "acoustic": ["I Wish You Would"],
-                "piano": ["the lakes"]
+                "acoustic": [
+                    "I Wish You Would"
+                ],
+                "piano": [
+                    "the lakes"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CtKVDZsO5PM/?img_index=1"
         },
         {
-            "date": "2023-06-03T00:00:00Z",
+            "date": "June 3rd, 2023",
             "city": "Chicago",
             "state": "Illinois",
             "country": "United States",
             "opening": "Girl in Red, Owenn",
             "surpriseSongs": {
-                "acoustic": ["You All Over Me (feat. Maren Morris)"],
-                "piano": ["I Don't Wanna Live Forever"]
+                "acoustic": [
+                    "You All Over Me (feat. Maren Morris)"
+                ],
+                "piano": [
+                    "I Don't Wanna Live Forever"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CtKVDZsO5PM/?img_index=1"
-        },        
+        },
         {
-            "date": "2023-06-04T00:00:00Z",
+            "date": "June 4th, 2023",
             "city": "Chicago",
             "state": "Illinois",
             "country": "United States",
@@ -457,7 +560,7 @@
             "instagramUrl": "https://www.instagram.com/p/CtKVDZsO5PM/?img_index=1"
         },
         {
-            "date": "2023-06-09T00:00:00Z",
+            "date": "June 9th, 2023",
             "city": "Detroit",
             "state": "Michigan",
             "country": "United States",
@@ -475,7 +578,7 @@
             "instagramUrl": "https://www.instagram.com/p/CtXBNENvHf1/?img_index=1"
         },
         {
-            "date": "2023-06-10T00:00:00Z",
+            "date": "June 10th, 2023",
             "city": "Detroit",
             "state": "Michigan",
             "country": "United States",
@@ -493,7 +596,7 @@
             "instagramUrl": "https://www.instagram.com/p/CtXBNENvHf1/?img_index=1"
         },
         {
-            "date": "2023-06-16T00:00:00Z",
+            "date": "June 16th, 2023",
             "city": "Pittsburgh",
             "state": "Pennsylvania",
             "country": "United States",
@@ -511,7 +614,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cto6SCiRrrU/?img_index=1"
         },
         {
-            "date": "2023-06-17T00:00:00Z",
+            "date": "June 17th, 2023",
             "city": "Pittsburgh",
             "state": "Pennsylvania",
             "country": "United States",
@@ -529,63 +632,81 @@
             "instagramUrl": "https://www.instagram.com/p/Cto6SCiRrrU/?img_index=1"
         },
         {
-            "date": "2023-06-23T00:00:00Z",
+            "date": "June 23rd, 2023",
             "city": "Minneapolis",
             "state": "Minnesota",
             "country": "United States",
             "opening": "Girl in Red, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["Paper Rings"],
-                "piano": ["If This Was A Movie"]
+                "acoustic": [
+                    "Paper Rings"
+                ],
+                "piano": [
+                    "If This Was A Movie"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/Ct7DOiqurUX/?img_index=1"
         },
         {
-            "date": "2023-06-24T00:00:00Z",
+            "date": "June 24th, 2023",
             "city": "Minneapolis",
             "state": "Minnesota",
             "country": "United States",
             "opening": "Girl in Red, Owenn",
             "surpriseSongs": {
-                "acoustic": ["Dear John"],
-                "piano": ["Daylight"]
+                "acoustic": [
+                    "Dear John"
+                ],
+                "piano": [
+                    "Daylight"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/Ct7DOiqurUX/?img_index=1"
         },
         {
-            "date": "2023-06-30T00:00:00Z",
+            "date": "June 30th, 2023",
             "city": "Cincinnati",
             "state": "Ohio",
             "country": "United States",
             "opening": "MUNA, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["I'm Only Me When I'm with You"],
-                "piano": ["evermore"]
+                "acoustic": [
+                    "I'm Only Me When I'm with You"
+                ],
+                "piano": [
+                    "evermore"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CuMwXFsOjqR/?img_index=1"
         },
         {
-            "date": "2023-07-01T00:00:00Z",
+            "date": "July 1st, 2023",
             "city": "Cincinnati",
             "state": "Ohio",
             "country": "United States",
             "opening": "MUNA, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["ivy (feat. Aaron Dessner)"],
-                "piano": ["I miss you", "I’m sorry (with Gracie Abrams)", "Call It What You Want"]
+                "acoustic": [
+                    "ivy (feat. Aaron Dessner)"
+                ],
+                "piano": [
+                    "I miss you",
+                    "I\u2019m sorry (with Gracie Abrams)",
+                    "Call It What You Want"
+                ]
             },
-            "guest": "Aaron, Gracie Abrams",
+            "guest": "Aaron , Gracie Abrams",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CuMwXFsOjqR/?img_index=1"
-        },        
+        },
         {
-            "date": "2023-07-07T00:00:00Z",
+            "date": "July 7th, 2023",
             "city": "Kansas City",
             "state": "Missouri",
             "country": "United States",
@@ -603,7 +724,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuhvV5cuRuK/?img_index=1"
         },
         {
-            "date": "2023-07-08T00:00:00Z",
+            "date": "July 8th, 2023",
             "city": "Kansas City",
             "state": "Missouri",
             "country": "United States",
@@ -621,7 +742,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuhvV5cuRuK/?img_index=1"
         },
         {
-            "date": "2023-07-14T00:00:00Z",
+            "date": "July 14th, 2023",
             "city": "Denver",
             "state": "Colorado",
             "country": "United States",
@@ -639,7 +760,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuxQsmGOdd0/?img_index=1"
         },
         {
-            "date": "2023-07-15T00:00:00Z",
+            "date": "July 15th, 2023",
             "city": "Denver",
             "state": "Colorado",
             "country": "United States",
@@ -657,7 +778,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuxQsmGOdd0/?img_index=1"
         },
         {
-            "date": "2023-07-22T00:00:00Z",
+            "date": "July 22th, 2023",
             "city": "Seattle",
             "state": "Washington",
             "country": "United States",
@@ -675,63 +796,79 @@
             "instagramUrl": "https://www.instagram.com/p/CvGRdQZumMJ/?img_index=1"
         },
         {
-            "date": "2023-07-23T00:00:00Z",
+            "date": "July 23rd, 2023",
             "city": "Seattle",
             "state": "Washington",
             "country": "United States",
             "opening": "HAIM, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["Message In A Bottle"],
-                "piano": ["Tied Together With a Smile"]
+                "acoustic": [
+                    "Message In A Bottle"
+                ],
+                "piano": [
+                    "Tied Together With a Smile"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CvGRdQZumMJ/?img_index=1"
         },
         {
-            "date": "2023-07-28T00:00:00Z",
+            "date": "July 28th, 2023",
             "city": "Santa Clara",
             "state": "California",
             "country": "United States",
             "opening": "HAIM, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["right where you left me (feat Aaron Dessner)"],
-                "piano": ["Castles Crumbling"]
+                "acoustic": [
+                    "right where you left me (feat Aaron Dessner) "
+                ],
+                "piano": [
+                    "Castles Crumbling"
+                ]
             },
             "guest": "Aaron Dessner",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CvX7RwmR21L/?img_index=1"
         },
         {
-            "date": "2023-07-29T00:00:00Z",
+            "date": "July 29th, 2023",
             "city": "Santa Clara",
             "state": "California",
             "country": "United States",
             "opening": "HAIM, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["Stay Stay Stay"],
-                "piano": ["All Of The Girls You Loved Before"]
+                "acoustic": [
+                    "Stay Stay Stay"
+                ],
+                "piano": [
+                    "All Of The Girls You Loved Before"
+                ]
             },
             "guest": "",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CvX7RwmR21L/?img_index=1"
         },
         {
-            "date": "2023-08-03T00:00:00Z",
+            "date": "August 3rd, 2023",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
             "opening": "HAIM, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["I Can See You"],
-                "piano": ["Maroon"]
+                "acoustic": [
+                    "I Can See You"
+                ],
+                "piano": [
+                    "Maroon"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": ""
-        },        
+            "instagramUrl": "" 
+        },
         {
-            "date": "2023-08-04T00:00:00Z",
+            "date": "August 4th, 2023",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
@@ -749,7 +886,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2023-08-05T00:00:00Z",
+            "date": "August 5th, 2023",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
@@ -768,7 +905,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-08-07T00:00:00Z",
+            "date": "August 7th, 2024",
             "city": "Los Angeles",
             "state": "",
             "country": "United States",
@@ -786,7 +923,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2023-08-08T00:00:00Z",
+            "date": "August 8th, 2023",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
@@ -804,7 +941,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2023-08-09T00:00:00Z",
+            "date": "August 9th, 2023",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
@@ -822,7 +959,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2023-08-24T00:00:00Z",
+            "date": "August 24th, 2023",
             "city": "Mexico City",
             "state": "",
             "country": "Mexico",
@@ -837,10 +974,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/Cwf9wCbOj0W/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-08-25T00:00:00Z",
+            "date": "August 25th, 2023",
             "city": "Mexico City",
             "state": "",
             "country": "Mexico",
@@ -855,10 +992,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/Cwf9wCbOj0W/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-08-26T00:00:00Z",
+            "date": "August 26th, 2023",
             "city": "Mexico City",
             "state": "",
             "country": "Mexico",
@@ -874,10 +1011,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/Cwf9wCbOj0W/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-08-27T00:00:00Z",
+            "date": "August 27th, 2023",
             "city": "Mexico City",
             "state": "",
             "country": "Mexico",
@@ -892,10 +1029,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/Cwf9wCbOj0W/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-11-09T00:00:00Z",
+            "date": "November 9th, 2023",
             "city": "Buenos Aires",
             "state": "",
             "country": "Argentina",
@@ -910,10 +1047,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/CzmFt42vd2o/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-11-10T00:00:00Z",
+            "date": "November 10th, 2023",
             "city": "Buenos Aires",
             "state": "",
             "country": "Argentina",
@@ -929,10 +1066,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/CzmFt42vd2o/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-11-12T00:00:00Z",
+            "date": "November 12th, 2023",
             "city": "Buenos Aires",
             "state": "",
             "country": "Argentina",
@@ -947,10 +1084,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/CzmFt42vd2o/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-11-17T00:00:00Z",
+            "date": "November 17th, 2023",
             "city": "Rio de Janeiro",
             "state": "",
             "country": "Brazil",
@@ -965,10 +1102,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-11-18T00:00:00Z",
+            "date": "November 18th, 2023",
             "city": "Rio de Janeiro",
             "state": "",
             "country": "Brazil",
@@ -983,10 +1120,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-11-20T00:00:00Z",
+            "date": "November 20th, 2023",
             "city": "Rio de Janeiro",
             "state": "",
             "country": "Brazil",
@@ -1001,10 +1138,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-11-24T00:00:00Z",
+            "date": "November 24th, 2023",
             "city": "S\u00e3o Paulo",
             "state": "",
             "country": "Brazil",
@@ -1019,10 +1156,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-11-25T00:00:00Z",
+            "date": "November 25th, 2023",
             "city": "S\u00e3o Paulo",
             "state": "",
             "country": "Brazil",
@@ -1037,10 +1174,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2023-11-26T00:00:00Z",
+            "date": "November 26th, 2023",
             "city": "S\u00e3o Paulo",
             "state": "",
             "country": "Brazil",
@@ -1055,10 +1192,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-02-07T00:00:00Z",
+            "date": "February 7th, 2024",
             "city": "Tokyo",
             "state": "",
             "country": "Japan",
@@ -1073,10 +1210,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C3MlHOgOGNm/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-02-08T00:00:00Z",
+            "date": "February 8th, 2024",
             "city": "Tokyo",
             "state": "",
             "country": "Japan",
@@ -1091,10 +1228,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C3MlHOgOGNm/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-02-09T00:00:00Z",
+            "date": "February 9th, 2024",
             "city": "Tokyo",
             "state": "",
             "country": "Japan",
@@ -1109,10 +1246,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C3MlHOgOGNm/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-02-10T00:00:00Z",
+            "date": "February 10th, 2024",
             "city": "Tokyo",
             "state": "",
             "country": "Japan",
@@ -1128,10 +1265,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C3MlHOgOGNm/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-02-16T00:00:00Z",
+            "date": "February 16th, 2024",
             "city": "Melbourne",
             "state": "",
             "country": "Australia",
@@ -1146,10 +1283,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C3gJcnSOkNQ/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-02-17T00:00:00Z",
+            "date": "February 17th, 2024",
             "city": "Melbourne",
             "state": "",
             "country": "Australia",
@@ -1166,10 +1303,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C3gJcnSOkNQ/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2025-02-18T00:00:00Z",
+            "date": "February 18th, 2025",
             "city": "Melbourne",
             "state": "",
             "country": "Australia",
@@ -1185,24 +1322,29 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C3gJcnSOkNQ/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-02-23T00:00:00Z",
+            "date": "February 23rd, 2024",
             "city": "Sydney",
             "state": "",
             "country": "Australia",
             "opening": "Sabrina Carpenter",
             "surpriseSongs": {
-                "acoustic": ["How You Get The Girl"],
-                "piano": ["White Horse", "coney island"]
+                "acoustic": [
+                    "How You Get The Girl"
+                ],
+                "piano": [
+                    "White Horse",
+                    "coney island"
+                ]
             },
-            "guest": "with Sabrina Carpenter",
+            "guest": "with Sabrina Carpenter ",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C35HpNEu0wL/?img_index=1"
-        },        
+            "instagramUrl": ""
+        },
         {
-            "date": "2024-02-24T00:00:00Z",
+            "date": "February 24th, 2024",
             "city": "Sydney",
             "state": "",
             "country": "Australia",
@@ -1219,10 +1361,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C35HpNEu0wL/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-02-25T00:00:00Z",
+            "date": "February 25th, 2024",
             "city": "Sydney",
             "state": "",
             "country": "Australia",
@@ -1239,10 +1381,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C35HpNEu0wL/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2025-02-26T00:00:00Z",
+            "date": "February 26th, 2025",
             "city": "Sydney",
             "state": "",
             "country": "Australia",
@@ -1259,38 +1401,50 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C35HpNEu0wL/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-03-02T00:00:00Z",
+            "date": "March 2nd, 2024",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
             "opening": "Sabrina Carpenter",
             "surpriseSongs": {
-                "acoustic": ["Mine", "Starlight"],
-                "piano": ["I Don't Wanna Live Forever", "Dress"]
+                "acoustic": [
+                    "Mine",
+                    "Starlight"
+                ],
+                "piano": [
+                    "I Don't Wanna Live Forever",
+                    "Dress"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-03-03T00:00:00Z",
+            "date": "March 3rd, 2024",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
             "opening": "Sabrina Carpenter",
             "surpriseSongs": {
-                "acoustic": ["long story short", "The Story Of Us"],
-                "piano": ["Clean", "evermore"]
+                "acoustic": [
+                    "long story short",
+                    "The Story Of Us"
+                ],
+                "piano": [
+                    "Clean",
+                    "evermoe"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
-        },        
+            "instagramUrl": ""
+        },
         {
-            "date": "2024-03-04T00:00:00Z",
+            "date": "March 4th, 2024",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1307,10 +1461,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-03-07T00:00:00Z",
+            "date": "March 7th, 2024",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1327,10 +1481,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-03-08T00:00:00Z",
+            "date": "March 8th, 2024",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1347,10 +1501,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-03-09T00:00:00Z",
+            "date": "March 9th, 2024",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1367,10 +1521,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-09T00:00:00Z",
+            "date": "May 9th, 2024",
             "city": "Paris",
             "state": "",
             "country": "France",
@@ -1385,10 +1539,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C64iubPO92m/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-10T00:00:00Z",
+            "date": "May 10th, 2024",
             "city": "Paris",
             "state": "",
             "country": "France",
@@ -1404,10 +1558,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C64iubPO92m/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-11T00:00:00Z",
+            "date": "May 11th, 2024",
             "city": "Paris",
             "state": "",
             "country": "France",
@@ -1422,10 +1576,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C64iubPO92m/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-12T00:00:00Z",
+            "date": "May 12th, 2024",
             "city": "Paris",
             "state": "",
             "country": "France",
@@ -1442,10 +1596,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C64iubPO92m/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-17T00:00:00Z",
+            "date": "May 17th, 2024",
             "city": "Stockholm",
             "state": "",
             "country": "Sweden",
@@ -1461,10 +1615,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C7M5aWQu8J1/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-18T00:00:00Z",
+            "date": "May 18th, 2024",
             "city": "Stockholm",
             "state": "",
             "country": "Sweden",
@@ -1481,10 +1635,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C7M5aWQu8J1/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-19T00:00:00Z",
+            "date": "May 19th, 2024",
             "city": "Stockholm",
             "state": "",
             "country": "Sweden",
@@ -1501,10 +1655,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C7M5aWQu8J1/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-24T00:00:00Z",
+            "date": "May 24th, 2024",
             "city": "Lisbon",
             "state": "",
             "country": "Portugal",
@@ -1522,10 +1676,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C7cUr6zu-OA/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-25T00:00:00Z",
+            "date": "May 25th, 2024",
             "city": "Lisbon",
             "state": "",
             "country": "Portugal",
@@ -1543,10 +1697,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C7cUr6zu-OA/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-29T00:00:00Z",
+            "date": "May 29th, 2024",
             "city": "Madrid",
             "state": "",
             "country": "Spain",
@@ -1563,10 +1717,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C7ob1LhOFQj/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-05-30T00:00:00Z",
+            "date": "May 30th, 2024",
             "city": "Madrid",
             "state": "",
             "country": "Spain",
@@ -1582,38 +1736,49 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C7ob1LhOFQj/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-02T00:00:00Z",
+            "date": "June 2nd, 2024",
             "city": "Lyon",
             "state": "",
             "country": "France",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["The Prophecy", "Long Story Short"],
-                "piano": ["Fifteen", "You’re On Your Own Kid"]
+                "acoustic": [
+                    "The Prophecy",
+                    "Long Story Short"
+                ],
+                "piano": [
+                    "Fifteen",
+                    "You\u2019re On Your Own Kid"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C7zOqupuXZR/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-03T00:00:00Z",
+            "date": "June 3rd, 2024",
             "city": "Lyon",
             "state": "",
             "country": "France",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["Glitch", "Everything Has Changed"],
-                "piano": ["Chloe or Sam or Sophia or Marcus"]
+                "acoustic": [
+                    "Glitch",
+                    "Everything Has Changed"
+                ],
+                "piano": [
+                    "Chloe or Sam or Sophia or Marcus"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C7zOqupuXZR/?img_index=1"
-        },        
+            "instagramUrl": ""
+        },
         {
-            "date": "2024-06-07T00:00:00Z",
+            "date": "June 7th, 2024",
             "city": "Edinburgh",
             "state": "",
             "country": "United Kingdom",
@@ -1632,10 +1797,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8CHiocu4n1/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-08T00:00:00Z",
+            "date": "June 8th, 2024",
             "city": "Edinburgh",
             "state": "",
             "country": "United Kingdom",
@@ -1652,10 +1817,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8CHiocu4n1/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-09T00:00:00Z",
+            "date": "June 9th, 2024",
             "city": "Edinburgh",
             "state": "",
             "country": "United Kingdom",
@@ -1672,10 +1837,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8CHiocu4n1/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-13T00:00:00Z",
+            "date": "June 13th, 2024",
             "city": "Liverpool",
             "state": "",
             "country": "United Kingdom",
@@ -1692,10 +1857,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8R17HiuH7o/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-14T00:00:00Z",
+            "date": "June 14th, 2024",
             "city": "Liverpool",
             "state": "",
             "country": "United Kingdom",
@@ -1712,10 +1877,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8R17HiuH7o/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-15T00:00:00Z",
+            "date": "June 15th, 2024",
             "city": "Liverpool",
             "state": "",
             "country": "United Kingdom",
@@ -1733,10 +1898,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8R17HiuH7o/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-18T00:00:00Z",
+            "date": "June 18th, 2024",
             "city": "Cardiff",
             "state": "",
             "country": "United Kingdom",
@@ -1753,52 +1918,70 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8b4KnYMoOv/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-21T00:00:00Z",
+            "date": "June 21st, 2024",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["Hits Different", "Death by a Thousand Cuts"],
-                "piano": ["The Black Dog", "Come Back... Be Here", "Maroon"]
+                "acoustic": [
+                    "Hits Different",
+                    "Death by a Thousand Cuts"
+                ],
+                "piano": [
+                    "The Black Dog",
+                    "Come Back... Be Here",
+                    "Maroon"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-22T00:00:00Z",
+            "date": "June 22nd, 2024",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["thanK you aIMee", "Mean"],
-                "piano": ["Castles Crumbling with Hayley Williams"]
+                "acoustic": [
+                    "thanK you aIMee",
+                    "Mean"
+                ],
+                "piano": [
+                    "Castles Crumbling with Hayley Williams"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-23T00:00:00Z",
+            "date": "June 23rd, 2024",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["us. with Gracie Abrams"],
-                "piano": ["Out of the Woods", "Is It Over Now?", "Clean"]
+                "acoustic": [
+                    "us. with Gracie Abrams"
+                ],
+                "piano": [
+                    "Out of the Woods",
+                    "Is It Over Now?",
+                    "Clean"
+                ]
             },
             "guest": "Gracie Abrams",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
-        },        
+            "instagramUrl": ""
+        },
         {
-            "date": "2024-06-28T00:00:00Z",
+            "date": "June 28th, 2024",
             "city": "Dublin",
             "state": "",
             "country": "Ireland",
@@ -1815,10 +1998,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C87F5ZGOefC/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-29T00:00:00Z",
+            "date": "June 29th, 2024",
             "city": "Dublin",
             "state": "",
             "country": "Ireland",
@@ -1835,10 +2018,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C87F5ZGOefC/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-06-30T00:00:00Z",
+            "date": "June 30th, 2024",
             "city": "Dublin",
             "state": "",
             "country": "Ireland",
@@ -1854,10 +2037,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C87F5ZGOefC/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-04T00:00:00Z",
+            "date": "July 4th, 2024",
             "city": "Amsterdam",
             "state": "",
             "country": "Netherlands",
@@ -1874,10 +2057,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9ISoQEu9iH/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-05T00:00:00Z",
+            "date": "July 5th, 2024",
             "city": "Amsterdam",
             "state": "",
             "country": "Netherlands",
@@ -1894,10 +2077,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9ISoQEu9iH/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-06T00:00:00Z",
+            "date": "July 6th, 2024",
             "city": "Amsterdam",
             "state": "",
             "country": "Netherlands",
@@ -1915,10 +2098,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9ISoQEu9iH/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-09T00:00:00Z",
+            "date": "July 9th, 2024",
             "city": "Zurich",
             "state": "",
             "country": "Switzerland",
@@ -1935,10 +2118,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9TB818B1Mt/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-10T00:00:00Z",
+            "date": "July 10th, 2024",
             "city": "Zurich",
             "state": "",
             "country": "Switzerland",
@@ -1955,10 +2138,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9TB818B1Mt/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-13T00:00:00Z",
+            "date": "July 13th, 2024",
             "city": "Milan",
             "state": "",
             "country": "Italy",
@@ -1975,10 +2158,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9c3Mo1uFd2/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-14T00:00:00Z",
+            "date": "July 14th, 2024",
             "city": "Milan",
             "state": "",
             "country": "Italy",
@@ -1995,10 +2178,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9c3Mo1uFd2/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-17T00:00:00Z",
+            "date": "July 17th, 2024",
             "city": "Gelsenkirchen",
             "state": "",
             "country": "Germany",
@@ -2015,10 +2198,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9ppG8JvwjM/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-18T00:00:00Z",
+            "date": "July 18th, 2024",
             "city": "Gelsenkirchen",
             "state": "",
             "country": "Germany",
@@ -2035,10 +2218,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9ppG8JvwjM/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-19T00:00:00Z",
+            "date": "July 19th, 2024",
             "city": "Gelsenkirchen",
             "state": "",
             "country": "Germany",
@@ -2055,122 +2238,171 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C9ppG8JvwjM/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-23T00:00:00Z",
+            "date": "July 23rd, 2024",
             "city": "Hamburg",
             "state": "",
             "country": "Germany",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["Teardrops On My Guitar", "The Last Time"],
-                "piano": ["We Were Happy", "happiness"]
+                "acoustic": [
+                    "Teardrops On My Guitar",
+                    "The Last Time"
+                ],
+                "piano": [
+                    "We Were Happy",
+                    "happiness"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C92SRrvuqy_/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-24T00:00:00Z",
+            "date": "July 24rd, 2024",
             "city": "Hamburg",
             "state": "",
             "country": "Germany",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["the last great american dynasty", "Run"],
-                "piano": ["Nothing New", "Dear Reader"]
+                "acoustic": [
+                    "the last great american dynasty",
+                    "Run"
+                ],
+                "piano": [
+                    "Nothing New",
+                    "Dear Reader"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C92SRrvuqy_/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-27T00:00:00Z",
+            "date": "July 27th, 2024",
             "city": "Munich",
             "state": "",
             "country": "Germany",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["Fresh Out of the Slammer", "You Are In Love"],
-                "piano": ["ivy", "Call It What You Want"]
+                "acoustic": [
+                    "Fresh Out of the Slammer",
+                    "You Are In Love"
+                ],
+                "piano": [
+                    "ivy",
+                    "Call It What You Want"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C-GD_KzOnGx/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-07-28T00:00:00Z",
+            "date": "July 28th, 2024",
             "city": "Munich",
             "state": "",
             "country": "Germany",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["I Don't Wanna Live Forever", "imgonnagetyouback"],
-                "piano": ["loml", "Don't You"]
+                "acoustic": [
+                    "I Don't Wanna Live Forever",
+                    "imgonnagetyouback"
+                ],
+                "piano": [
+                    "loml",
+                    "Don't You"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C-GD_KzOnGx/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-08-01T00:00:00Z",
+            "date": "August 1st, 2024",
             "city": "Warsaw",
             "state": "",
             "country": "Poland",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["mirrorball", "Clara Bow"],
-                "piano": ["Surburban Legends", "New Year's Day"]
+                "acoustic": [
+                    "mirrorball",
+                    "Clara Bow"
+                ],
+                "piano": [
+                    "Surburban Legends",
+                    "New Year's Day"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C-VyDVMhrNH/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-08-02T00:00:00Z",
+            "date": "August 2nd, 2024",
             "city": "Warsaw",
             "state": "",
             "country": "Poland",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["I Can Fix Him (No Really I Can)", "I Can See You"],
-                "piano": ["Red", "Maroon"]
+                "acoustic": [
+                    "I Can Fix Him (No Really I Can)",
+                    "I Can See You"
+                ],
+                "piano": [
+                    "Red",
+                    "Maroon"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C-VyDVMhrNH/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-08-03T00:00:00Z",
+            "date": "August 3rd, 2024",
             "city": "Warsaw",
             "state": "",
             "country": "Poland",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["Today Was a Fairytale", "I Think He Knows"],
-                "piano": ["The Black Dog", "exile"]
+                "acoustic": [
+                    "Today Was a Fairytale",
+                    "I Think He Knows"
+                ],
+                "piano": [
+                    "The Black Dog",
+                    "exile"
+                ]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C-VyDVMhrNH/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-08-15T00:00:00Z",
+            "date": "August 15th, 2024",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
             "opening": "Paramore, Sofia Isella",
             "surpriseSongs": {
-                "acoustic": ["Everything Has Changed", "End Game", "Thinking Out Loud with Ed Sheeran"],
-                "piano": ["King of My Heart", "The Alchemy"]
+                "acoustic": [
+                    "Everything Has Changed",
+                    "End Game",
+                    "Thinking Out Loud with Ed Sheeran"
+                ],
+                "piano": [
+                    "King of My Heart",
+                    "The Alchemy"
+                ]
             },
             "guest": "Ed Sheeran",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
-        },        
+            "instagramUrl": ""
+        },
         {
-            "date": "2024-08-16T00:00:00Z",
+            "date": "August 16th, 2024",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -2186,10 +2418,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-08-17T00:00:00Z",
+            "date": "August 17th, 2024",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -2205,10 +2437,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-08-19T00:00:00Z",
+            "date": "August 19th, 2024",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -2226,10 +2458,10 @@
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-08-20T00:00:00Z",
+            "date": "August 20th, 2024",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -2246,10 +2478,10 @@
             },
             "guest": "Jack Antonoff, Florida!!! with Florence",
             "costumes": {},
-            "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
+            "instagramUrl": ""
         },
         {
-            "date": "2024-10-18T00:00:00Z",
+            "date": "October 18th, 2024",
             "city": "Miami",
             "state": "Florida",
             "country": "United States",
@@ -2263,7 +2495,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-10-19T00:00:00Z",
+            "date": "October 19th, 2024",
             "city": "Miami",
             "state": "Florida",
             "country": "United States",
@@ -2277,7 +2509,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-10-20T00:00:00Z",
+            "date": "October 20th, 2024",
             "city": "Miami",
             "state": "Florida",
             "country": "United States",
@@ -2291,7 +2523,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-10-25T00:00:00Z",
+            "date": "October 25th, 2024",
             "city": "New Orleans",
             "state": "Louisiana",
             "country": "United States",
@@ -2305,7 +2537,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-10-26T00:00:00Z",
+            "date": "October 26th, 2024",
             "city": "New Orleans",
             "state": "Louisiana",
             "country": "United States",
@@ -2319,7 +2551,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-10-27T00:00:00Z",
+            "date": "October 27th, 2024",
             "city": "New Orleans",
             "state": "Louisiana",
             "country": "United States",
@@ -2333,7 +2565,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-01T00:00:00Z",
+            "date": "November 1st, 2024",
             "city": "Indianapolis",
             "state": "Indiana",
             "country": "United States",
@@ -2347,7 +2579,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-02T00:00:00Z",
+            "date": "November 2nd, 2024",
             "city": "Indianapolis",
             "state": "Indiana",
             "country": "United States",
@@ -2361,7 +2593,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-03T00:00:00Z",
+            "date": "November 3rd, 2024",
             "city": "Indianapolis",
             "state": "Indiana",
             "country": "United States",
@@ -2373,9 +2605,9 @@
             "guest": "",
             "costumes": {},
             "instagramUrl": ""
-        },        
+        },
         {
-            "date": "2024-11-14T00:00:00Z",
+            "date": "November 14th, 2024",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2389,7 +2621,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-15T00:00:00Z",
+            "date": "November 15th, 2024",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2403,7 +2635,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-16T00:00:00Z",
+            "date": "November 16th, 2024",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2417,7 +2649,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-21T00:00:00Z",
+            "date": "November 21st, 2024",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2431,7 +2663,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-22T00:00:00Z",
+            "date": "November 22nd, 2024",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2445,7 +2677,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-23T00:00:00Z",
+            "date": "November 23rd, 2024",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2457,9 +2689,9 @@
             "guest": "",
             "costumes": {},
             "instagramUrl": ""
-        },        
+        },
         {
-            "date": "2024-12-06T00:00:00Z",
+            "date": "December 6th, 2024",
             "city": "Vancouver",
             "state": "",
             "country": "Canada",
@@ -2473,7 +2705,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-12-07T00:00:00Z",
+            "date": "December 7th, 2024",
             "city": "Vancouver",
             "state": "",
             "country": "Canada",
@@ -2487,7 +2719,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-12-08T00:00:00Z",
+            "date": "December 8th, 2024",
             "city": "Vancouver",
             "state": "",
             "country": "Canada",
