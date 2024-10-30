@@ -30,6 +30,7 @@ const SelectShow: React.FC = () => {
     const [selectedShow, setSelectedShow] = useState<Show | null>(null);
     const [embedKey, setEmbedKey] = useState<number>(0); // To force re-render of Instagram embed
     const [countdown, setCountdown] = useState<{ days: number; hours: number; minutes: number; seconds: number } | null>(null);
+    const [nextShow, setNextShow] = useState<Show | null>(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -70,7 +71,7 @@ const SelectShow: React.FC = () => {
             };
 
             return () => {
-                document.body.removeChild(script); // Clean up script on unmount
+                document.body.removeChild(script); 
             };
         }
     }, [embedKey, selectedShow]);
@@ -78,31 +79,62 @@ const SelectShow: React.FC = () => {
     useEffect(() => {
         const calculateCountdown = () => {
             const now = new Date();
-            const nextShow = shows.find(show => new Date(show.date) > now); // Find the next show after the current date
-
+            const upcomingShows = shows
+                .map(show => ({ ...show, date: new Date(show.date).toISOString() })) // Convert date to ISO string
+                .filter(show => new Date(show.date) > now) // Use new Date to compare
+                .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+        
+            const nextShow = upcomingShows.length > 0 ? upcomingShows[0] : null; 
+            setNextShow(nextShow); // This will now have the correct type
+        
+            console.log('Next Show:', nextShow); // Check the next show data
+        
             if (nextShow) {
-                const showDate = new Date(nextShow.date);
+                const showDate = new Date(nextShow.date); // Convert back to Date for countdown calculation
                 const timeDifference = showDate.getTime() - now.getTime();
-
+        
                 if (timeDifference > 0) {
                     const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
                     const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                     const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
                     const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-
+        
                     setCountdown({ days, hours, minutes, seconds });
-                } else {
-                    setCountdown(null); // No upcoming show
                 }
+            } else {
+                setCountdown(null); // No upcoming shows
             }
         };
-
+    
         calculateCountdown(); 
-
+    
         const countdownInterval = setInterval(calculateCountdown, 1000); // Update countdown every second
+    
+        return () => clearInterval(countdownInterval); 
+    }, [shows]); 
+    
+    
+    
+    // this part for formatting date 
+    const formatDateWithSuffix = (dateString: string): string => {
+    const showDate = new Date(dateString);
+    const year = showDate.getFullYear();
+    const month = showDate.toLocaleString('default', { month: 'long' });
+    const day = showDate.getDate();
 
-        return () => clearInterval(countdownInterval); // Cleanup interval on unmount
-    }, [shows]);
+    const getDayWithSuffix = (day: number): string => {
+        if (day > 3 && day < 21) return `${day}th`;
+        switch (day % 10) {
+            case 1: return `${day}st`;
+            case 2: return `${day}nd`;
+            case 3: return `${day}rd`;
+            default: return `${day}th`;
+        }
+    };
+
+    return `${getDayWithSuffix(day)} ${month} ${year}`;
+    };
+
 
     return (
         <div className='artboard artboard-horizontal'>
@@ -120,30 +152,11 @@ const SelectShow: React.FC = () => {
                     {shows.length === 0 ? (
                         <option disabled>Loading shows...</option>
                     ) : (
-                        shows.map((show, index) => {
-                            const showDate = new Date(show.date);
-                            const year = showDate.getFullYear();
-                            const month = showDate.toLocaleString('default', { month: 'long' });
-                            const day = showDate.getDate();
-
-                            const getDayWithSuffix = (day) => {
-                                if (day > 3 && day < 21) return `${day}th`;
-                                switch (day % 10) {
-                                    case 1: return `${day}st`;
-                                    case 2: return `${day}nd`;
-                                    case 3: return `${day}rd`;
-                                    default: return `${day}th`;
-                                }
-                            };
-
-                            const formattedDate = `${year} ${month} ${getDayWithSuffix(day)}`;
-
-                            return (
+                        shows.map((show, index) =>  (
                                 <option key={index} value={show.date}>
-                                    {`${formattedDate} in ${show.city}, ${show.country}`}
+                                    {`${formatDateWithSuffix(show.date)} in ${show.city}, ${show.country}`}
                                 </option>
-                            );
-                        })
+                            ))
                     )}
                 </select>
 
@@ -167,7 +180,7 @@ const SelectShow: React.FC = () => {
                             <div className="prose card-body font-serif">
                                 <div>
                                     <h2 className="text-lg font-bold mb-3">⭐ Show Details ⭐</h2>
-                                    <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{selectedShow.date}</p>
+                                    <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{formatDateWithSuffix(selectedShow.date)}</p>
                                     <p className='mt-2'>📍&nbsp;&nbsp;{selectedShow.city}{selectedShow.state ? `, ${selectedShow.state}` : ""}, {selectedShow.country}</p>
                                     <p className='mt-2'><strong>Surprise Songs:</strong></p>
                                     <p className='mt-1 italic'>🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(", ")}</p>
@@ -180,10 +193,9 @@ const SelectShow: React.FC = () => {
                     </div>
                 )}
 
-                <div className="prose p-6 font-mono"><h2>Next Show In</h2></div>
-                <div> 
+                <div className="prose flex p-6 font-mono"><h2>Next Show In</h2></div>
                     {countdown ? (
-                        <div className="flex gap-5">
+                        <div className="flex content-center gap-5">
                             <div>
                                 <span className="countdown font-mono text-4xl">
                                     <span style={{ "--value": countdown.days } as React.CSSProperties}></span>
@@ -212,7 +224,14 @@ const SelectShow: React.FC = () => {
                     ) : (
                         <p className='prose'>No upcoming shows.</p>
                     )}
-                </div>
+                    {nextShow && (
+                        <div className='flex'>
+                            <p className="prose p-6 font-mono">
+                            On {formatDateWithSuffix(nextShow.date)} in {nextShow.city}, {nextShow.country}
+                            </p>
+                        </div>
+                    )}
+                
             </div>
         </div>
     );
