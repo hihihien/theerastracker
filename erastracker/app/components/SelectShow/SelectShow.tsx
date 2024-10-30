@@ -122,7 +122,21 @@ const SelectShow: React.FC = () => {
                     ) : (
                         shows.map((show, index) => {
                             const showDate = new Date(show.date);
-                            const formattedDate = `${showDate.getFullYear()}-${String(showDate.getMonth() + 1).padStart(2, '0')}-${String(showDate.getDate()).padStart(2, '0')}`;
+                            const year = showDate.getFullYear();
+                            const month = showDate.toLocaleString('default', { month: 'long' });
+                            const day = showDate.getDate();
+
+                            const getDayWithSuffix = (day) => {
+                                if (day > 3 && day < 21) return `${day}th`;
+                                switch (day % 10) {
+                                    case 1: return `${day}st`;
+                                    case 2: return `${day}nd`;
+                                    case 3: return `${day}rd`;
+                                    default: return `${day}th`;
+                                }
+                            };
+
+                            const formattedDate = `${year} ${month} ${getDayWithSuffix(day)}`;
 
                             return (
                                 <option key={index} value={show.date}>
