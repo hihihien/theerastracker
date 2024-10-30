@@ -10,6 +10,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <SelectShow />
+      <Link href="/aboutMe" />
       {/* <Link href="/surpriseSongs">Suprise Songs List</Link> */}
       <Footer />
     </main>
