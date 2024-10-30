@@ -97,7 +97,7 @@ const SelectShow: React.FC = () => {
             }
         };
 
-        calculateCountdown(); // Initial calculation
+        calculateCountdown(); 
 
         const countdownInterval = setInterval(calculateCountdown, 1000); // Update countdown every second
 
@@ -120,11 +120,16 @@ const SelectShow: React.FC = () => {
                     {shows.length === 0 ? (
                         <option disabled>Loading shows...</option>
                     ) : (
-                        shows.map((show, index) => (
-                            <option key={index} value={show.date}>
-                                {`${show.date} - ${show.city}, ${show.country}`}
-                            </option>
-                        ))
+                        shows.map((show, index) => {
+                            const showDate = new Date(show.date);
+                            const formattedDate = `${showDate.getFullYear()}-${String(showDate.getMonth() + 1).padStart(2, '0')}-${String(showDate.getDate()).padStart(2, '0')}`;
+
+                            return (
+                                <option key={index} value={show.date}>
+                                    {`${formattedDate} in ${show.city}, ${show.country}`}
+                                </option>
+                            );
+                        })
                     )}
                 </select>
 
