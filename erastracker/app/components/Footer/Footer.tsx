@@ -19,9 +19,9 @@ const Footer = () => {
             <p>Copyright @hihihien © {new Date().getFullYear()}</p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-            <a href='https://github.com/hihihien'><FaGithub className='size-6'/></a>
-            <a href='https://www.instagram.com/motchiecfortunecookie/'><FaInstagram className='size-6'/></a>
-            <a href='https://x.com/hokano29'><FaXTwitter className='size-6'/></a>
+            <a target="_blank" href='https://github.com/hihihien'><FaGithub className='size-6'/></a>
+            <a target="_blank" href='https://www.instagram.com/mochifoco/'><FaInstagram className='size-6'/></a>
+            <a target="_blank" href='https://x.com/hokano29'><FaXTwitter className='size-6'/></a>
         </nav>
         </footer>
   )

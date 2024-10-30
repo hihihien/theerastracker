@@ -2,6 +2,7 @@ import React from 'react';
 import { TbMusicStar, TbHomeStar } from "react-icons/tb";
 import erasLogo from "../../../public/img/erasLogo.png"
 import Image from 'next/image';
+import Link from 'next/link';
 
 const NavBar = () => {
   return (
@@ -11,19 +12,26 @@ const NavBar = () => {
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
             <TbHomeStar className="size-6 drop-shadow-lg" />
             </div>
-            <a href='https://open.spotify.com/playlist/37i9dQZF1DX0D996ZXujBy?si=1ec13aaa2d254444' target="_blank" rel="noopener noreferrer">
-                <div role="button" className="btn btn-ghost btn-circle">
-                <TbMusicStar className="size-6 drop-shadow-lg" />
-                </div>
-            </a>
             <ul
-                tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a href='/'>Homepage</a></li>
-                <li><a>About Me</a></li>
-            </ul>
-            </div>
+            tabIndex={0}
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li>
+              <Link href="/">Homepage</Link>
+            </li>
+            <li>
+              <Link href="/aboutMe">About Me</Link>
+            </li>
+          </ul>
         </div>
+        <a
+          href='https://open.spotify.com/playlist/37i9dQZF1DX0D996ZXujBy?si=1ec13aaa2d254444'
+          target="_blank"
+          rel="noopener noreferrer">
+          <div role="button" className="btn btn-ghost btn-circle">
+            <TbMusicStar className="size-6 drop-shadow-lg" />
+          </div>
+        </a>
+      </div>
         <div className="prose navbar-center max-w-36">
             <Image src={erasLogo} alt='erasLogo'/>
         </div>

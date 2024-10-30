@@ -45,8 +45,8 @@ const LastSurpriseSongs: React.FC<LastSurpriseSongsProps> = ({ lastShow }) => {
     };
 
     return (
-        <div className="prose p-6 font-mono">
-            <h2 className="text-lg font-bold mb-3">🎶 Last Surprise Songs 🎶</h2>
+        <div className="prose p-6 font-mono text-center mt-4">
+            <h2 className="font-bold mb-4">🎶 about the last show 🎶</h2>
             <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{formatDateWithSuffix(lastShow.date)}</p>
             <p className='mt-2'>📍&nbsp;&nbsp;{lastShow.city}{lastShow.state ? `, ${lastShow.state}` : ""}, {lastShow.country}</p>
             <p className='mt-2'><strong>Surprise Songs:</strong></p>
