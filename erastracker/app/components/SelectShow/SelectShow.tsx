@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import LastSurpriseSongs from './LastSurpriseSongs';
 
 interface SurpriseSongs {
     acoustic: string[];
@@ -31,6 +32,7 @@ const SelectShow: React.FC = () => {
     const [embedKey, setEmbedKey] = useState<number>(0); // To force re-render of Instagram embed
     const [countdown, setCountdown] = useState<{ days: number; hours: number; minutes: number; seconds: number } | null>(null);
     const [nextShow, setNextShow] = useState<Show | null>(null);
+    const [lastShow, setLastShow] = useState<Show | null>(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -48,6 +50,27 @@ const SelectShow: React.FC = () => {
 
         fetchData();
     }, []);
+
+    useEffect(() => {
+        const fetchLastShow = () => {
+            const now = new Date();
+            const pastShows = shows
+                .map(show => ({ ...show, date: new Date(show.date) }))
+                .filter(show => show.date <= now)
+                .sort((a, b) => b.date.getTime() - a.date.getTime());
+
+            const mostRecentShow = pastShows[0] || null;
+
+            // Convert date back to string before setting the last show
+            if (mostRecentShow) {
+                setLastShow({ ...mostRecentShow, date: mostRecentShow.date.toISOString() });
+            } else {
+                setLastShow(null);
+            }
+        };
+
+        fetchLastShow();
+    }, [shows]);
 
     const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const selectedDate = event.target.value;
@@ -139,6 +162,7 @@ const SelectShow: React.FC = () => {
     return (
         <div className='artboard artboard-horizontal'>
             <div className="flex w-full flex-col items-center justify-center gap-4 place-items-stretch">
+                <LastSurpriseSongs lastShow={lastShow} />
                 <div className="prose p-6 font-mono"><h2>Select Your Show</h2></div>
                 
                 <select
