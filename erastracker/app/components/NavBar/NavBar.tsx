@@ -15,13 +15,13 @@ const NavBar = () => {
             <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li>
-              <Link href="/">Homepage</Link>
-            </li>
-            <li>
-              <Link href="/aboutMe">About Me</Link>
-            </li>
-          </ul>
+                <li>
+                <Link href="/">Homepage</Link>
+                </li>
+                <li>
+                <Link href="/aboutMe">About Me</Link>
+                </li>
+            </ul>
         </div>
         <a
           href='https://open.spotify.com/playlist/37i9dQZF1DX0D996ZXujBy?si=1ec13aaa2d254444'
