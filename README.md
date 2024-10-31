@@ -5,7 +5,7 @@ A fun, fan-made project to track Taylor Swift's Eras Tour with all the concert d
 ## Features
 - **Concert Details**: Info on each show, including date, city, and special guest appearances.
 - **Surprise Songs**: A list of surprise songs from each concert, divided by acoustic and piano sets.
-- **Countdown Timer**: Days, hours, and minutes until the next show.
+- **Countdown Timer**: until the next show.
 - **Instagram Embeds**: Instagram posts embedded for visual highlights from each show.
 
 ## Tech Stack
@@ -17,12 +17,12 @@ A fun, fan-made project to track Taylor Swift's Eras Tour with all the concert d
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/eras-tour-tracker.git
+   git clone https://github.com/hihihien/theerastracker.git
    ```
    
 2. **Navigate to the project folder**
    ```bash
-   cd eras-tour-tracker
+   cd erastracker
    ```
    
 3. **Install dependencies**
