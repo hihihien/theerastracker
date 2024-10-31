@@ -80,7 +80,6 @@ const SelectShow: React.FC = () => {
     };
 
     useEffect(() => {
-        // Ensure Instagram embeds are refreshed after changing the selected show
         if (selectedShow?.instagramUrl) {
             const script = document.createElement('script');
             script.async = true;
@@ -103,17 +102,17 @@ const SelectShow: React.FC = () => {
         const calculateCountdown = () => {
             const now = new Date();
             const upcomingShows = shows
-                .map(show => ({ ...show, date: new Date(show.date).toISOString() })) // Convert date to ISO string
-                .filter(show => new Date(show.date) > now) // Use new Date to compare
+                .map(show => ({ ...show, date: new Date(show.date).toISOString() })) 
+                .filter(show => new Date(show.date) > now) 
                 .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
         
             const nextShow = upcomingShows.length > 0 ? upcomingShows[0] : null; 
-            setNextShow(nextShow); // This will now have the correct type
+            setNextShow(nextShow); 
         
-            console.log('Next Show:', nextShow); // Check the next show data
+            console.log('Next Show:', nextShow); // check the next show data
         
             if (nextShow) {
-                const showDate = new Date(nextShow.date); // Convert back to Date for countdown calculation
+                const showDate = new Date(nextShow.date); 
                 const timeDifference = showDate.getTime() - now.getTime();
         
                 if (timeDifference > 0) {
@@ -125,13 +124,13 @@ const SelectShow: React.FC = () => {
                     setCountdown({ days, hours, minutes, seconds });
                 }
             } else {
-                setCountdown(null); // No upcoming shows
+                setCountdown(null);
             }
         };
     
         calculateCountdown(); 
     
-        const countdownInterval = setInterval(calculateCountdown, 1000); // Update countdown every second
+        const countdownInterval = setInterval(calculateCountdown, 1000); // update countdown every second
     
         return () => clearInterval(countdownInterval); 
     }, [shows]); 
@@ -185,37 +184,35 @@ const SelectShow: React.FC = () => {
                 </select>
 
                 {selectedShow && (
-                    <div className="flex flex-col lg:flex-row">
-                        <div className="card card-side rounded-box border-2 border-inherit shadow-xl m-4">
-                            <div>
-                                <div className="prose m-4">
-                                    {selectedShow.instagramUrl && (
-                                        <div className="instagram-post" key={embedKey}>
-                                            <blockquote 
-                                                className="instagram-media" 
-                                                data-instgrm-permalink={selectedShow.instagramUrl} 
-                                                data-instgrm-version="14" 
-                                                style={{ margin: "1px auto", width: "100%" }}>
-                                            </blockquote>
-                                        </div>
-                                    )}
+                    <div className="card rounded-box border-2 border-inherit shadow-xl m-4 flex flex-col lg:flex-row">
+                        {/* Instagram Embed Section */}
+                        <div className="w-full lg:w-1/2">
+                            {selectedShow.instagramUrl && (
+                                <div className="prose m-4 instagram-post" key={embedKey}>
+                                    <blockquote
+                                        className="instagram-media"
+                                        data-instgrm-permalink={selectedShow.instagramUrl}
+                                        data-instgrm-version="14"
+                                        style={{ margin: "1px auto", width: "100%" }}
+                                    />
                                 </div>
-                            </div>
-                            <div className="prose card-body font-serif">
-                                <div>
-                                    <h2 className="text-lg font-bold mb-3">⭐ Show Details ⭐</h2>
-                                    <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{formatDateWithSuffix(selectedShow.date)}</p>
-                                    <p className='mt-2'>📍&nbsp;&nbsp;{selectedShow.city}{selectedShow.state ? `, ${selectedShow.state}` : ""}, {selectedShow.country}</p>
-                                    <p className='mt-2'><strong>Surprise Songs:</strong></p>
-                                    <p className='mt-1 italic'>🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(", ")}</p>
-                                    <p className='mt-1 italic'>🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(", ")}</p>
-                                    <p className='mt-2'><strong>Opening Artist:</strong> {selectedShow.opening || "No guest"}</p>
-                                    <p className='mt-2'><strong>Special Guest:</strong> {selectedShow.guest || "No guest"}</p>
-                                </div>
-                            </div>
+                            )}
+                        </div>
+                        
+                        {/* Card Body Section */}
+                        <div className="prose card-body font-serif w-full lg:w-1/2">
+                            <h2 className="text-lg font-bold mb-3">⭐ Show Details ⭐</h2>
+                            <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{formatDateWithSuffix(selectedShow.date)}</p>
+                            <p className='mt-2'>📍&nbsp;&nbsp;{selectedShow.city}{selectedShow.state ? `, ${selectedShow.state}` : ""}, {selectedShow.country}</p>
+                            <p className='mt-2'><strong>Surprise Songs:</strong></p>
+                            <p className='mt-1 italic'>🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(", ")}</p>
+                            <p className='mt-1 italic'>🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(", ")}</p>
+                            <p className='mt-2'><strong>Opening Artist:</strong> {selectedShow.opening || "No guest"}</p>
+                            <p className='mt-2'><strong>Special Guest:</strong> {selectedShow.guest || "No guest"}</p>
                         </div>
                     </div>
                 )}
+
 
                 <div className="prose flex p-6 font-mono"><h2>Next Show In</h2></div>
                     {countdown ? (
