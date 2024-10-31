@@ -73,7 +73,7 @@ const AboutMe = () => {
               <div className="chat-bubble chat-bubble-secondary"><p className="text-lg">
                 Feel free to reach out to me on 
                 <a target="_blank" href="https://x.com/hokano29" className="underline underline-offset-2 decoration-2 decoration-pink-500 ml-2 text-slate-950 font-bold">Twitter</a>, 
-                <a target="_blank" href="https://github.com/hihihien" className="underline underline-offset-2 decoration-2 decoration-pink-500 ml-2 text-slate-950 font-bold">LinkedIn</a>, or 
+                <a target="_blank" href="https://www.linkedin.com/in/hien-giang/" className="underline underline-offset-2 decoration-2 decoration-pink-500 ml-2 text-slate-950 font-bold">LinkedIn</a>, or 
                 <a target="_blank" href="mailto:gianghien2999@gmail.com" className="underline underline-offset-2 decoration-2 decoration-pink-500 ml-2 text-slate-950 font-bold">Email</a>. 
                 
               </p></div>
