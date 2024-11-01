@@ -43,13 +43,13 @@ const AboutMe = () => {
       </p>
 
       <p className="text-lg text-gray-700 mb-4">
-        This <a className="font-bold text-pink-500 hover:text-pink-700 no-underline">Eras Tour</a> 🌍 project grew from my appreciation for Taylor Swift and a genuine curiosity about tracking each surprise song and tour detail.
-        It’s been an exciting blend of web development, visuals and research — and yes, I’m a bit proud of the result! I hope it brings a dash of insight, and maybe some joy to fellow Swiftie curiosities along the way. 🎶
+        This <a className="font-bold text-pink-500 hover:text-pink-700 no-underline">Eras Tour</a> 🌍 project grew from my appreciation for Taylor Swift and my hobby of tracking her surprise songs and tour detail.
+        It’s been an exciting blend of web development, visuals and research — and yes, I’m a bit proud of the result! I hope it brings a biz of insight, and maybe some joy to fellow Swiftie along the way. 🎶
       </p>
 
       <p className="text-lg text-gray-700 mb-4">
-        As I look forward, I’m excited to continue this journey in <a className="font-bold text-pink-500 hover:text-pink-700 no-underline">digital storytelling</a> 📖 and uncover fresh, creative ways to engage with people ✨ 
-        Whether you’re a Swiftie, who enjoyed this project, or just wandered by out of curiosity, feel free to reach out — I’d love to connect!
+        As I look forward, I’m excited to continue this journey in <a className="font-bold text-pink-500 hover:text-pink-700 no-underline">digital storytelling</a> 📖 and uncover more creative ways to engage with people ✨ 
+        Whether you’re a Swiftie, who enjoyed this project, or just wandered by, feel free to reach out — I’d love to connect!
       </p>
       </div>
       </div>
