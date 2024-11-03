@@ -2408,8 +2408,8 @@
             "country": "United States",
             "opening": "Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": [],
-                "piano": []
+                "acoustic": ["The Prophecy", "This Love"],
+                "piano": ["Maroon","Cowboy Like Me"]
             },
             "guest": "",
             "costumes": {},
