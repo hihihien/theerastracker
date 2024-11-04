@@ -2422,8 +2422,8 @@
             "country": "United States",
             "opening": "Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": [],
-                "piano": []
+                "acoustic": ["Cornelia Street","The Bolter"],
+                "piano": ["Death by a Thousand Cuts","The Great War"]
             },
             "guest": "",
             "costumes": {},
