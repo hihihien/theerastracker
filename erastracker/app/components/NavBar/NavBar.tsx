@@ -36,10 +36,7 @@ const NavBar = () => {
             <Image src={erasLogo} alt='erasLogo'/>
         </div>
         <div className="navbar-end">
-            <button className="btn btn-ghost btn-circle">
-            
-            </button>
-            <button className="btn btn-ghost btn-circle">
+            <button className="btn btn-ghost btn-circle" title="Action Description">
             <div className="indicator">
                 <a href="https://store.taylorswift.com/" target="_blank" rel="noreferrer">
                 <svg viewBox="0 0 667.88 643.25" className="size-6">

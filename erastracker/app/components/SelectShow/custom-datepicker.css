@@ -3,15 +3,24 @@
   }
   
   .react-datepicker__day {
-    @apply btn btn-sm btn-outline hover:bg-secondary hover:text-base-100;
+    @apply btn btn-sm btn-outline hover:bg-secondary hover:text-secondary;
   }
-  
+
+  .react-datepicker__day:active {
+    @apply text-secondary font-bold border border-secondary-content rounded-lg;
+  }
+
   .react-datepicker__day--selected {
-    @apply btn-secondary text-secondary-content;
-  }
+    @apply bg-secondary font-bold border border-secondary-content rounded-lg shadow-md !important;
+}
+
+  .react-datepicker__day--selected:focus {
+      @apply ring-2 ring-secondary-content ring-inset shadow-xl text-secondary bg-secondary-content !important; 
+    }
+  
   
   .react-datepicker__day--today {
-    @apply bg-secondary text-secondary-content font-bold;
+    @apply ring-2 ring-primary-content ring-inset font-bold !important;
   }
   
   .react-datepicker__header {
@@ -21,4 +30,12 @@
   .react-datepicker__current-month,
   .react-datepicker__day-name {
     @apply text-secondary;
+  }
+
+  .bg-success {
+    @apply bg-primary !important;
+  }
+
+  .text-white {
+      @apply text-primary-content;
   }

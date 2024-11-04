@@ -163,8 +163,7 @@ const SelectShow: React.FC = () => {
     return `${getDayWithSuffix(day)} ${month} ${year}`;
     };
 
-    const showDates = new Set(shows.map(show => new Date(show.date).toISOString().split('T')[0]));
-
+    
     return (
         <div className='artboard artboard-horizontal'>
             <div className="flex w-full flex-col items-center justify-center gap-4 place-items-stretch">
@@ -188,8 +187,25 @@ const SelectShow: React.FC = () => {
                     className="w-full max-w-xs"
                     calendarClassName="rounded-lg shadow-inner shadow-2xl"
                     dayClassName={(date) => {
-                        const isToday = date.getDate() === new Date().getDate();
-                        return `btn btn-sm btn-outline ${isToday ? 'bg-primary text-base-100' : ''}`;
+                        const formattedDate = date.toISOString().split('T')[0]; 
+                        const concertDates = new Set(shows.map(show => show.date.split('T')[0])); //map all cc dates
+
+                        const isConcertDate = concertDates.has(formattedDate);
+                        const isToday = date.getDate() === new Date().getDate() &&
+                                        date.getMonth() === new Date().getMonth() &&
+                                        date.getFullYear() === new Date().getFullYear();
+
+                        let classNames = 'btn btn-sm btn-outline';
+
+                        if (isConcertDate) {
+                            classNames += ' bg-success text-white'; 
+                        }
+
+                        if (isToday) {
+                            classNames += ' bg-warning text-base-100 ';
+                        }
+
+                        return classNames;
                     }}
                 />
 
