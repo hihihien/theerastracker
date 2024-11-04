@@ -102,7 +102,7 @@ const SelectShow: React.FC = () => {
                 document.body.removeChild(script); 
             };
         }
-    }, [embedKey, selectedShow]);
+    }, [selectedShow?.instagramUrl]);
 
     useEffect(() => {
         const calculateCountdown = () => {
@@ -212,7 +212,7 @@ const SelectShow: React.FC = () => {
                         {/* Instagram Embed Section */}
                         <div className="w-full lg:w-1/2 content-center">
                             {selectedShow.instagramUrl && (
-                                <div className="prose m-4 instagram-post content-center" key={embedKey}>
+                                <div className="prose m-4 instagram-post content-center" key={selectedShow.instagramUrl}>
                                     <blockquote
                                         className="instagram-media"
                                         data-instgrm-permalink={selectedShow.instagramUrl}
