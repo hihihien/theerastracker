@@ -187,13 +187,11 @@ const SelectShow: React.FC = () => {
                     className="w-full max-w-xs"
                     calendarClassName="rounded-lg shadow-inner shadow-2xl"
                     dayClassName={(date) => {
-                        const formattedDate = date.toISOString().split('T')[0]; 
-                        const concertDates = new Set(shows.map(show => show.date.split('T')[0])); //map all cc dates
+                        const formattedDate = date.toISOString().slice(0, 10); 
+                        const concertDates = new Set(shows.map(show => show.date)); //map all cc dates
 
                         const isConcertDate = concertDates.has(formattedDate);
-                        const isToday = date.getDate() === new Date().getDate() &&
-                                        date.getMonth() === new Date().getMonth() &&
-                                        date.getFullYear() === new Date().getFullYear();
+                        const isToday = date.toDateString() === new Date().toDateString();
 
                         let classNames = 'btn btn-sm btn-outline';
 
