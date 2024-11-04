@@ -1,7 +1,7 @@
 {
     "shows": [
         {
-            "date": "2023-03-17T23:59:59Z",
+            "date": "2023-03-17T00:00:00Z",
             "city": "Glendale",
             "state": "Arizona",
             "country": "United States",
@@ -19,7 +19,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cp8-L7jp2-C/?img_index=1"
         },
         {
-            "date": "2023-03-18T23:59:59Z",
+            "date": "2023-03-18T00:00:00Z",
             "city": "Glendale",
             "state": "Arizona",
             "country": "United States",
@@ -37,7 +37,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cp_oNR6uHrh/?img_index=1"
         },
         {
-            "date": "2023-03-24T23:59:59Z",
+            "date": "2023-03-24T00:00:00Z",
             "city": "Las Vegas",
             "state": "Nevada",
             "country": "United States",
@@ -55,7 +55,7 @@
             "instagramUrl": "https://www.instagram.com/p/CqOdT1XuMhY/?img_index=1"
         },
         {
-            "date": "2023-03-25T23:59:59Z",
+            "date": "2023-03-25T00:00:00Z",
             "city": "Las Vegas",
             "state": "Nevada",
             "country": "United States",
@@ -73,7 +73,7 @@
             "instagramUrl": "https://www.instagram.com/p/CqRD1ReOdgR/"
         },
         {
-            "date": "2023-03-31T23:59:59Z",
+            "date": "2023-03-31T00:00:00Z",
             "city": "Arlington",
             "state": "Texas",
             "country": "United States",
@@ -87,7 +87,7 @@
             "instagramUrl": "https://www.instagram.com/p/CqnZlEjuhHb/"
         },
         {
-            "date": "2023-04-01T23:59:59Z",
+            "date": "2023-04-01T00:00:00Z",
             "city": "Arlington",
             "state": "Texas",
             "country": "United States",
@@ -101,7 +101,7 @@
             "instagramUrl": "https://www.instagram.com/p/CqnZlEjuhHb/"
         },
         {
-            "date": "2023-04-02T23:59:59Z",
+            "date": "2023-04-02T00:00:00Z",
             "city": "Arlington",
             "state": "Texas",
             "country": "United States",
@@ -115,7 +115,7 @@
             "instagramUrl": "https://www.instagram.com/p/CqnZlEjuhHb/"
         },
         {
-            "date": "2023-04-13T23:59:59Z",
+            "date": "2023-04-13T00:00:00Z",
             "city": "Tampa",
             "state": "Florida",
             "country": "United States",
@@ -133,7 +133,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrFcr0lu2Sa/?img_index=1"
         },
         {
-            "date": "2023-04-14T23:59:59Z",
+            "date": "2023-04-14T00:00:00Z",
             "city": "Tampa",
             "state": "Florida",
             "country": "United States",
@@ -152,7 +152,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrFcr0lu2Sa/?img_index=1"
         },
         {
-            "date": "2023-04-15T23:59:59Z",
+            "date": "2023-04-15T00:00:00Z",
             "city": "Tampa",
             "state": "Florida",
             "country": "United States",
@@ -170,7 +170,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrFcr0lu2Sa/?img_index=1"
         },
         {
-            "date": "2023-04-21T23:59:59Z",
+            "date": "2023-04-21T00:00:00Z",
             "city": "Houston",
             "state": "Texas",
             "country": "United States",
@@ -184,7 +184,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrbbMVqO5BM/?img_index=1"
         },
         {
-            "date": "2023-04-22T23:59:59Z",
+            "date": "2023-04-22T00:00:00Z",
             "city": "Houston",
             "state": "Texas",
             "country": "United States",
@@ -198,7 +198,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrbbMVqO5BM/?img_index=1"
         },
         {
-            "date": "2023-04-23T23:59:59Z",
+            "date": "2023-04-23T00:00:00Z",
             "city": "Houston",
             "state": "Texas",
             "country": "United States",
@@ -212,7 +212,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrbbMVqO5BM/?img_index=1"
         },        
         {
-            "date": "2023-04-28T23:59:59Z",
+            "date": "2023-04-28T00:00:00Z",
             "city": "Atlanta",
             "state": "Georgia",
             "country": "United States",
@@ -230,7 +230,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrtCmnAOWgc/?img_index=1"
         },
         {
-            "date": "2023-04-29T23:59:59Z",
+            "date": "2023-04-29T00:00:00Z",
             "city": "Atlanta",
             "state": "Georgia",
             "country": "United States",
@@ -248,7 +248,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrtCmnAOWgc/?img_index=1"
         },
         {
-            "date": "2023-04-30T23:59:59Z",
+            "date": "2023-04-30T00:00:00Z",
             "city": "Atlanta",
             "state": "Georgia",
             "country": "United States",
@@ -266,7 +266,7 @@
             "instagramUrl": "https://www.instagram.com/p/CrtCmnAOWgc/?img_index=1"
         },
         {
-            "date": "2023-05-05T23:59:59Z",
+            "date": "2023-05-05T00:00:00Z",
             "city": "Nashville",
             "state": "Tennessee",
             "country": "United States",
@@ -284,7 +284,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cr9nZ7Bu81H/?img_index=1"
         },
         {
-            "date": "2023-05-06T23:59:59Z",
+            "date": "2023-05-06T00:00:00Z",
             "city": "Nashville",
             "state": "Tennessee",
             "country": "United States",
@@ -302,7 +302,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cr9nZ7Bu81H/?img_index=1"
         },
         {
-            "date": "2023-05-07T23:59:59Z",
+            "date": "2023-05-07T00:00:00Z",
             "city": "Nashville",
             "state": "Tennessee",
             "country": "United States",
@@ -320,7 +320,7 @@
             "instagramUrl": "https://www.instagram.com/p/CsBrLRYuIng/?img_index=1"
         },
         {
-            "date": "2023-05-12T23:59:59Z",
+            "date": "2023-05-12T00:00:00Z",
             "city": "Philadelphia",
             "state": "Pennsylvania",
             "country": "United States",
@@ -338,7 +338,7 @@
             "instagramUrl": "https://www.instagram.com/p/CsTyPTdOHHL/?img_index=1"
         },
         {
-            "date": "2023-05-13T23:59:59Z",
+            "date": "2023-05-13T00:00:00Z",
             "city": "Philadelphia",
             "state": "Pennsylvania",
             "country": "United States",
@@ -356,7 +356,7 @@
             "instagramUrl": "https://www.instagram.com/p/CsTyPTdOHHL/?img_index=1"
         },
         {
-            "date": "2023-05-14T23:59:59Z",
+            "date": "2023-05-14T00:00:00Z",
             "city": "Philadelphia",
             "state": "Pennsylvania",
             "country": "United States",
@@ -374,7 +374,7 @@
             "instagramUrl": "https://www.instagram.com/p/CsTyPTdOHHL/?img_index=1"
         },
         {
-            "date": "2023-05-19T23:59:59Z",
+            "date": "2023-05-19T00:00:00Z",
             "city": "Foxborough",
             "state": "Massachusetts",
             "country": "United States",
@@ -392,7 +392,7 @@
             "instagramUrl": "https://www.instagram.com/p/CshRV4qOOnk/?img_index=1"
         },
         {
-            "date": "2023-05-20T23:59:59Z",
+            "date": "2023-05-20T00:00:00Z",
             "city": "Foxborough",
             "state": "Massachusetts",
             "country": "United States",
@@ -410,7 +410,7 @@
             "instagramUrl": "https://www.instagram.com/p/CshRV4qOOnk/?img_index=1"
         },
         {
-            "date": "2023-05-21T23:59:59Z",
+            "date": "2023-05-21T00:00:00Z",
             "city": "Foxborough",
             "state": "Massachusetts",
             "country": "United States",
@@ -424,7 +424,7 @@
             "instagramUrl": "https://www.instagram.com/p/CshRV4qOOnk/?img_index=1"
         },
         {
-            "date": "2023-05-26T23:59:59Z",
+            "date": "2023-05-26T00:00:00Z",
             "city": "East Rutherford",
             "state": "New Jersey",
             "country": "United States",
@@ -438,7 +438,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cs2BuuoOE_m/?img_index=1"
         },
         {
-            "date": "2023-05-27T23:59:59Z",
+            "date": "2023-05-27T00:00:00Z",
             "city": "East Rutherford",
             "state": "New Jersey",
             "country": "United States",
@@ -452,7 +452,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cs2BuuoOE_m/?img_index=1"
         },
         {
-            "date": "2023-05-28T23:59:59Z",
+            "date": "2023-05-28T00:00:00Z",
             "city": "East Rutherford",
             "state": "New Jersey",
             "country": "United States",
@@ -466,7 +466,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cs2BuuoOE_m/?img_index=1"
         },
         {
-            "date": "2023-06-02T23:59:59Z",
+            "date": "2023-06-02T00:00:00Z",
             "city": "Chicago",
             "state": "Illinois",
             "country": "United States",
@@ -480,7 +480,7 @@
             "instagramUrl": "https://www.instagram.com/p/CtKVDZsO5PM/?img_index=1"
         },
         {
-            "date": "2023-06-03T23:59:59Z",
+            "date": "2023-06-03T00:00:00Z",
             "city": "Chicago",
             "state": "Illinois",
             "country": "United States",
@@ -494,7 +494,7 @@
             "instagramUrl": "https://www.instagram.com/p/CtKVDZsO5PM/?img_index=1"
         },        
         {
-            "date": "2023-06-04T23:59:59Z",
+            "date": "2023-06-04T00:00:00Z",
             "city": "Chicago",
             "state": "Illinois",
             "country": "United States",
@@ -512,7 +512,7 @@
             "instagramUrl": "https://www.instagram.com/p/CtKVDZsO5PM/?img_index=1"
         },
         {
-            "date": "2023-06-09T23:59:59Z",
+            "date": "2023-06-09T00:00:00Z",
             "city": "Detroit",
             "state": "Michigan",
             "country": "United States",
@@ -530,7 +530,7 @@
             "instagramUrl": "https://www.instagram.com/p/CtXBNENvHf1/?img_index=1"
         },
         {
-            "date": "2023-06-10T23:59:59Z",
+            "date": "2023-06-10T00:00:00Z",
             "city": "Detroit",
             "state": "Michigan",
             "country": "United States",
@@ -548,7 +548,7 @@
             "instagramUrl": "https://www.instagram.com/p/CtXBNENvHf1/?img_index=1"
         },
         {
-            "date": "2023-06-16T23:59:59Z",
+            "date": "2023-06-16T00:00:00Z",
             "city": "Pittsburgh",
             "state": "Pennsylvania",
             "country": "United States",
@@ -566,7 +566,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cto6SCiRrrU/?img_index=1"
         },
         {
-            "date": "2023-06-17T23:59:59Z",
+            "date": "2023-06-17T00:00:00Z",
             "city": "Pittsburgh",
             "state": "Pennsylvania",
             "country": "United States",
@@ -584,7 +584,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cto6SCiRrrU/?img_index=1"
         },
         {
-            "date": "2023-06-23T23:59:59Z",
+            "date": "2023-06-23T00:00:00Z",
             "city": "Minneapolis",
             "state": "Minnesota",
             "country": "United States",
@@ -598,7 +598,7 @@
             "instagramUrl": "https://www.instagram.com/p/Ct7DOiqurUX/?img_index=1"
         },
         {
-            "date": "2023-06-24T23:59:59Z",
+            "date": "2023-06-24T00:00:00Z",
             "city": "Minneapolis",
             "state": "Minnesota",
             "country": "United States",
@@ -612,7 +612,7 @@
             "instagramUrl": "https://www.instagram.com/p/Ct7DOiqurUX/?img_index=1"
         },
         {
-            "date": "2023-06-30T23:59:59Z",
+            "date": "2023-06-30T00:00:00Z",
             "city": "Cincinnati",
             "state": "Ohio",
             "country": "United States",
@@ -626,7 +626,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuMwXFsOjqR/?img_index=1"
         },
         {
-            "date": "2023-07-01T23:59:59Z",
+            "date": "2023-07-01T00:00:00Z",
             "city": "Cincinnati",
             "state": "Ohio",
             "country": "United States",
@@ -640,7 +640,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuMwXFsOjqR/?img_index=1"
         },        
         {
-            "date": "2023-07-07T23:59:59Z",
+            "date": "2023-07-07T00:00:00Z",
             "city": "Kansas City",
             "state": "Missouri",
             "country": "United States",
@@ -658,7 +658,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuhvV5cuRuK/?img_index=1"
         },
         {
-            "date": "2023-07-08T23:59:59Z",
+            "date": "2023-07-08T00:00:00Z",
             "city": "Kansas City",
             "state": "Missouri",
             "country": "United States",
@@ -676,7 +676,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuhvV5cuRuK/?img_index=1"
         },
         {
-            "date": "2023-07-14T23:59:59Z",
+            "date": "2023-07-14T00:00:00Z",
             "city": "Denver",
             "state": "Colorado",
             "country": "United States",
@@ -694,7 +694,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuxQsmGOdd0/?img_index=1"
         },
         {
-            "date": "2023-07-15T23:59:59Z",
+            "date": "2023-07-15T00:00:00Z",
             "city": "Denver",
             "state": "Colorado",
             "country": "United States",
@@ -712,7 +712,7 @@
             "instagramUrl": "https://www.instagram.com/p/CuxQsmGOdd0/?img_index=1"
         },
         {
-            "date": "2023-07-22T23:59:59Z",
+            "date": "2023-07-22T00:00:00Z",
             "city": "Seattle",
             "state": "Washington",
             "country": "United States",
@@ -730,7 +730,7 @@
             "instagramUrl": "https://www.instagram.com/p/CvGRdQZumMJ/?img_index=1"
         },
         {
-            "date": "2023-07-23T23:59:59Z",
+            "date": "2023-07-23T00:00:00Z",
             "city": "Seattle",
             "state": "Washington",
             "country": "United States",
@@ -744,7 +744,7 @@
             "instagramUrl": "https://www.instagram.com/p/CvGRdQZumMJ/?img_index=1"
         },
         {
-            "date": "2023-07-28T23:59:59Z",
+            "date": "2023-07-28T00:00:00Z",
             "city": "Santa Clara",
             "state": "California",
             "country": "United States",
@@ -758,7 +758,7 @@
             "instagramUrl": "https://www.instagram.com/p/CvX7RwmR21L/?img_index=1"
         },
         {
-            "date": "2023-07-29T23:59:59Z",
+            "date": "2023-07-29T00:00:00Z",
             "city": "Santa Clara",
             "state": "California",
             "country": "United States",
@@ -772,7 +772,7 @@
             "instagramUrl": "https://www.instagram.com/p/CvX7RwmR21L/?img_index=1"
         },
         {
-            "date": "2023-08-03T23:59:59Z",
+            "date": "2023-08-03T00:00:00Z",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
@@ -786,7 +786,7 @@
             "instagramUrl": ""
         },        
         {
-            "date": "2023-08-04T23:59:59Z",
+            "date": "2023-08-04T00:00:00Z",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
@@ -804,7 +804,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2023-08-05T23:59:59Z",
+            "date": "2023-08-05T00:00:00Z",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
@@ -823,7 +823,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-08-07T23:59:59Z",
+            "date": "2024-08-07T00:00:00Z",
             "city": "Los Angeles",
             "state": "",
             "country": "United States",
@@ -841,7 +841,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2023-08-08T23:59:59Z",
+            "date": "2023-08-08T00:00:00Z",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
@@ -859,7 +859,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2023-08-09T23:59:59Z",
+            "date": "2023-08-09T00:00:00Z",
             "city": "Los Angeles",
             "state": "California",
             "country": "United States",
@@ -877,7 +877,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2023-08-24T23:59:59Z",
+            "date": "2023-08-24T00:00:00Z",
             "city": "Mexico City",
             "state": "",
             "country": "Mexico",
@@ -895,7 +895,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cwf9wCbOj0W/?img_index=1"
         },
         {
-            "date": "2023-08-25T23:59:59Z",
+            "date": "2023-08-25T00:00:00Z",
             "city": "Mexico City",
             "state": "",
             "country": "Mexico",
@@ -913,7 +913,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cwf9wCbOj0W/?img_index=1"
         },
         {
-            "date": "2023-08-26T23:59:59Z",
+            "date": "2023-08-26T00:00:00Z",
             "city": "Mexico City",
             "state": "",
             "country": "Mexico",
@@ -932,7 +932,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cwf9wCbOj0W/?img_index=1"
         },
         {
-            "date": "2023-08-27T23:59:59Z",
+            "date": "2023-08-27T00:00:00Z",
             "city": "Mexico City",
             "state": "",
             "country": "Mexico",
@@ -950,7 +950,7 @@
             "instagramUrl": "https://www.instagram.com/p/Cwf9wCbOj0W/?img_index=1"
         },
         {
-            "date": "2023-11-09T23:59:59Z",
+            "date": "2023-11-09T00:00:00Z",
             "city": "Buenos Aires",
             "state": "",
             "country": "Argentina",
@@ -968,7 +968,7 @@
             "instagramUrl": "https://www.instagram.com/p/CzmFt42vd2o/?img_index=1"
         },
         {
-            "date": "2023-11-10T23:59:59Z",
+            "date": "2023-11-10T00:00:00Z",
             "city": "Buenos Aires",
             "state": "",
             "country": "Argentina",
@@ -987,7 +987,7 @@
             "instagramUrl": "https://www.instagram.com/p/CzmFt42vd2o/?img_index=1"
         },
         {
-            "date": "2023-11-12T23:59:59Z",
+            "date": "2023-11-12T00:00:00Z",
             "city": "Buenos Aires",
             "state": "",
             "country": "Argentina",
@@ -1005,7 +1005,7 @@
             "instagramUrl": "https://www.instagram.com/p/CzmFt42vd2o/?img_index=1"
         },
         {
-            "date": "2023-11-17T23:59:59Z",
+            "date": "2023-11-17T00:00:00Z",
             "city": "Rio de Janeiro",
             "state": "",
             "country": "Brazil",
@@ -1023,7 +1023,7 @@
             "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
         },
         {
-            "date": "2023-11-18T23:59:59Z",
+            "date": "2023-11-18T00:00:00Z",
             "city": "Rio de Janeiro",
             "state": "",
             "country": "Brazil",
@@ -1041,7 +1041,7 @@
             "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
         },
         {
-            "date": "2023-11-20T23:59:59Z",
+            "date": "2023-11-20T00:00:00Z",
             "city": "Rio de Janeiro",
             "state": "",
             "country": "Brazil",
@@ -1059,7 +1059,7 @@
             "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
         },
         {
-            "date": "2023-11-24T23:59:59Z",
+            "date": "2023-11-24T00:00:00Z",
             "city": "S\u00e3o Paulo",
             "state": "",
             "country": "Brazil",
@@ -1077,7 +1077,7 @@
             "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
         },
         {
-            "date": "2023-11-25T23:59:59Z",
+            "date": "2023-11-25T00:00:00Z",
             "city": "S\u00e3o Paulo",
             "state": "",
             "country": "Brazil",
@@ -1095,7 +1095,7 @@
             "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
         },
         {
-            "date": "2023-11-26T23:59:59Z",
+            "date": "2023-11-26T00:00:00Z",
             "city": "S\u00e3o Paulo",
             "state": "",
             "country": "Brazil",
@@ -1113,7 +1113,7 @@
             "instagramUrl": "https://www.instagram.com/p/C0NGeZTuP9p/?img_index=1"
         },
         {
-            "date": "2024-02-07T23:59:59Z",
+            "date": "2024-02-07T00:00:00Z",
             "city": "Tokyo",
             "state": "",
             "country": "Japan",
@@ -1131,7 +1131,7 @@
             "instagramUrl": "https://www.instagram.com/p/C3MlHOgOGNm/?img_index=1"
         },
         {
-            "date": "2024-02-08T23:59:59Z",
+            "date": "2024-02-08T00:00:00Z",
             "city": "Tokyo",
             "state": "",
             "country": "Japan",
@@ -1149,7 +1149,7 @@
             "instagramUrl": "https://www.instagram.com/p/C3MlHOgOGNm/?img_index=1"
         },
         {
-            "date": "2024-02-09T23:59:59Z",
+            "date": "2024-02-09T00:00:00Z",
             "city": "Tokyo",
             "state": "",
             "country": "Japan",
@@ -1167,7 +1167,7 @@
             "instagramUrl": "https://www.instagram.com/p/C3MlHOgOGNm/?img_index=1"
         },
         {
-            "date": "2024-02-10T23:59:59Z",
+            "date": "2024-02-10T00:00:00Z",
             "city": "Tokyo",
             "state": "",
             "country": "Japan",
@@ -1186,7 +1186,7 @@
             "instagramUrl": "https://www.instagram.com/p/C3MlHOgOGNm/?img_index=1"
         },
         {
-            "date": "2024-02-16T23:59:59Z",
+            "date": "2024-02-16T00:00:00Z",
             "city": "Melbourne",
             "state": "",
             "country": "Australia",
@@ -1204,7 +1204,7 @@
             "instagramUrl": "https://www.instagram.com/p/C3gJcnSOkNQ/?img_index=1"
         },
         {
-            "date": "2024-02-17T23:59:59Z",
+            "date": "2024-02-17T00:00:00Z",
             "city": "Melbourne",
             "state": "",
             "country": "Australia",
@@ -1224,7 +1224,7 @@
             "instagramUrl": "https://www.instagram.com/p/C3gJcnSOkNQ/?img_index=1"
         },
         {
-            "date": "2025-02-18T23:59:59Z",
+            "date": "2025-02-18T00:00:00Z",
             "city": "Melbourne",
             "state": "",
             "country": "Australia",
@@ -1243,7 +1243,7 @@
             "instagramUrl": "https://www.instagram.com/p/C3gJcnSOkNQ/?img_index=1"
         },
         {
-            "date": "2024-02-23T23:59:59Z",
+            "date": "2024-02-23T00:00:00Z",
             "city": "Sydney",
             "state": "",
             "country": "Australia",
@@ -1257,7 +1257,7 @@
             "instagramUrl": "https://www.instagram.com/p/C35HpNEu0wL/?img_index=1"
         },        
         {
-            "date": "2024-02-24T23:59:59Z",
+            "date": "2024-02-24T00:00:00Z",
             "city": "Sydney",
             "state": "",
             "country": "Australia",
@@ -1277,7 +1277,7 @@
             "instagramUrl": "https://www.instagram.com/p/C35HpNEu0wL/?img_index=1"
         },
         {
-            "date": "2024-02-25T23:59:59Z",
+            "date": "2024-02-25T00:00:00Z",
             "city": "Sydney",
             "state": "",
             "country": "Australia",
@@ -1297,7 +1297,7 @@
             "instagramUrl": "https://www.instagram.com/p/C35HpNEu0wL/?img_index=1"
         },
         {
-            "date": "2025-02-26T23:59:59Z",
+            "date": "2025-02-26T00:00:00Z",
             "city": "Sydney",
             "state": "",
             "country": "Australia",
@@ -1317,7 +1317,7 @@
             "instagramUrl": "https://www.instagram.com/p/C35HpNEu0wL/?img_index=1"
         },
         {
-            "date": "2024-03-02T23:59:59Z",
+            "date": "2024-03-02T00:00:00Z",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1331,7 +1331,7 @@
             "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
         },
         {
-            "date": "2024-03-03T23:59:59Z",
+            "date": "2024-03-03T00:00:00Z",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1345,7 +1345,7 @@
             "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
         },        
         {
-            "date": "2024-03-04T23:59:59Z",
+            "date": "2024-03-04T00:00:00Z",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1365,7 +1365,7 @@
             "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
         },
         {
-            "date": "2024-03-07T23:59:59Z",
+            "date": "2024-03-07T00:00:00Z",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1385,7 +1385,7 @@
             "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
         },
         {
-            "date": "2024-03-08T23:59:59Z",
+            "date": "2024-03-08T00:00:00Z",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1405,7 +1405,7 @@
             "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
         },
         {
-            "date": "2024-03-09T23:59:59Z",
+            "date": "2024-03-09T00:00:00Z",
             "city": "Singapore",
             "state": "",
             "country": "Singapore",
@@ -1425,7 +1425,7 @@
             "instagramUrl": "https://www.instagram.com/p/C4WNESVOvf3/?img_index=1"
         },
         {
-            "date": "2024-05-09T23:59:59Z",
+            "date": "2024-05-09T00:00:00Z",
             "city": "Paris",
             "state": "",
             "country": "France",
@@ -1443,7 +1443,7 @@
             "instagramUrl": "https://www.instagram.com/p/C64iubPO92m/?img_index=1"
         },
         {
-            "date": "2024-05-10T23:59:59Z",
+            "date": "2024-05-10T00:00:00Z",
             "city": "Paris",
             "state": "",
             "country": "France",
@@ -1462,7 +1462,7 @@
             "instagramUrl": "https://www.instagram.com/p/C64iubPO92m/?img_index=1"
         },
         {
-            "date": "2024-05-11T23:59:59Z",
+            "date": "2024-05-11T00:00:00Z",
             "city": "Paris",
             "state": "",
             "country": "France",
@@ -1480,7 +1480,7 @@
             "instagramUrl": "https://www.instagram.com/p/C64iubPO92m/?img_index=1"
         },
         {
-            "date": "2024-05-12T23:59:59Z",
+            "date": "2024-05-12T00:00:00Z",
             "city": "Paris",
             "state": "",
             "country": "France",
@@ -1500,7 +1500,7 @@
             "instagramUrl": "https://www.instagram.com/p/C64iubPO92m/?img_index=1"
         },
         {
-            "date": "2024-05-17T23:59:59Z",
+            "date": "2024-05-17T00:00:00Z",
             "city": "Stockholm",
             "state": "",
             "country": "Sweden",
@@ -1519,7 +1519,7 @@
             "instagramUrl": "https://www.instagram.com/p/C7M5aWQu8J1/?img_index=1"
         },
         {
-            "date": "2024-05-18T23:59:59Z",
+            "date": "2024-05-18T00:00:00Z",
             "city": "Stockholm",
             "state": "",
             "country": "Sweden",
@@ -1539,7 +1539,7 @@
             "instagramUrl": "https://www.instagram.com/p/C7M5aWQu8J1/?img_index=1"
         },
         {
-            "date": "2024-05-19T23:59:59Z",
+            "date": "2024-05-19T00:00:00Z",
             "city": "Stockholm",
             "state": "",
             "country": "Sweden",
@@ -1559,7 +1559,7 @@
             "instagramUrl": "https://www.instagram.com/p/C7M5aWQu8J1/?img_index=1"
         },
         {
-            "date": "2024-05-24T23:59:59Z",
+            "date": "2024-05-24T00:00:00Z",
             "city": "Lisbon",
             "state": "",
             "country": "Portugal",
@@ -1580,7 +1580,7 @@
             "instagramUrl": "https://www.instagram.com/p/C7cUr6zu-OA/?img_index=1"
         },
         {
-            "date": "2024-05-25T23:59:59Z",
+            "date": "2024-05-25T00:00:00Z",
             "city": "Lisbon",
             "state": "",
             "country": "Portugal",
@@ -1601,7 +1601,7 @@
             "instagramUrl": "https://www.instagram.com/p/C7cUr6zu-OA/?img_index=1"
         },
         {
-            "date": "2024-05-29T23:59:59Z",
+            "date": "2024-05-29T00:00:00Z",
             "city": "Madrid",
             "state": "",
             "country": "Spain",
@@ -1621,7 +1621,7 @@
             "instagramUrl": "https://www.instagram.com/p/C7ob1LhOFQj/?img_index=1"
         },
         {
-            "date": "2024-05-30T23:59:59Z",
+            "date": "2024-05-30T00:00:00Z",
             "city": "Madrid",
             "state": "",
             "country": "Spain",
@@ -1640,7 +1640,7 @@
             "instagramUrl": "https://www.instagram.com/p/C7ob1LhOFQj/?img_index=1"
         },
         {
-            "date": "2024-06-02T23:59:59Z",
+            "date": "2024-06-02T00:00:00Z",
             "city": "Lyon",
             "state": "",
             "country": "France",
@@ -1654,7 +1654,7 @@
             "instagramUrl": "https://www.instagram.com/p/C7zOqupuXZR/?img_index=1"
         },
         {
-            "date": "2024-06-03T23:59:59Z",
+            "date": "2024-06-03T00:00:00Z",
             "city": "Lyon",
             "state": "",
             "country": "France",
@@ -1668,7 +1668,7 @@
             "instagramUrl": "https://www.instagram.com/p/C7zOqupuXZR/?img_index=1"
         },        
         {
-            "date": "2024-06-07T23:59:59Z",
+            "date": "2024-06-07T00:00:00Z",
             "city": "Edinburgh",
             "state": "",
             "country": "United Kingdom",
@@ -1690,7 +1690,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8CHiocu4n1/?img_index=1"
         },
         {
-            "date": "2024-06-08T23:59:59Z",
+            "date": "2024-06-08T00:00:00Z",
             "city": "Edinburgh",
             "state": "",
             "country": "United Kingdom",
@@ -1710,7 +1710,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8CHiocu4n1/?img_index=1"
         },
         {
-            "date": "2024-06-09T23:59:59Z",
+            "date": "2024-06-09T00:00:00Z",
             "city": "Edinburgh",
             "state": "",
             "country": "United Kingdom",
@@ -1730,7 +1730,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8CHiocu4n1/?img_index=1"
         },
         {
-            "date": "2024-06-13T23:59:59Z",
+            "date": "2024-06-13T00:00:00Z",
             "city": "Liverpool",
             "state": "",
             "country": "United Kingdom",
@@ -1750,7 +1750,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8R17HiuH7o/?img_index=1"
         },
         {
-            "date": "2024-06-14T23:59:59Z",
+            "date": "2024-06-14T00:00:00Z",
             "city": "Liverpool",
             "state": "",
             "country": "United Kingdom",
@@ -1770,7 +1770,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8R17HiuH7o/?img_index=1"
         },
         {
-            "date": "2024-06-15T23:59:59Z",
+            "date": "2024-06-15T00:00:00Z",
             "city": "Liverpool",
             "state": "",
             "country": "United Kingdom",
@@ -1791,7 +1791,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8R17HiuH7o/?img_index=1"
         },
         {
-            "date": "2024-06-18T23:59:59Z",
+            "date": "2024-06-18T00:00:00Z",
             "city": "Cardiff",
             "state": "",
             "country": "United Kingdom",
@@ -1811,7 +1811,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8b4KnYMoOv/?img_index=1"
         },
         {
-            "date": "2024-06-21T23:59:59Z",
+            "date": "2024-06-21T00:00:00Z",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -1825,7 +1825,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
         },
         {
-            "date": "2024-06-22T23:59:59Z",
+            "date": "2024-06-22T00:00:00Z",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -1839,7 +1839,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
         },
         {
-            "date": "2024-06-23T23:59:59Z",
+            "date": "2024-06-23T00:00:00Z",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -1853,7 +1853,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
         },        
         {
-            "date": "2024-06-28T23:59:59Z",
+            "date": "2024-06-28T00:00:00Z",
             "city": "Dublin",
             "state": "",
             "country": "Ireland",
@@ -1873,7 +1873,7 @@
             "instagramUrl": "https://www.instagram.com/p/C87F5ZGOefC/?img_index=1"
         },
         {
-            "date": "2024-06-29T23:59:59Z",
+            "date": "2024-06-29T00:00:00Z",
             "city": "Dublin",
             "state": "",
             "country": "Ireland",
@@ -1893,7 +1893,7 @@
             "instagramUrl": "https://www.instagram.com/p/C87F5ZGOefC/?img_index=1"
         },
         {
-            "date": "2024-06-30T23:59:59Z",
+            "date": "2024-06-30T00:00:00Z",
             "city": "Dublin",
             "state": "",
             "country": "Ireland",
@@ -1912,7 +1912,7 @@
             "instagramUrl": "https://www.instagram.com/p/C87F5ZGOefC/?img_index=1"
         },
         {
-            "date": "2024-07-04T23:59:59Z",
+            "date": "2024-07-04T00:00:00Z",
             "city": "Amsterdam",
             "state": "",
             "country": "Netherlands",
@@ -1932,7 +1932,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9ISoQEu9iH/?img_index=1"
         },
         {
-            "date": "2024-07-05T23:59:59Z",
+            "date": "2024-07-05T00:00:00Z",
             "city": "Amsterdam",
             "state": "",
             "country": "Netherlands",
@@ -1952,7 +1952,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9ISoQEu9iH/?img_index=1"
         },
         {
-            "date": "2024-07-06T23:59:59Z",
+            "date": "2024-07-06T00:00:00Z",
             "city": "Amsterdam",
             "state": "",
             "country": "Netherlands",
@@ -1973,7 +1973,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9ISoQEu9iH/?img_index=1"
         },
         {
-            "date": "2024-07-09T23:59:59Z",
+            "date": "2024-07-09T00:00:00Z",
             "city": "Zurich",
             "state": "",
             "country": "Switzerland",
@@ -1993,7 +1993,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9TB818B1Mt/?img_index=1"
         },
         {
-            "date": "2024-07-10T23:59:59Z",
+            "date": "2024-07-10T00:00:00Z",
             "city": "Zurich",
             "state": "",
             "country": "Switzerland",
@@ -2013,7 +2013,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9TB818B1Mt/?img_index=1"
         },
         {
-            "date": "2024-07-13T23:59:59Z",
+            "date": "2024-07-13T00:00:00Z",
             "city": "Milan",
             "state": "",
             "country": "Italy",
@@ -2033,7 +2033,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9c3Mo1uFd2/?img_index=1"
         },
         {
-            "date": "2024-07-14T23:59:59Z",
+            "date": "2024-07-14T00:00:00Z",
             "city": "Milan",
             "state": "",
             "country": "Italy",
@@ -2053,7 +2053,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9c3Mo1uFd2/?img_index=1"
         },
         {
-            "date": "2024-07-17T23:59:59Z",
+            "date": "2024-07-17T00:00:00Z",
             "city": "Gelsenkirchen",
             "state": "",
             "country": "Germany",
@@ -2073,7 +2073,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9ppG8JvwjM/?img_index=1"
         },
         {
-            "date": "2024-07-18T23:59:59Z",
+            "date": "2024-07-18T00:00:00Z",
             "city": "Gelsenkirchen",
             "state": "",
             "country": "Germany",
@@ -2093,7 +2093,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9ppG8JvwjM/?img_index=1"
         },
         {
-            "date": "2024-07-19T23:59:59Z",
+            "date": "2024-07-19T00:00:00Z",
             "city": "Gelsenkirchen",
             "state": "",
             "country": "Germany",
@@ -2113,7 +2113,7 @@
             "instagramUrl": "https://www.instagram.com/p/C9ppG8JvwjM/?img_index=1"
         },
         {
-            "date": "2024-07-23T23:59:59Z",
+            "date": "2024-07-23T00:00:00Z",
             "city": "Hamburg",
             "state": "",
             "country": "Germany",
@@ -2127,7 +2127,7 @@
             "instagramUrl": "https://www.instagram.com/p/C92SRrvuqy_/?img_index=1"
         },
         {
-            "date": "2024-07-24T23:59:59Z",
+            "date": "2024-07-24T00:00:00Z",
             "city": "Hamburg",
             "state": "",
             "country": "Germany",
@@ -2141,7 +2141,7 @@
             "instagramUrl": "https://www.instagram.com/p/C92SRrvuqy_/?img_index=1"
         },
         {
-            "date": "2024-07-27T23:59:59Z",
+            "date": "2024-07-27T00:00:00Z",
             "city": "Munich",
             "state": "",
             "country": "Germany",
@@ -2155,7 +2155,7 @@
             "instagramUrl": "https://www.instagram.com/p/C-GD_KzOnGx/?img_index=1"
         },
         {
-            "date": "2024-07-28T23:59:59Z",
+            "date": "2024-07-28T00:00:00Z",
             "city": "Munich",
             "state": "",
             "country": "Germany",
@@ -2169,7 +2169,7 @@
             "instagramUrl": "https://www.instagram.com/p/C-GD_KzOnGx/?img_index=1"
         },
         {
-            "date": "2024-08-01T23:59:59Z",
+            "date": "2024-08-01T00:00:00Z",
             "city": "Warsaw",
             "state": "",
             "country": "Poland",
@@ -2183,7 +2183,7 @@
             "instagramUrl": "https://www.instagram.com/p/C-VyDVMhrNH/?img_index=1"
         },
         {
-            "date": "2024-08-02T23:59:59Z",
+            "date": "2024-08-02T00:00:00Z",
             "city": "Warsaw",
             "state": "",
             "country": "Poland",
@@ -2197,7 +2197,7 @@
             "instagramUrl": "https://www.instagram.com/p/C-VyDVMhrNH/?img_index=1"
         },
         {
-            "date": "2024-08-03T23:59:59Z",
+            "date": "2024-08-03T00:00:00Z",
             "city": "Warsaw",
             "state": "",
             "country": "Poland",
@@ -2211,7 +2211,7 @@
             "instagramUrl": "https://www.instagram.com/p/C-VyDVMhrNH/?img_index=1"
         },
         {
-            "date": "2024-08-15T23:59:59Z",
+            "date": "2024-08-15T00:00:00Z",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -2225,7 +2225,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
         },        
         {
-            "date": "2024-08-16T23:59:59Z",
+            "date": "2024-08-16T00:00:00Z",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -2244,7 +2244,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
         },
         {
-            "date": "2024-08-17T23:59:59Z",
+            "date": "2024-08-17T00:00:00Z",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -2263,7 +2263,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
         },
         {
-            "date": "2024-08-19T23:59:59Z",
+            "date": "2024-08-19T00:00:00Z",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -2284,7 +2284,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
         },
         {
-            "date": "2024-08-20T23:59:59Z",
+            "date": "2024-08-20T00:00:00Z",
             "city": "London",
             "state": "",
             "country": "United Kingdom",
@@ -2304,7 +2304,7 @@
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
         },
         {
-            "date": "2024-10-18T23:59:59Z",
+            "date": "2024-10-18T00:00:00Z",
             "city": "Miami",
             "state": "Florida",
             "country": "United States",
@@ -2318,7 +2318,7 @@
             "instagramUrl": "https://www.instagram.com/p/DBb599JyCH9/?img_index=1"
         },
         {
-            "date": "2024-10-19T23:59:59Z",
+            "date": "2024-10-19T00:00:00Z",
             "city": "Miami",
             "state": "Florida",
             "country": "United States",
@@ -2332,7 +2332,7 @@
             "instagramUrl": "https://www.instagram.com/p/DBb599JyCH9/?img_index=4"
         },
         {
-            "date": "2024-10-20T23:59:59Z",
+            "date": "2024-10-20T00:00:00Z",
             "city": "Miami",
             "state": "Florida",
             "country": "United States",
@@ -2346,7 +2346,7 @@
             "instagramUrl": "https://www.instagram.com/p/DBb599JyCH9/?img_index=2"
         },
         {
-            "date": "2024-10-25T23:59:59Z",
+            "date": "2024-10-25T00:00:00Z",
             "city": "New Orleans",
             "state": "Louisiana",
             "country": "United States",
@@ -2360,7 +2360,7 @@
             "instagramUrl": "https://www.instagram.com/p/DBuaITCS5mL/?img_index=17"
         },
         {
-            "date": "2024-10-26T23:59:59Z",
+            "date": "2024-10-26T00:00:00Z",
             "city": "New Orleans",
             "state": "Louisiana",
             "country": "United States",
@@ -2374,7 +2374,7 @@
             "instagramUrl": "https://www.instagram.com/p/DBuaITCS5mL/?img_index=1"
         },
         {
-            "date": "2024-10-27T23:59:59Z",
+            "date": "2024-10-27T00:00:00Z",
             "city": "New Orleans",
             "state": "Louisiana",
             "country": "United States",
@@ -2388,7 +2388,7 @@
             "instagramUrl": "https://www.instagram.com/p/DBuaITCS5mL/?img_index=16"
         },
         {
-            "date": "2024-11-01T23:59:59Z",
+            "date": "2024-11-01T00:00:00Z",
             "city": "Indianapolis",
             "state": "Indiana",
             "country": "United States",
@@ -2402,7 +2402,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-02T23:59:59Z",
+            "date": "2024-11-02T00:00:00Z",
             "city": "Indianapolis",
             "state": "Indiana",
             "country": "United States",
@@ -2416,7 +2416,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-03T23:59:59Z",
+            "date": "2024-11-03T00:00:00Z",
             "city": "Indianapolis",
             "state": "Indiana",
             "country": "United States",
@@ -2430,7 +2430,7 @@
             "instagramUrl": ""
         },        
         {
-            "date": "2024-11-14T23:59:59Z",
+            "date": "2024-11-14T00:00:00Z",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2444,7 +2444,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-15T23:59:59Z",
+            "date": "2024-11-15T00:00:00Z",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2458,7 +2458,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-16T23:59:59Z",
+            "date": "2024-11-16T00:00:00Z",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2472,7 +2472,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-21T23:59:59Z",
+            "date": "2024-11-21T00:00:00Z",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2486,7 +2486,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-22T23:59:59Z",
+            "date": "2024-11-22T00:00:00Z",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2500,7 +2500,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-11-23T23:59:59Z",
+            "date": "2024-11-23T00:00:00Z",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
@@ -2514,7 +2514,7 @@
             "instagramUrl": ""
         },        
         {
-            "date": "2024-12-06T23:59:59Z",
+            "date": "2024-12-06T00:00:00Z",
             "city": "Vancouver",
             "state": "",
             "country": "Canada",
@@ -2528,7 +2528,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-12-07T23:59:59Z",
+            "date": "2024-12-07T00:00:00Z",
             "city": "Vancouver",
             "state": "",
             "country": "Canada",
@@ -2542,7 +2542,7 @@
             "instagramUrl": ""
         },
         {
-            "date": "2024-12-08T23:59:59Z",
+            "date": "2024-12-08T00:00:00Z",
             "city": "Vancouver",
             "state": "",
             "country": "Canada",

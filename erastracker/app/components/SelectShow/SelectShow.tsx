@@ -1,7 +1,8 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import LastSurpriseSongs from './LastSurpriseSongs';
-
+import DatePicker from 'react-datepicker';
+import "react-datepicker/dist/react-datepicker.css";
 interface SurpriseSongs {
     acoustic: string[];
     piano: string[];
@@ -33,6 +34,7 @@ const SelectShow: React.FC = () => {
     const [countdown, setCountdown] = useState<{ days: number; hours: number; minutes: number; seconds: number } | null>(null);
     const [nextShow, setNextShow] = useState<Show | null>(null);
     const [lastShow, setLastShow] = useState<Show | null>(null);
+    const [selectedDate, setSelectedDate] = useState<Date | null>(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -72,12 +74,14 @@ const SelectShow: React.FC = () => {
         fetchLastShow();
     }, [shows]);
 
-    const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        const selectedDate = event.target.value;
-        const show = shows.find(s => s.date === selectedDate) || null;
-        setSelectedShow(show);
-        setEmbedKey(prevKey => prevKey + 1); // Change the key to force re-render
-    };
+    useEffect(() => {
+        if (selectedDate) {
+            const selectedDateString = selectedDate.toISOString().split('T')[0];
+            const show = shows.find(s => s.date.startsWith(selectedDateString)) || null;
+            setSelectedShow(show);
+            setEmbedKey(prevKey => prevKey + 1);
+        }
+    }, [selectedDate, shows]);
 
     useEffect(() => {
         if (selectedShow?.instagramUrl) {
@@ -167,31 +171,21 @@ const SelectShow: React.FC = () => {
                 <LastSurpriseSongs lastShow={lastShow} />
                 <div className="prose p-6 font-mono"><h2>Select Your Show</h2></div>
                 
-                <select
-                    className="prose select select-primary w-full max-w-lg"
-                    onChange={handleSelectChange}
-                    value={selectedShow ? selectedShow.date : ""}
-                >
-                    <option disabled value="">
-                        Choose your show
-                    </option>
-                    {shows.length === 0 ? (
-                        <option disabled>Loading shows...</option>
-                    ) : (
-                        shows.map((show, index) =>  (
-                                <option key={index} value={show.date}>
-                                    {`${formatDateWithSuffix(show.date)} in ${show.city}, ${show.country}`}
-                                </option>
-                            ))
-                    )}
-                </select>
+                <DatePicker
+                    selected={selectedDate}
+                    onChange={date => setSelectedDate(date)}
+                    dateFormat="yyyy-MM-dd"
+                    placeholderText="Select a date"
+                    highlightDates={shows.map(show => new Date(show.date))}
+                    inline
+                />
 
                 {selectedShow && (
                     <div className="card rounded-box border-2 border-inherit shadow-xl m-4 flex flex-col lg:flex-row">
                         {/* Instagram Embed Section */}
                         <div className="w-full lg:w-1/2">
                             {selectedShow.instagramUrl && (
-                                <div className="prose m-4 instagram-post" key={embedKey}>
+                                <div className="prose m-4 instagram-post content-center" key={embedKey}>
                                     <blockquote
                                         className="instagram-media"
                                         data-instgrm-permalink={selectedShow.instagramUrl}
