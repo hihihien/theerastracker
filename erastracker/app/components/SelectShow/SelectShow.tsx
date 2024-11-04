@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import LastSurpriseSongs from './LastSurpriseSongs';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
+import "./custom-datepicker.css"; 
+
 interface SurpriseSongs {
     acoustic: string[];
     piano: string[];
@@ -161,6 +163,7 @@ const SelectShow: React.FC = () => {
     return `${getDayWithSuffix(day)} ${month} ${year}`;
     };
 
+    const showDates = new Set(shows.map(show => new Date(show.date).toISOString().split('T')[0]));
 
     return (
         <div className='artboard artboard-horizontal'>
@@ -172,18 +175,28 @@ const SelectShow: React.FC = () => {
                 <div className="prose p-6 font-mono"><h2>Select Your Show</h2></div>
                 
                 <DatePicker
-                    selected={selectedDate}
-                    onChange={date => setSelectedDate(date)}
-                    dateFormat="yyyy-MM-dd"
-                    placeholderText="Select a date"
-                    highlightDates={shows.map(show => new Date(show.date))}
+                    selected={selectedShow ? new Date(selectedShow.date) : null}
+                    onChange={(date) => {
+                        if (date) {
+                            const foundShow = shows.find(show => new Date(show.date).toDateString() === date.toDateString());
+                            setSelectedShow(foundShow || null); 
+                        } else {
+                            setSelectedShow(null); 
+                        }
+                    }}
                     inline
+                    className="w-full max-w-xs"
+                    calendarClassName="rounded-lg shadow-inner shadow-2xl"
+                    dayClassName={(date) => {
+                        const isToday = date.getDate() === new Date().getDate();
+                        return `btn btn-sm btn-outline ${isToday ? 'bg-primary text-base-100' : ''}`;
+                    }}
                 />
 
                 {selectedShow && (
                     <div className="card rounded-box border-2 border-inherit shadow-xl m-4 flex flex-col lg:flex-row">
                         {/* Instagram Embed Section */}
-                        <div className="w-full lg:w-1/2">
+                        <div className="w-full lg:w-1/2 content-center">
                             {selectedShow.instagramUrl && (
                                 <div className="prose m-4 instagram-post content-center" key={embedKey}>
                                     <blockquote
@@ -197,7 +210,7 @@ const SelectShow: React.FC = () => {
                         </div>
                         
                         {/* Card Body Section */}
-                        <div className="prose card-body font-serif w-full lg:w-1/2">
+                        <div className="prose text-center card-body font-serif w-full lg:w-1/2">
                             <h2 className="text-lg font-bold mb-3">⭐ Show Details ⭐</h2>
                             <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{formatDateWithSuffix(selectedShow.date)}</p>
                             <p className='mt-2'>📍&nbsp;&nbsp;{selectedShow.city}{selectedShow.state ? `, ${selectedShow.state}` : ""}, {selectedShow.country}</p>
@@ -211,9 +224,9 @@ const SelectShow: React.FC = () => {
                 )}
 
 
-                <div className="prose flex p-6 font-mono"><h2>Next Show In</h2></div>
+                <div className="prose flex p-6 font-mono text-secondary-content"><h2>Next Show In</h2></div>
                     {countdown ? (
-                        <div className="flex content-center gap-5">
+                        <div className="flex content-center gap-5 prose">
                             <div>
                                 <span className="countdown font-mono text-4xl">
                                     <span style={{ "--value": countdown.days } as React.CSSProperties}></span>
@@ -245,7 +258,7 @@ const SelectShow: React.FC = () => {
                     {nextShow && (
                         <div className='flex'>
                             <p className="prose p-6 font-mono">
-                            On {formatDateWithSuffix(nextShow.date)} in {nextShow.city}, {nextShow.country}
+                            On <a className='text-secondary no-underline'>{formatDateWithSuffix(nextShow.date)}</a> in <a className='no-underline text-secondary'>{nextShow.city}, {nextShow.country}</a>
                             </p>
                         </div>
                     )}

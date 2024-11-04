@@ -1,0 +1,24 @@
+.react-datepicker {
+    @apply bg-base-100 border border-secondary-content rounded-lg shadow-lg;
+  }
+  
+  .react-datepicker__day {
+    @apply btn btn-sm btn-outline hover:bg-secondary hover:text-base-100;
+  }
+  
+  .react-datepicker__day--selected {
+    @apply btn-secondary text-secondary-content;
+  }
+  
+  .react-datepicker__day--today {
+    @apply bg-secondary text-secondary-content font-bold;
+  }
+  
+  .react-datepicker__header {
+    @apply bg-secondary-content border-b border-secondary;
+  }
+  
+  .react-datepicker__current-month,
+  .react-datepicker__day-name {
+    @apply text-secondary;
+  }
