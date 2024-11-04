@@ -187,7 +187,7 @@ const SelectShow: React.FC = () => {
                     className="w-full max-w-xs"
                     calendarClassName="rounded-lg shadow-inner shadow-2xl"
                     dayClassName={(date) => {
-                        const formattedDate = date.toISOString().slice(0, 10); 
+                        const formattedDate = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
                         const concertDates = new Set(shows.map(show => show.date)); //map all cc dates
 
                         const isConcertDate = concertDates.has(formattedDate);
