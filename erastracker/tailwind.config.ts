@@ -5,6 +5,7 @@ const config: Config = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
@@ -20,24 +21,46 @@ const config: Config = {
     themes: [
       {
         red: {
-          
-            "primary": "#881337",
-                      
-            "secondary": "#be123c",
-                      
-            "accent": "#be123c",
-                      
-            "neutral": "#be123c",
-                      
-            "base-100": "#be123c",
-                      
-            "info": "#be123c",
-                      
-            "success": "#be123c",
-                      
-            "warning": "#be123c",
-                      
-            "error": "#9f1239",
+                    
+          "primary": "#881337",
+                    
+          "primary-content": "#ebd1d3",
+                    
+          "secondary": "#881337",
+                    
+          "secondary-content": "#fecdd3",
+                    
+          "accent": "#be123c",
+                    
+          "accent-content": "#f8d5d6",
+                    
+          "neutral": "#be123c",
+                    
+          "neutral-content": "#f8d5d6",
+                    
+          "base-100": "#be123c",
+                    
+          "base-200": "#a50e33",
+                    
+          "base-300": "#8c0a2a",
+                    
+          "base-content": "#f8d5d6",
+                    
+          "info": "#be123c",
+                    
+          "info-content": "#f8d5d6",
+                    
+          "success": "#be123c",
+                    
+          "success-content": "#f8d5d6",
+                    
+          "warning": "#be123c",
+                    
+          "warning-content": "#f8d5d6",
+                    
+          "error": "#9f1239",
+                    
+          "error-content": "#f1d2d4",
         },
       },
       "light",
