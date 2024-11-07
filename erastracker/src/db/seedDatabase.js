@@ -26,7 +26,7 @@ function getQuery(query, params = []) {
 }
 
 async function seedDatabase() {
-    try
+    try {
         for (const song of songsData.songs) {
             await runQuery(`
                 INSERT INTO songs (name, album, is_fixed, play_count, note)
