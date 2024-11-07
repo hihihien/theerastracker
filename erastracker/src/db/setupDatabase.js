@@ -8,7 +8,7 @@ db.serialize(() => {
             name TEXT UNIQUE,
             album TEXT,
             play_count INTEGER DEFAULT 0,
-            is_fixed BOOLEAN DEFAULT FALSE
+            is_fixed BOOLEAN DEFAULT FALSE,
             note TEXT
         );
     `);
