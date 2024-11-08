@@ -1,14 +1,14 @@
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
 const app = express();
-const db = new sqlite3.Database('./public/song.db');
+const db = new sqlite3.Database('./public/songs.db');
 
 //api endpoint
 app.get('/api/song/:name', (req, res) => {
     const songName = req.params.name;
 
     db.all(`
-        SELECT s.name, s.play_count, s_album, s.is_fixed, s.note, p.performance_date, p.city, p.country
+        SELECT s.name, s.play_count, s.album, s.is_fixed, s.note, p.performance_date, p.city, p.country
         FROM songs s
         LEFT JOIN song_performances p ON s.id = p.song_id
         WHERE s.name = ?
@@ -37,6 +37,6 @@ app.get('/api/song/:name', (req, res) => {
         });
 });
 
-app.listen(3000, () => {
-    console.log("Server running on http://localhost:3000");
+app.listen(3001, () => {
+    console.log("Server running on http://localhost:3001");
 });
