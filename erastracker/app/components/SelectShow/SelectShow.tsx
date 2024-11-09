@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import LastSurpriseSongs from './LastSurpriseSongs';
 import DatePicker from 'react-datepicker';
 import SongDetailsModal from './SongDetailsModal';
+import SongsTabs from './SongsTabs';
 import "react-datepicker/dist/react-datepicker.css";
 import "./custom-datepicker.css"; 
 
@@ -298,6 +299,11 @@ const SelectShow: React.FC = () => {
                             </p>
                         </div>
                     )}
+
+                    <div className="prose p-6 font-mono text-secondary-content">
+                        <h2>Song Categories</h2>
+                    </div>
+                    <SongsTabs/>
                 
             </div>
         </div>
