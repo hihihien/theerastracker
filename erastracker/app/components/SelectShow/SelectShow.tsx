@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import LastSurpriseSongs from './LastSurpriseSongs';
 import DatePicker from 'react-datepicker';
+import SongDetailsModal from './SongDetailsModal';
 import "react-datepicker/dist/react-datepicker.css";
 import "./custom-datepicker.css"; 
 
@@ -32,11 +33,19 @@ interface Show {
 const SelectShow: React.FC = () => {
     const [shows, setShows] = useState<Show[]>([]);
     const [selectedShow, setSelectedShow] = useState<Show | null>(null);
-    const [embedKey, setEmbedKey] = useState<number>(0); // To force re-render of Instagram embed
+    const [selectedSong, setSelectedSong] = useState<string | null>(null);
+    const [embedKey, setEmbedKey] = useState<number>(0); // force re-render of Instagram embed
     const [countdown, setCountdown] = useState<{ days: number; hours: number; minutes: number; seconds: number } | null>(null);
     const [nextShow, setNextShow] = useState<Show | null>(null);
     const [lastShow, setLastShow] = useState<Show | null>(null);
     const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+
+    const openSongDetails = (songName: string) => {
+        setSelectedSong(songName);
+    };
+    const closeSongDetails = () => {
+        setSelectedSong(null);
+    };
 
     useEffect(() => {
         const fetchData = async () => {
@@ -229,14 +238,27 @@ const SelectShow: React.FC = () => {
                             <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{formatDateWithSuffix(selectedShow.date)}</p>
                             <p className='mt-2'>📍&nbsp;&nbsp;{selectedShow.city}{selectedShow.state ? `, ${selectedShow.state}` : ""}, {selectedShow.country}</p>
                             <p className='mt-2'><strong>Surprise Songs:</strong></p>
-                            <p className='mt-1 italic'>🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(", ")}</p>
-                            <p className='mt-1 italic'>🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(", ")}</p>
+                            <p 
+                                className='mt-1 italic'
+                                onClick={() => openSongDetails(selectedShow.surpriseSongs.acoustic[0])}
+                            >
+                                🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(", ")}
+                            </p>
+                            <p 
+                                className='mt-1 italic'
+                                onClick={() => openSongDetails(selectedShow.surpriseSongs.piano[0])}
+                            >
+                                🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(", ")}
+                            </p>
                             <p className='mt-2'><strong>Opening Artist:</strong> {selectedShow.opening || "No guest"}</p>
                             <p className='mt-2'><strong>Special Guest:</strong> {selectedShow.guest || "No guest"}</p>
                         </div>
                     </div>
                 )}
 
+                {selectedSong && (
+                    <SongDetailsModal songName={selectedSong} onClose={closeSongDetails}/>
+                )}
 
                 <div className="prose flex p-6 font-mono text-secondary-content"><h2>Next Show In</h2></div>
                     {countdown ? (
