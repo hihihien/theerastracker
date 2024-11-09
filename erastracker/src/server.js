@@ -6,6 +6,19 @@ const db = new sqlite3.Database('./public/songs.db');
 
 app.use(cors())
 
+//api album
+app.get('/api/albums', (req, res) => {
+    db.all(`
+        SELECT DISTINCT album FROM songs ORDER BY album;
+    `, [], (err, rows) => {
+        if (err) {
+            return res.status(500).json({ error: err.message });
+        }
+        const albums = rows.map(row => row.album);
+        res.json(albums);
+    });
+});
+
 //api endpoint get all songs
 app.get('/api/songs', (req, res) => {
     db.all(`

@@ -18,7 +18,7 @@ const SongsTabs: React.FC = () => {
         // Fetch song data and categorize them
         const fetchSongsData = async () => {
             try {
-                const response = await fetch('http://localhost:3001/api/songs');  // Adjust this API endpoint as needed
+                const response = await fetch('http://localhost:3001/api/songs');
                 if (!response.ok) throw new Error('Failed to fetch songs');
                 
                 const songs = await response.json();
@@ -57,7 +57,7 @@ const SongsTabs: React.FC = () => {
                     {playedSongs.length > 0 ? (
                         playedSongs.map((song, index) => (
                             <li key={index}>
-                                {song.name} {song.play_count > 1 ? `(${song.play_count} times)` : ''}
+                                {song.name} {song.play_count > 1 ? `(x${song.play_count})` : ''}
                             </li>
                         ))
                     ) : (
