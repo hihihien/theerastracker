@@ -632,8 +632,8 @@
             "country": "United States",
             "opening": "MUNA, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["ivy (feat. Aaron Dessner)"],
-                "piano": ["I miss you", "I’m sorry (with Gracie Abrams)", "Call It What You Want"]
+                "acoustic": ["ivy"],
+                "piano": ["I miss you, I’m sorry", "Call It What You Want"]
             },
             "guest": "Aaron, Gracie Abrams",
             "costumes": {},

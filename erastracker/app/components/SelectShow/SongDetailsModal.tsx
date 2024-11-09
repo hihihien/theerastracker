@@ -64,7 +64,7 @@ const SongDetailsModal: React.FC<SongDetailsModalProps> = ({ songName, onClose }
                         </li>
                     ))
                 ): (
-                    <p>NO performances recorded for this song.</p>
+                    <p>No performances recorded for this song.</p>
                 )}
             </ul>
         </div>
