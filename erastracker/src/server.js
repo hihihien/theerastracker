@@ -3,7 +3,20 @@ const sqlite3 = require('sqlite3').verbose();
 const app = express();
 const db = new sqlite3.Database('./public/songs.db');
 
-//api endpoint
+//api endpoint get all songs
+app.get('/api/songs', (req, res) => {
+    db.all(`
+        SELECT name, album, play_count, is_fixed, note
+        FROM songs;
+    `, [], (err, rows) => {
+        if (err) {
+            return res.status(500).json({ error: err.message });
+        }
+        res.json(rows);
+    });
+});
+
+// each song endpoint
 app.get('/api/song/:name', (req, res) => {
     const songName = req.params.name;
 
