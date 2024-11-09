@@ -1,11 +1,12 @@
+'use client';
 import React, { useState } from 'react';
 import Hero from './Hero/Hero';
-import SongsTabs from './SongsTabs';
+import SongsTabs from './SelectShow/SongsTabs';
 
 // Album names corresponding to the themes and images
 const albums = [
     "Taylor Swift", "Fearless", "Speak Now", "Red", "1989", 
-    "Reputation", "Lover", "Folklore", "Evermore", "Midnights", "The Tortured Poets Department"
+    "Reputation", "Lover", "folklore", "evermore", "Midnights", "The Tortured Poets Department"
 ];
 
 const themes = [

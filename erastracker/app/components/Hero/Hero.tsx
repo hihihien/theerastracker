@@ -16,6 +16,11 @@ import ttpd from '../../../public/img/ttpd.jpg'
 import Image, { StaticImageData } from 'next/image'
 import styles from './Hero.module.css'
 
+interface HeroProps {
+  onAlbumClick: (index: number) => void;
+  selectedTheme: string;
+}
+
 const themes: string[] = [
   'lemonade',
   'cyberpunk',
@@ -30,7 +35,7 @@ const themes: string[] = [
   'wireframe',
 ];
 
-const Hero: React.FC = () => {
+const Hero: React.FC<HeroProps> = ({ onAlbumClick, selectedTheme }) => {
   const images: StaticImageData[] = [
     taylorswift,
     fearless,
@@ -47,22 +52,16 @@ const Hero: React.FC = () => {
   const [expandedImage, setExpandedImage] = useState<number>(images.length - 1);
   const [theme, setTheme] = useState<string>(themes[images.length -1]);
 
-  const handleClick = (index:number) => {
-    setExpandedImage(index);
-    setTheme(themes[index]);
-    document.documentElement.setAttribute('data-theme', themes[index]);
-  };
-
   return (
-    <div className="">
-      <div className="">
+    <div>
+      <div>
         <div className={styles.heroContainer}>
           {images.map((image, index) => (
             <button
               key={index}
               className={styles.Hero_imageButton}
-              style={{ width: expandedImage === index ? '35%' : '6.5%', opacity: '1 '}}
-              onClick={() => handleClick(index)}
+              style={{ width: selectedTheme === themes[index] ? '35%' : '6.5%', opacity: '1 '}}
+              onClick={() => onAlbumClick(index)}
             >
               <Image src={image} alt={'hero ${index}'} />
             </button>
