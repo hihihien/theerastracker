@@ -18,13 +18,23 @@ const SongsTabs: React.FC = () => {
         // Fetch song data and categorize them
         const fetchSongsData = async () => {
             try {
-                const response = await fetch('/api/songs');  // Adjust this API endpoint as needed
+                const response = await fetch('http://localhost:3001/api/songs');  // Adjust this API endpoint as needed
                 if (!response.ok) throw new Error('Failed to fetch songs');
                 
                 const songs = await response.json();
-                setPlayedSongs(songs.filter((song: Song) => song.play_count > 0));
-                setNotYetPlayedSongs(songs.filter((song: Song) => song.play_count === 0));
-                setFixedSongs(songs.filter((song: Song) => song.is_fixed));
+                console.log("Fetched Song:", songs);
+
+                const played = songs.filter((song: Song) => song.play_count > 0);
+                const notYetPlayed = songs.filter((song: Song) => song.play_count === 0);
+                const fixed = songs.filter((song: Song) => song.is_fixed);
+
+                console.log("Played songs:", songs);
+                console.log("Not yet played songs:", songs);
+                console.log("Fixed Songs:", songs);
+
+                setPlayedSongs(played);
+                setNotYetPlayedSongs(notYetPlayed);
+                setFixedSongs(fixed);
             } catch (error) {
                 console.error("Error fetching songs:", error);
             } finally {

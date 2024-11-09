@@ -1,7 +1,10 @@
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
+const cors = require('cors');
 const app = express();
 const db = new sqlite3.Database('./public/songs.db');
+
+app.use(cors())
 
 //api endpoint get all songs
 app.get('/api/songs', (req, res) => {
