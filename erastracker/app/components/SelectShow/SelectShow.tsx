@@ -176,9 +176,6 @@ const SelectShow: React.FC = () => {
     return (
         <div className='artboard artboard-horizontal'>
             <div className="flex w-full flex-col items-center justify-center gap-4 place-items-stretch">
-                <div>
-                    <p className="prose italic mt-2 font-mono text-center">choose your fav <a className="no-underline">theme</a> by clicking on images above</p>
-                </div>
                 <LastSurpriseSongs lastShow={lastShow} />
                 <div className="prose p-6 font-mono"><h2>Select Your Show</h2></div>
                 
@@ -297,11 +294,7 @@ const SelectShow: React.FC = () => {
                             On <a className='text-secondary no-underline'>{formatDateWithSuffix(nextShow.date)}</a> in <a className='no-underline text-secondary'>{nextShow.city}, {nextShow.country}</a>
                             </p>
                         </div>
-                    )}
-
-                    <div className="prose p-6 font-mono text-secondary-content">
-                        <h2>Song Categories</h2>
-                    </div>                
+                    )}             
             </div>
         </div>
     );

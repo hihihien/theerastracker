@@ -52,75 +52,80 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
     if (loading) return <div>Loading songs...</div>;
 
     return (
-        <div className='flex flex-col items-center w-full m-6'>
+        <div className='artboard artboard-horizontal'>
+            <div className="flex w-full flex-col items-center justify-center gap-4 place-items-stretch">
+                <div>
+                    <p className="prose italic mt-2 font-mono text-center">choose your fav <a className="no-underline">theme</a> by clicking on images above</p>
+                </div>
+                <div className='prose p-6 font-mono text-secondary-content'><h2>{selectedAlbum}</h2></div>
+                
+
+                <div role="tablist" className="tabs tabs-lifted w-full max-w-6xl justify-center">
+                    {/* Tab for Played Songs */}
+                    <input 
+                        type="radio" 
+                        name="my_tabs_2" 
+                        role="tab" 
+                        className="tab tab-lg prose text-wrap font-bold" 
+                        aria-label="Played" 
+                    />
+                    <div role="tabpanel" className="prose tab-content bg-base-100 border-base-300 rounded-box w-full max-w-6xl mb-4">
+                        <ul>
+                            {playedSongs.length > 0 ? (
+                                playedSongs.map((song, index) => (
+                                    <li key={index}>
+                                        {song.name} {song.play_count > 1 ? `(x${song.play_count})` : ''}
+                                    </li>
+                                ))
+                            ) : (
+                                <p className='text-center'>No played songs.</p>
+                            )}
+                        </ul>
+                    </div>
+
+                    {/* Tab for Not Yet Played Songs */}
+                    <input
+                        type="radio"
+                        name="my_tabs_2" 
+                        role="tab" 
+                        className="tab tab-lg prose text-wrap font-bold" 
+                        aria-label="Not Played"
+                        defaultChecked
+                    />
+                    <div role="tabpanel" className="prose tab-content bg-base-100 border-base-300 rounded-box w-full max-w-6xl mb-4">
+                        <ul>
+                            {notYetPlayedSongs.length > 0 ? (
+                                notYetPlayedSongs.map((song, index) => (
+                                    <li key={index}>{song.name}</li>
+                                ))
+                            ) : (
+                                <p className='text-center'>All songs have been played.</p>
+                            )}
+                        </ul>
+                    </div>
+
+                    {/* Tab for Fixed Songs */}
+                    <input 
+                        type="radio"
+                        name="my_tabs_2" 
+                        role="tab" 
+                        className="tab tab-lg prose text-wrap font-bold" 
+                        aria-label="Fixed in Setlist" 
+                    />
+                    <div role="tabpanel" className="prose tab-content bg-base-100 border-base-300 rounded-box w-full max-w-6xl mb-4">
+                        <ul>
+                            {fixedSongs.length > 0 ? (
+                                fixedSongs.map((song, index) => (
+                                    <li key={index}>{song.name}</li>
+                                ))
+                            ) : (
+                                <p className='text-center'>No fixed songs in setlist.</p>
+                            )}
+                        </ul>
+                    </div>
+                </div>
+            </div>
             
-            <div role="tablist" className="tabs tabs-lifted w-full max-w-6xl justify-center">
-            {/* Tab for Played Songs */}
-            <input 
-                type="radio" 
-                name="my_tabs_2" 
-                role="tab" 
-                className="tab tab-lg prose text-wrap" 
-                aria-label="Played" 
-            />
-            <div role="tabpanel" className="prose tab-content bg-base-100 border-base-300 rounded-box p-2 w-full">
-                <h4 className='text-center'>Played songs in {selectedAlbum}</h4>
-                <ul>
-                    {playedSongs.length > 0 ? (
-                        playedSongs.map((song, index) => (
-                            <li key={index}>
-                                {song.name} {song.play_count > 1 ? `(x${song.play_count})` : ''}
-                            </li>
-                        ))
-                    ) : (
-                        <p className='text-center'>No played songs.</p>
-                    )}
-                </ul>
-            </div>
-
-            {/* Tab for Not Yet Played Songs */}
-            <input
-                type="radio"
-                name="my_tabs_2" 
-                role="tab" 
-                className="tab tab-lg prose" 
-                aria-label="Not Played"
-                defaultChecked
-            />
-            <div role="tabpanel" className="prose tab-content bg-base-100 border-base-300 rounded-box p-2 w-full">
-                <h4 className='text-center'>Not yet played songs in {selectedAlbum}</h4>
-                <ul>
-                    {notYetPlayedSongs.length > 0 ? (
-                        notYetPlayedSongs.map((song, index) => (
-                            <li key={index}>{song.name}</li>
-                        ))
-                    ) : (
-                        <p className='text-center'>All songs have been played.</p>
-                    )}
-                </ul>
-            </div>
-
-            {/* Tab for Fixed Songs */}
-            <input 
-                type="radio"
-                name="my_tabs_2" 
-                role="tab" 
-                className="tab tab-lg prose" 
-                aria-label="Fixed in Setlist" 
-            />
-            <div role="tabpanel" className="prose tab-content bg-base-100 border-base-300 rounded-box p-2 w-full">
-                <h4 className='text-center'>Fixed songs in setlist in {selectedAlbum}</h4>
-                <ul>
-                    {fixedSongs.length > 0 ? (
-                        fixedSongs.map((song, index) => (
-                            <li key={index}>{song.name}</li>
-                        ))
-                    ) : (
-                        <p className='text-center'>No fixed songs in setlist.</p>
-                    )}
-                </ul>
-            </div>
-        </div>
         </div>
         
     );
