@@ -11,7 +11,7 @@ A fun, fan-made project to track Taylor Swift's Eras Tour with all the concert d
 ## Tech Stack
 - **Frontend**: React, TypeScript
 - **Design**: Tailwind CSS, DaisyUI
-- **Data Handling**: JSON data for concert information
+- **Data Handling**: JSON, SQLite
 
 ## Getting Started
 
