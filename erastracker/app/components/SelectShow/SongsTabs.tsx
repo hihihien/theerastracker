@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SongDetailsModal from './SongDetailsModal';
 
 interface Song {
     name: string;
@@ -18,6 +19,7 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
     const [notYetPlayedSongs, setNotYetPlayedSongs] = useState<Song[]>([]);
     const [fixedSongs, setFixedSongs] = useState<Song[]>([]);
     const [loading, setLoading] = useState(true);
+    const [selectedSong, setSelectedSong] = useState<string | null>(null);
 
     useEffect(() => {
         // Fetch song data and categorize them
@@ -73,7 +75,7 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
                         <ul>
                             {playedSongs.length > 0 ? (
                                 playedSongs.map((song, index) => (
-                                    <li key={index}>
+                                    <li key={index} onClick={() => setSelectedSong(song.name)}>
                                         {song.name} {song.play_count > 1 ? `(x${song.play_count})` : ''}
                                     </li>
                                 ))
@@ -96,7 +98,9 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
                         <ul>
                             {notYetPlayedSongs.length > 0 ? (
                                 notYetPlayedSongs.map((song, index) => (
-                                    <li key={index}>{song.name}</li>
+                                    <li key={index} onClick={() => setSelectedSong(song.name)}>
+                                        {song.name}
+                                    </li>
                                 ))
                             ) : (
                                 <p className='text-center'>All songs have been played.</p>
@@ -116,7 +120,9 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
                         <ul>
                             {fixedSongs.length > 0 ? (
                                 fixedSongs.map((song, index) => (
-                                    <li key={index}>{song.name}</li>
+                                    <li key={index} onClick={() => setSelectedSong(song.name)}>
+                                        {song.name}
+                                    </li>
                                 ))
                             ) : (
                                 <p className='text-center'>No fixed songs in setlist.</p>
@@ -125,7 +131,12 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
                     </div>
                 </div>
             </div>
-            
+            {selectedSong && (
+                <SongDetailsModal 
+                    songName={selectedSong}
+                    onClose={() => setSelectedSong(null)}
+                />    
+            )}
         </div>
         
     );

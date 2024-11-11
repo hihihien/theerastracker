@@ -1,7 +1,7 @@
 
 'use client';
 
-import React, { useState } from 'react'
+import React from 'react'
 import taylorswift from '../../../public/img/taylorswift.jpg'
 import fearless from '../../../public/img/fearless.jpg'
 import speaknow from '../../../public/img/speaknow.jpg'
@@ -49,9 +49,6 @@ const Hero: React.FC<HeroProps> = ({ onAlbumClick, selectedTheme }) => {
     midnights,
     ttpd
   ];
-  const [expandedImage, setExpandedImage] = useState<number>(images.length - 1);
-  const [theme, setTheme] = useState<string>(themes[images.length -1]);
-
   return (
     <div>
       <div>
@@ -63,7 +60,7 @@ const Hero: React.FC<HeroProps> = ({ onAlbumClick, selectedTheme }) => {
               style={{ width: selectedTheme === themes[index] ? '35%' : '6.5%', opacity: '1 '}}
               onClick={() => onAlbumClick(index)}
             >
-              <Image src={image} alt={'hero ${index}'} />
+              <Image src={image} alt={`hero ${index}`} />
             </button>
           ))}
         </div>

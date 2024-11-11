@@ -11,7 +11,6 @@ export default function Home() {
       <App/>
       <SelectShow />
       <Link href="/aboutMe" />
-      {/* <Link href="/surpriseSongs">Suprise Songs List</Link> */}
       <Footer />
     </main>
   )
