@@ -35,7 +35,7 @@ const SongDetailsModal: React.FC<SongDetailsModalProps> = ({ songName, onClose }
                 setSongDetails(data);
 
             } catch (err) {
-                setError(err instanceof Error ? err.message: 'AN unexpected error occured');
+                setError(err instanceof Error ? err.message: 'An unexpected error occured');
             } finally {
                 setLoading(false);
             }

@@ -25,7 +25,7 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
         // Fetch song data and categorize them
         const fetchSongsData = async () => {
             try {
-                const response = await fetch('http://localhost:3001/api/songs');
+                const response = await fetch('/api/songs');
                 if (!response.ok) throw new Error('Failed to fetch songs');
                 
                 const songs = await response.json();

@@ -5,7 +5,7 @@ const db = new sqlite3.Database('./public/songs.db');
 
 export async function GET() {
     return new Promise((resolve, reject) => {
-        db.all(`SELECT DISTINCT album FROM songs ORDER BY album;`, [], (err, rows) => {
+        db.all(`SELECT DISTINCT album FROM songs ORDER BY album;`, [], (err, rows: {album: string}[]) => {
             if (err) {
                 reject(NextResponse.json({ error: err.message }, { status: 500 }));
             } else {
