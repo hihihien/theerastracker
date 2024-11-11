@@ -3,7 +3,18 @@ import sqlite3 from 'sqlite3';
 
 const db = new sqlite3.Database('./public/songs.db');
 
-export async function GET(request: Request, { params }: { params: { name: string } }) {
+interface SongRow {
+    name: string;
+    play_count: number;
+    album: string;
+    is_fixed: string;
+    note: string;
+    performance_date: string;
+    city: string;
+    country: string;
+}
+
+export async function GET({ params }: { params: { name: string } }): Promise<Response> {
     const songName = decodeURIComponent(params.name);
 
     return new Promise((resolve, reject) => {
@@ -16,7 +27,7 @@ export async function GET(request: Request, { params }: { params: { name: string
             ORDER BY p.performance_date;
             `,
             [songName],
-            (err, rows) => {
+            (err, rows: SongRow[]) => {
                 if (err) {
                     reject(NextResponse.json({ error: err.message }, { status: 500 }));
                 } else if (rows.length === 0) {
@@ -28,7 +39,7 @@ export async function GET(request: Request, { params }: { params: { name: string
                         play_count: rows[0].play_count,
                         is_fixed: rows[0].is_fixed,
                         note: rows[0].note,
-                        performances: rows.map(row => ({
+                        performances: rows.map((row: SongRow) => ({
                             date: row.performance_date,
                             city: row.city,
                             country: row.country,

@@ -3,7 +3,7 @@ import sqlite3 from 'sqlite3';
 
 const db = new sqlite3.Database('./public/songs.db');
 
-export async function GET() {
+export async function GET(): Promise<Response> {
     return new Promise((resolve, reject) => {
         db.all(`SELECT name, album, play_count, is_fixed, note FROM songs;`, [], (err, rows) => {
             if (err) {
