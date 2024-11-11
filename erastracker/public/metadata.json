@@ -62,13 +62,13 @@
             "opening": "Beabadoobee, GAYLE",
             "surpriseSongs": {
                 "acoustic": [
-                    "cowboy like me (with Marcus Mumford)"
+                    "cowboy like me"
                 ],
                 "piano": [
                     "White Horse"
                 ]
             },
-            "guest": "",
+            "guest": "Marcus Mumford",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CqRD1ReOdgR/?img_index=1"
         },
@@ -140,11 +140,10 @@
             "opening": "Beabadoobee, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": [
-                    "The Great War (feat. Aaron Dessner)"
+                    "The Great War"
                 ],
                 "piano": [
-                    "You're On Your Own",
-                    "Kid"
+                    "You're On Your Own, Kid"
                 ]
             },
             "guest": "Aaron Dessner",
@@ -162,7 +161,7 @@
                     "Mean"
                 ],
                 "piano": [
-                    "mad woman (feat. Aaron Dessner)"
+                    "mad woman"
                 ]
             },
             "guest": "Aaron Dessner",
@@ -191,7 +190,7 @@
             "opening": "Beabadoobee, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": ["A Place in This World"],
-                "piano": ["Today Was a Fairytale TV"]
+                "piano": ["Today Was a Fairytale"]
             },
             "guest": "",
             "costumes": {},
@@ -309,7 +308,7 @@
             "opening": "Phoebe Bridgers, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": [
-                    "Would've Could've Should've (feat. Aaron Dessner)"
+                    "Would've, Could've, Should've"
                 ],
                 "piano": [
                     "Mine"
@@ -430,7 +429,7 @@
             "country": "United States",
             "opening": "Phoebe Bridgers, GAYLE",
             "surpriseSongs": {
-                "acoustic": ["Getaway Car (feat. Jack Antonoff)"],
+                "acoustic": ["Getaway Car"],
                 "piano": ["Maroon"]
             },
             "guest": "Jack Antonoff",
@@ -486,10 +485,10 @@
             "country": "United States",
             "opening": "Girl in Red, Owenn",
             "surpriseSongs": {
-                "acoustic": ["You All Over Me (feat. Maren Morris)"],
+                "acoustic": ["You All Over Me"],
                 "piano": ["I Don't Wanna Live Forever"]
             },
-            "guest": "",
+            "guest": "Maren Morris",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CtKVDZsO5PM/?img_index=2"
         },        
@@ -573,7 +572,7 @@
             "opening": "Girl in Red, Owenn",
             "surpriseSongs": {
                 "acoustic": [
-                    "seven (feat. Aaron Dessner)"
+                    "seven"
                 ],
                 "piano": [
                     "The Story of Us"
@@ -635,7 +634,7 @@
                 "acoustic": ["ivy"],
                 "piano": ["I miss you, I’m sorry", "Call It What You Want"]
             },
-            "guest": "Aaron, Gracie Abrams",
+            "guest": "Aaron Dessner, Gracie Abrams",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/CuMwXFsOjqR/?img_index=2"
         },        
@@ -737,7 +736,7 @@
             "opening": "HAIM, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": ["Message In A Bottle"],
-                "piano": ["Tied Together With a Smile"]
+                "piano": ["Tied Together with a Smile"]
             },
             "guest": "",
             "costumes": {},
@@ -750,7 +749,7 @@
             "country": "United States",
             "opening": "HAIM, Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["right where you left me (feat Aaron Dessner)"],
+                "acoustic": ["right where you left me"],
                 "piano": ["Castles Crumbling"]
             },
             "guest": "Aaron Dessner",
@@ -814,8 +813,7 @@
                     "Death By A Thousand Cuts"
                 ],
                 "piano": [
-                    "You're On Your Own",
-                    "Kid"
+                    "You're On Your Own, Kid"
                 ]
             },
             "guest": "",
@@ -923,8 +921,7 @@
                     "Cornelia Street"
                 ],
                 "piano": [
-                    "You're On Your Own",
-                    "Kid"
+                    "You're On Your Own, Kid"
                 ]
             },
             "guest": "",
@@ -997,7 +994,7 @@
                     "Better Than Revenge"
                 ],
                 "piano": [
-                    "\"Slut!\""
+                    "Slut!"
                 ]
             },
             "guest": "",
@@ -1033,7 +1030,7 @@
                     "Dancing With Our Hands Tied"
                 ],
                 "piano": [
-                    "Bigger Than The Whole Sky "
+                    "Bigger Than The Whole Sky"
                 ]
             },
             "guest": "",
@@ -1177,8 +1174,7 @@
                     "Come in with the Rain"
                 ],
                 "piano": [
-                    "You're On Your Own",
-                    "Kid"
+                    "You're On Your Own, Kid"
                 ]
             },
             "guest": "",
@@ -1304,7 +1300,7 @@
             "opening": "Sabrina Carpenter",
             "surpriseSongs": {
                 "acoustic": [
-                    "Would've Could've Should've",
+                    "Would've, Could've, Should've",
                     "ivy"
                 ],
                 "piano": [
@@ -1377,7 +1373,7 @@
                 ],
                 "piano": [
                     "Fifteen",
-                    "You\u2019re On Your Own Kid"
+                    "You're On Your Own Kid"
                 ]
             },
             "guest": "",
@@ -1397,7 +1393,7 @@
                 ],
                 "piano": [
                     "False God",
-                    "\"Slut!\""
+                    "Slut!"
                 ]
             },
             "guest": "",
@@ -1529,7 +1525,7 @@
                     "Guilty As Sin"
                 ],
                 "piano": [
-                    "Say Don\u2019t Go",
+                    "Say Don't Go",
                     "Welcome to New York",
                     "Clean"
                 ]
@@ -1566,12 +1562,12 @@
             "opening": "Paramore",
             "surpriseSongs": {
                 "acoustic": [
-                    "Come Back\u2026 Be Here",
+                    "Come Back... Be Here",
                     "The Way I Loved You",
                     "The Other Side of the Door"
                 ],
                 "piano": [
-                    "Fresh Out of the Slammer",
+                    "Fresh Out The Slammer",
                     "High Infidelity"
                 ]
             },
@@ -1588,11 +1584,10 @@
             "surpriseSongs": {
                 "acoustic": [
                     "The Tortured Poets Department",
-                    "Now That We Don\u2019t Talk"
+                    "Now That We Don't Talk"
                 ],
                 "piano": [
-                    "You\u2019re On Your Own",
-                    "Kid",
+                    "You're On Your Own, Kid",
                     "Long Live"
                 ]
             },
@@ -1612,7 +1607,7 @@
                     "I Can Fix Him (No Really I Can)"
                 ],
                 "piano": [
-                    "I Look in People\u2019s Windows",
+                    "I Look in People's Windows",
                     "Snow on the Beach"
                 ]
             },
@@ -1647,7 +1642,7 @@
             "opening": "Paramore",
             "surpriseSongs": {
                 "acoustic": ["The Prophecy", "Long Story Short"],
-                "piano": ["Fifteen", "You’re On Your Own Kid"]
+                "piano": ["Fifteen", "You’re On Your Own, Kid"]
             },
             "guest": "",
             "costumes": {},
@@ -1675,13 +1670,11 @@
             "opening": "Paramore",
             "surpriseSongs": {
                 "acoustic": [
-                    "Would've",
-                    "Could've",
-                    "Should've",
+                    "Would've, Could've, Should've",
                     "I Know Places"
                 ],
                 "piano": [
-                    "\u2018Tis the Damn Season",
+                    "tis the damn season",
                     "Daylight"
                 ]
             },
@@ -1802,7 +1795,7 @@
                 ],
                 "piano": [
                     "I Hate It Here",
-                    "The Lakes"
+                    "the lakes"
                 ]
             },
             "guest": "",
@@ -1831,9 +1824,9 @@
             "opening": "Paramore",
             "surpriseSongs": {
                 "acoustic": ["thanK you aIMee", "Mean"],
-                "piano": ["Castles Crumbling with Hayley Williams"]
+                "piano": ["Castles Crumbling"]
             },
-            "guest": "",
+            "guest": "Hayley Williams",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=2"
         },
@@ -1844,10 +1837,10 @@
             "country": "United Kingdom",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["us. with Gracie Abrams"],
+                "acoustic": ["us."],
                 "piano": ["Out of the Woods", "Is It Over Now?", "Clean"]
             },
-            "guest": "Gracie Abrams",
+            "guest": "us. with Gracie Abrams",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=3"
         },        
@@ -1860,7 +1853,7 @@
             "surpriseSongs": {
                 "acoustic": [
                     "State of Grace",
-                    "You\u2019re on Your Own Kid"
+                    "You're on Your Own, Kid"
                 ],
                 "piano": [
                     "Sweet Nothing",
@@ -1903,7 +1896,7 @@
                     "The Lucky One"
                 ],
                 "piano": [
-                    "You\u2019re on Your Own Kid"
+                    "You're on Your Own, Kid"
                 ]
             },
             "guest": "",
@@ -1962,7 +1955,7 @@
                     "Holy Ground"
                 ],
                 "piano": [
-                    "Mary's Song",
+                    "Mary's Song (Oh My My My)",
                     "So High School",
                     "Everything Has Changed"
                 ]
@@ -2039,7 +2032,7 @@
             "opening": "Paramore",
             "surpriseSongs": {
                 "acoustic": [
-                    "Mr Perfectly Fine",
+                    "Mr. Perfectly Fine",
                     "Red"
                 ],
                 "piano": [
@@ -2063,7 +2056,7 @@
                     "invisible string"
                 ],
                 "piano": [
-                    "S**t!",
+                    "Slut!",
                     "False God"
                 ]
             },
@@ -2084,7 +2077,7 @@
                 ],
                 "piano": [
                     "this is me trying",
-                    "Labbyrinth"
+                    "Labyrinth"
                 ]
             },
             "guest": "",
@@ -2146,7 +2139,7 @@
             "country": "Germany",
             "opening": "Paramore",
             "surpriseSongs": {
-                "acoustic": ["Fresh Out of the Slammer", "You Are In Love"],
+                "acoustic": ["Fresh Out The Slammer", "You Are In Love"],
                 "piano": ["ivy", "Call It What You Want"]
             },
             "guest": "",
@@ -2175,7 +2168,7 @@
             "opening": "Paramore",
             "surpriseSongs": {
                 "acoustic": ["mirrorball", "Clara Bow"],
-                "piano": ["Surburban Legends", "New Year's Day"]
+                "piano": ["Suburban Legends", "New Year's Day"]
             },
             "guest": "",
             "costumes": {},
@@ -2216,10 +2209,10 @@
             "country": "United Kingdom",
             "opening": "Paramore, Sofia Isella",
             "surpriseSongs": {
-                "acoustic": ["Everything Has Changed", "End Game", "Thinking Out Loud with Ed Sheeran"],
+                "acoustic": ["Everything Has Changed", "End Game", "Thinking Out Loud"],
                 "piano": ["King of My Heart", "The Alchemy"]
             },
-            "guest": "Ed Sheeran",
+            "guest": "Thinking Out Loud with Ed Sheeran",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=1"
         },        
@@ -2274,8 +2267,7 @@
                 ],
                 "piano": [
                     "The Archer",
-                    "You're On Your Own",
-                    "Kid"
+                    "You're On Your Own, Kid"
                 ]
             },
             "guest": "",
@@ -2291,14 +2283,14 @@
             "surpriseSongs": {
                 "acoustic": [
                     "Death By a Thousand Cuts",
-                    "Getaway Car with Jack Antonoff"
+                    "Getaway Car",
+                    "Florida!!!"
                 ],
                 "piano": [
-                    "So Long",
-                    "London"
+                    "So Long, London"
                 ]
             },
-            "guest": "Jack Antonoff, Florida!!! with Florence",
+            "guest": "Getaway Car with Jack Antonoff, Florida!!! with Florence",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/C8myZeBOoV6/?img_index=5"
         },
@@ -2324,7 +2316,7 @@
             "opening": "Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": ["Should've Said No","I Did Something Bad"],
-                "piano": ["Ioml","White Horse"]
+                "piano": ["Ioml", "White Horse"]
             },
             "guest": "",
             "costumes": {},
@@ -2365,10 +2357,10 @@
             "country": "United States",
             "opening": "Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": ["Espresso mash up with Is It Over Now? and Please Please Please"],
+                "acoustic": ["Espresso", "Is It Over Now?", "Please Please Please"],
                 "piano": ["Hit Different", "Welcome to New York"]
             },
-            "guest": "with Sabrina Carpenter on the phone and played Espresso mashup",
+            "guest": "Sabrina Carpenter on the phone and came out to play Espresso mashup with Is It Over Now? and Please Please Please",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/DBuaITCS5mL/?img_index=1"
         },
