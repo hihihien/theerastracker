@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Hero from './Hero/Hero';
 import SongsTabs from './SelectShow/SongsTabs';
+import SelectShow from './SelectShow/SelectShow';
 
 // Album names corresponding to the themes and images
 const albums = [
@@ -28,6 +29,7 @@ const App: React.FC = () => {
         <div>
             <Hero onAlbumClick={handleAlbumClick} selectedTheme={theme} />
             <SongsTabs selectedAlbum={selectedAlbum} />
+            <SelectShow /> 
         </div>
     );
 };
