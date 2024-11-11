@@ -14,7 +14,7 @@ interface SongRow {
     country: string;
 }
 
-export async function GET({ params }: { params: { name: string } }): Promise<Response> {
+export async function GET(request: Request, { params }: { params: { name: string } }): Promise<Response> {
     const songName = decodeURIComponent(params.name);
 
     return new Promise((resolve, reject) => {
