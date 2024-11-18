@@ -51,10 +51,11 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
 
     }, [selectedAlbum, allSongs]);
 
-    const openModal = (songName: string) => {
-        setSelectedSong(songName);
-        (document.getElementById('song-details-modal') as HTMLDialogElement)?.showModal();
-    };
+    useEffect(() => {
+        if (selectedSong) {
+            (document.getElementById('song-details-modal') as HTMLDialogElement)?.showModal();
+        }
+    }, [selectedSong]);
 
     if (loading) return <div>Loading songs...</div>;
 
@@ -83,7 +84,7 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
                                     <li
                                     className="hover:underline" 
                                     key={index} 
-                                    onClick={() => openModal(song.name)}
+                                    onClick={() => setSelectedSong(song.name)}
                                     >
                                         {song.name} {song.play_count > 1 ? `(x${song.play_count})` : ''}
                                     </li>
@@ -107,7 +108,7 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
                         <ul>
                             {notYetPlayedSongs.length > 0 ? (
                                 notYetPlayedSongs.map((song, index) => (
-                                    <li key={index} onClick={() => openModal(song.name)}>
+                                    <li key={index}>
                                         {song.name}
                                     </li>
                                 ))
@@ -129,7 +130,7 @@ const SongsTabs: React.FC<SongsTabsProps> = ({selectedAlbum}) => {
                         <ul>
                             {fixedSongs.length > 0 ? (
                                 fixedSongs.map((song, index) => (
-                                    <li key={index} onClick={() => openModal(song.name)}>
+                                    <li key={index}>
                                         {song.name}
                                     </li>
                                 ))

@@ -64,7 +64,7 @@ const SongDetailsModal: React.FC<SongDetailsModalProps> = ({ songName, onClose }
                 <>
                 <div className='prose text-center font-serif'>
                     <div>
-                        <h3 className='font-bold text-lg'>{songDetails?.name}</h3>
+                        <h3 className='font-semibold italic pb-2'>{songDetails?.name}</h3>
                         <p>Album: <a className="no-underline font-bold">{songDetails?.album}</a></p>
                         <p>Played <a className='no-underline font-bold'>{songDetails?.play_count}</a> times</p>
                         <h4>Performance History:</h4>
