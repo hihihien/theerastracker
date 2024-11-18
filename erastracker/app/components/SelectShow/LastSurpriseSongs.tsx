@@ -50,8 +50,8 @@ const LastSurpriseSongs: React.FC<LastSurpriseSongsProps> = ({ lastShow }) => {
             <p className='mt-2 oldstyle-nums'>📆&nbsp;&nbsp;{formatDateWithSuffix(lastShow.date)}</p>
             <p className='mt-2'>📍&nbsp;&nbsp;{lastShow.city}{lastShow.state ? `, ${lastShow.state}` : ""}, {lastShow.country}</p>
             <p className='mt-2'><strong>Surprise Songs:</strong></p>
-            <p className='mt-1 italic'>🎸&nbsp;&nbsp;{lastShow.surpriseSongs.acoustic.join(", ")}</p>
-            <p className='mt-1 italic'>🎹&nbsp;&nbsp;{lastShow.surpriseSongs.piano.join(", ")}</p>
+            <p className='mt-1 italic'>🎸&nbsp;&nbsp;{lastShow.surpriseSongs.acoustic.join(" & ")}</p>
+            <p className='mt-1 italic'>🎹&nbsp;&nbsp;{lastShow.surpriseSongs.piano.join(" & ")}</p>
             <p className='mt-2'><strong>Opening Artist:</strong> {lastShow.opening || "No guest"}</p>
             <p className='mt-2'><strong>Special Guest:</strong> {lastShow.guest || "No guest"}</p>
         </div>

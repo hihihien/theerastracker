@@ -239,13 +239,13 @@ const SelectShow: React.FC = () => {
                                 className='mt-1 italic'
                                 onClick={() => openSongDetails(selectedShow.surpriseSongs.acoustic[0])}
                             >
-                                🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(", ")}
+                                🎸&nbsp;&nbsp;{selectedShow.surpriseSongs.acoustic.join(" & ")}
                             </p>
                             <p 
                                 className='mt-1 italic'
                                 onClick={() => openSongDetails(selectedShow.surpriseSongs.piano[0])}
                             >
-                                🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(", ")}
+                                🎹&nbsp;&nbsp;{selectedShow.surpriseSongs.piano.join(" & ")}
                             </p>
                             <p className='mt-2'><strong>Opening Artist:</strong> {selectedShow.opening || "No guest"}</p>
                             <p className='mt-2'><strong>Special Guest:</strong> {selectedShow.guest || "No guest"}</p>
