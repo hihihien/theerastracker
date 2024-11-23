@@ -2469,12 +2469,12 @@
             "country": "Canada",
             "opening": "Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": [],
-                "piano": []
+                "acoustic": ["Mr. Perfectly Fine","Better Than Revenge"],
+                "piano": ["State of Grace", "Labyrinth"]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": ""
+            "instagramUrl": "https://www.instagram.com/p/DCsDZ2jTDSh/"
         },
         {
             "date": "2024-11-22",
@@ -2483,12 +2483,12 @@
             "country": "Canada",
             "opening": "Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": [],
-                "piano": []
+                "acoustic": ["Ours", "the last great american dynasty"],
+                "piano": ["Cassandra", "mad woman"]
             },
             "guest": "",
             "costumes": {},
-            "instagramUrl": ""
+            "instagramUrl": "https://www.instagram.com/p/DCsDZ2jTDSh/"
         },
         {
             "date": "2024-11-23",
