@@ -764,7 +764,7 @@
             "opening": "HAIM, Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": ["Stay Stay Stay"],
-                "piano": ["All Of The Girls You Loved Before"]
+                "piano": ["All of the Girls You've Loved Before"]
             },
             "guest": "",
             "costumes": {},
@@ -1542,7 +1542,7 @@
             "opening": "Paramore",
             "surpriseSongs": {
                 "acoustic": [
-                    "Message in a Bottle",
+                    "Message In A Bottle",
                     "How You Get the Girl",
                     "New Romantics"
                 ],
@@ -2484,21 +2484,21 @@
             "opening": "Gracie Abrams",
             "surpriseSongs": {
                 "acoustic": ["Ours", "the last great american dynasty"],
-                "piano": ["Cassandra", "mad woman"]
+                "piano": ["Cassandra", "mad woman", "I Did Something Bad"]
             },
-            "guest": "",
+            "guest": "Taylor Swift gets emotional and cried in Toronto concert as Eras Tour winds down",
             "costumes": {},
             "instagramUrl": "https://www.instagram.com/p/DCsDZ2jTDSh/"
         },
         {
-            "date": "2025-11-23",
+            "date": "2024-11-23",
             "city": "Toronto",
             "state": "",
             "country": "Canada",
             "opening": "Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": [],
-                "piano": []
+                "acoustic": ["Sparks Fly","Message In A Bottle"],
+                "piano": ["You're Losing Me","How Did It End?"]
             },
             "guest": "",
             "costumes": {},
