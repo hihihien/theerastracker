@@ -72,7 +72,7 @@ const SongDetailsModal: React.FC<SongDetailsModalProps> = ({ songName, onClose }
                     
                     <div className='justify-items-center'>
                         <ul>
-                        {songDetails?.performances?.length ? (
+                        {songDetails?.performances?.length? (
                             songDetails?.performances.map((performance, index) => (
                                 <li 
                                     className='text-left'
