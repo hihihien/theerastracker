@@ -2511,8 +2511,8 @@
             "country": "Canada",
             "opening": "Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": [],
-                "piano": []
+                "acoustic": ["Haunted", "Wonderland"],
+                "piano": ["Never Grow Up","The Best Day"]
             },
             "guest": "",
             "costumes": {},
@@ -2525,10 +2525,10 @@
             "country": "Canada",
             "opening": "Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": [],
-                "piano": []
+                "acoustic": ["Last Kiss", "I love you, I'm sorry"],
+                "piano": ["The Tortured Poets Department", "Maroon"]
             },
-            "guest": "",
+            "guest": "On guitar, Swift brought out her opening act Gracie Abrams and the duo sang Abrams’ “I Love You, I’m Sorry” from The Secret of Us and “Last Kiss” from Swift’s Speak Now",
             "costumes": {},
             "instagramUrl": ""
         },
