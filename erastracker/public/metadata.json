@@ -867,7 +867,7 @@
                     "New Romantics"
                 ],
                 "piano": [
-                    "New Years Day"
+                    "New Year's Day"
                 ]
             },
             "guest": "",
@@ -1264,7 +1264,7 @@
                     "You're Not Sorry "
                 ],
                 "piano": [
-                    "New Years Day",
+                    "New Year's Day",
                     "peace"
                 ]
             },
@@ -2539,8 +2539,8 @@
             "country": "Canada",
             "opening": "Gracie Abrams",
             "surpriseSongs": {
-                "acoustic": [],
-                "piano": []
+                "acoustic": ["A Place in This World", "New Romantics"],
+                "piano": ["Long Live", "New Year's Day", "The Manuscript"]
             },
             "guest": "",
             "costumes": {},
